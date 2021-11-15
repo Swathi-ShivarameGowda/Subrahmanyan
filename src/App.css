@@ -13,6 +13,92 @@
   }
 }
 
+.container {
+    overflow: hidden;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+.menulist {
+    overflow: hidden;
+    width: 100%;
+    padding: 10px 0;
+    background: #ffffff;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.aboutdisplay {
+    padding: 40px 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    margin: 20px 20px;
+    text-align: left;
+}
+
+.videocontent {
+    display: flex;
+}
+
+h1 {
+    font-family: "Actor" !important;
+    color: #131f79 !important;
+    letter-spacing: 4px !important;
+    text-align: center;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: "Actor" !important;
+    color: #131f79 !important;
+    letter-spacing: 2px !important;
+    text-align: center;
+    font-size: 18px;
+}
+
+h2 {
+    line-height: 29px !important;
+    text-align: center;
+    color: rgb(233, 170, 60);
+    
+}
+
+
+.earlylife {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.earlylifepara {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 35px !important;
+    margin-bottom: 10px;
+}
+
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 32.25%;
+    position: relative;
+    height: 0;
+    height: 100px;
+    width: 2200px;
+}
+
+    .video-responsive iframe {
+        left: 0;
+        top: 0;
+        height: 500px;
+        width: 650px;
+        position: absolute;
+    }
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
