@@ -52,6 +52,7 @@ export default function Cheluvajamanni() {
                     </div>
                 </div>
                 <br></br>
+                <div className="earlylife" style={{ fontSize: 'larger' }} >Cheluvamba Mansion</div>
                 <div className="earlylifepara" >Land where the Cheluvamba Mansion now stands, belonged to the Military and "Sick lines of the Siledhar horses" that were stationed there. (Siledhar horses were cavalry where the horses were maintained for the government by the private individuals) (1). The Sildehar horses system was abolished in Mysore state around in 1890 when the Lancers regiments were raised. Evan Maconochie, an Indian Civil Service officer deputed to the Mysore court, was private secretary to the Maharaja Krishnaraja Wodeyar from 1902-19092. He wrote on 4.3.09 to  Mr. Madhava Rao for transfer of land to the third Maharaja Kumari (as Princess Cheluvajamanni was referred to) after payment of Rs. 3,262 for site and Rs.6,300 of site and buildings. This land was acquired for building a house for the third Maharaja Kumari. </div>
                 <br></br>
                 <div style={{ display: 'inline' }} >
@@ -78,7 +79,7 @@ export default function Cheluvajamanni() {
                 <br></br>
                 <div className="earlylifepara" >There was a complaint from Sally McGann, wife of the Doctor with the Palace in the forties who lived in a building on the other side facing the palace (The High View : The Current Commissioners Office, probably built about 1902), that Mosquitoes were rampant. The sewage lines laid earlier in 1912. On which Sir M Vishweshawarya had advised and were repaired about 1940.</div>
                 <br></br>
-                <div className="earlylifepara" >Princess Cheluvajamanni was deeply involved in the Vani Vilas Ladies club for which Sally McGann was the first vice president (4),. “Mrs. McGann, O.B.E., the vice-president of Vani Vilas Club, was indefatigable in her work for the club, which owes its inception and so much of its popularity and prosperity to her forethought and administrative genius, and to her gracious presence and intense interest in all pertaining to it. Mrs. Mc Gann also served the Royal family members along with her Surgeon Husband and nursed them and was held in high esteem by the family” (personal communication from Mr.Rajchandra).</div>
+                <div className="earlylifepara" >Princess Cheluvajamanni was deeply involved in the Vani Vilas Ladies club for which Sally McGann was the first vice president (4),. "Mrs. McGann, O.B.E., the vice-president of Vani Vilas Club, was indefatigable in her work for the club, which owes its inception and so much of its popularity and prosperity to her forethought and administrative genius, and to her gracious presence and intense interest in all pertaining to it. Mrs. Mc Gann also served the Royal family members along with her Surgeon Husband and nursed them and was held in high esteem by the family" (personal communication from Mr.Rajchandra).</div>
                 <br></br>
                 <div className="earlylifepara" >After the death of Princess Cheluvajamanni (1936), Sirdar M. Lakshmikanta Raj  Urs lived in the Mansion  till 1944. After his death the building did not pass on to his adopted son, M. L. Raje Urs and reverted back to the palace.</div>
                 <br></br>

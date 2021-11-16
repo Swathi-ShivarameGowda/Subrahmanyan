@@ -38,7 +38,6 @@ export const navItems = [
   {
         id: 7,
         title: "More",
-        path: "./more",
         cName: "nav-item",
     },
     
@@ -61,19 +60,19 @@ export const soilScienceDropdown = [
 
 export const foodTechnologyDropdown = [
     {
-        id: 1,
+        id: 3,
         title: "CFTRI",
         path: "./cftri",
         cName: "submenu-item",
     },
     {
-        id: 2,
+        id: 4,
         title: "The Philippines",
         path: "./philippines",
         cName: "submenu-item",
     },
     {
-        id: 3,
+        id: 5,
         title: "PPRC-IIFTP",
         path: "./pprc-iiftp",
         cName: "submenu-item",
@@ -82,21 +81,36 @@ export const foodTechnologyDropdown = [
 
 export const cftriDropdown = [
     {
-        id: 4,
+        id: 6,
         title: "Infant Food",
         path: "./infant-food",
         cName: "submenu-item",
     },
     {
-        id: 5,
+        id: 7,
         title: "Tapioca/Cassava",
         path: "./tapioca-cassava",
         cName: "submenu-item",
     },
     {
-        id: 6,
+        id: 8,
         title: "Spices",
         path: "./spices",
+        cName: "submenu-item",
+    },
+]
+
+export const moreDropdown = [
+    {
+        id: 9,
+        title: "Site Map",
+        path: "./site-map",
+        cName: "submenu-item",
+    },
+    {
+        id: 10,
+        title: "Untitled",
+        path: "./untitled",
         cName: "submenu-item",
     },
 ]

@@ -15,9 +15,11 @@ export default function Foodtech() {
             }} />
             <div className="container" >
                 <br></br>
-                <div className="earlylife" >Soil Science</div>
+                <div className="earlylife" >JOURNEY - From IISC to IIFPT</div>
                 <br></br>
-                <div className="earlylifepara" >Subrahmanyan was born to Vaidyanathan and Bagirathi at Sirkazhi, Thanjavur on September 16th 1902. Bagirathi fell before the horse of the collector, stating that she was poor and her son who was brilliant deserved a scholarship (probably extending from school to college) and this apparently was granted. Vaidyanathan was Revenue Inspector. </div>
+                <div className="earlylifepara" >To Dr Subrahmanyan work was the breath and stuff of life. He liked to end each day like Long Fellow’s Village Blacksmith:</div>
+                <div className="earlylifepara" style={{ fontWeight: 'bold' }} >"Something's been attempted, something's been done, And I've earned a good night's rest"</div>
+                <div className="earlylifepara" >He attempted and did many things in his lifetime before he left the planet. He left many of his ideas and inventions behind, for the world to carry forward. </div>
                 <br></br>
             </div>
         </>

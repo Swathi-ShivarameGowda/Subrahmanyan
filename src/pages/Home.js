@@ -16,6 +16,15 @@ export default function Home() {
     const learnMoreEarlyLife = (event) => {
         history.push("/early-life");
     }
+    const learnMoreSoilScience = (event) => {
+        history.push("/soil-science");
+    }
+    const learnMoreFoodTech = (event) => {
+        history.push("/food-tech");
+    }
+    const learnMoreAwards = (event) => {
+        history.push("/awards");
+    }
 
 
     return (
@@ -79,11 +88,11 @@ export default function Home() {
                                
                         <CardContent>
                             <Typography sx={{ fontSize: 14 }} color="white" gutterBottom>
-                                        Subrahmanyan was born on September 1902 at Sirkazhi, Thanjavur to Vaidyanathan and Bagirathi. His father Vaidyanathan was a Revenue Inspector...
+                                        Soil science was his first love. Beginning with a small nucleus of research associates he soon built up a prominent school of research in soil science....
                             </Typography>
                         </CardContent>
                         <CardActions>
-                            <Button size="small" style={{ color: 'darkblue', fontWeight: 'bold' }} >Learn More</Button>
+                                    <Button size="small" style={{ color: 'darkblue', fontWeight: 'bold' }} onClick={learnMoreSoilScience} >Learn More</Button>
                         </CardActions>
                     </React.Fragment>
                     </Card>
@@ -100,11 +109,11 @@ export default function Home() {
                     <React.Fragment>
                         <CardContent>
                             <Typography sx={{ fontSize: 14 }} color="white" gutterBottom>
-                                        Subrahmanyan was born on September 1902 at Sirkazhi, Thanjavur to Vaidyanathan and Bagirathi. His father Vaidyanathan was a Revenue Inspector...
+                                        "Something's been attempted, something's been done, And I've earned a good night's rest"...
                             </Typography>
                         </CardContent>
                         <CardActions>
-                            <Button size="small" style={{ color: 'darkblue', fontWeight: 'bold' }} >Learn More</Button>
+                                    <Button size="small" style={{ color: 'darkblue', fontWeight: 'bold', marginTop:'20px' }} onClick={learnMoreFoodTech} >Learn More</Button>
                         </CardActions>
                     </React.Fragment>
                 </Card>
@@ -119,11 +128,11 @@ export default function Home() {
                     <React.Fragment>
                         <CardContent>
                             <Typography sx={{ fontSize: 14 }} color="white" gutterBottom>
-                                        Subrahmanyan was born on September 1902 at Sirkazhi, Thanjavur to Vaidyanathan and Bagirathi. His father Vaidyanathan was a Revenue Inspector...
+                                        Subrahmanyan received the Sen medal from the Institution of Chemists , the Rafi Ahmed Kidwai Award for work on the development of baby food and the Padma Shri in 1960....
                             </Typography>
                         </CardContent>
                         <CardActions>
-                            <Button size="small" style={{ color: 'darkblue', fontWeight: 'bold' }} >Learn More</Button>
+                                    <Button size="small" style={{ color: 'darkblue', fontWeight: 'bold' }} onClick={learnMoreAwards} >Learn More</Button>
                         </CardActions>
                     </React.Fragment>
                     </Card>

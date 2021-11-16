@@ -1,12 +1,13 @@
 import React from 'react';
 import Home from './pages/Home';
-import Header from './pages/Header';
+import Footer from './pages/Footer';
 import Earlylife from './pages/Earlylife';
 import Soilscience from './pages/Soilscience';
 import Foodtech from './pages/Foodtech';
 import Contact from './pages/Contact';
 import Awards from './pages/Awards';
-import More from './pages/More';
+import Untitled from './pages/morePages/Untitled';
+import Sitemap from './pages/morePages/Sitemap';
 import Iisc from './pages/soilPages/Iisc';
 import Rothamsted from './pages/soilPages/Rothamsted';
 import GJFowler from './pages/soilPages/GJFowler';
@@ -66,10 +67,11 @@ function App() {
                         <Route path="/tapioca-cassava" component={Tapioca} />
                         <Route path="/awards" component={Awards} />
                         <Route path="/contact" component={Contact} />
-                        <Route path="/more" component={More} />
+                        <Route path="/untitled" component={Untitled} />
+                        <Route path="/site-map" component={Sitemap} />
                     </Switch>
             </div>
-                <div style={{ backgroundColor: 'darkblue', height: '200px', width: '100%', marginTop: '100px' }} />
+                <Footer />
                 <Scroll showBelow={250} />
             </Router>
             

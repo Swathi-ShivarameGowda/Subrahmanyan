@@ -1,14 +1,18 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "./Navbar.css";
 import { navItems } from "./NavItems";
-import { soilScienceDropdown, foodTechnologyDropdown, cftriDropdown } from "./NavItems";
+import { soilScienceDropdown, foodTechnologyDropdown, cftriDropdown, moreDropdown } from "./NavItems";
 import Dropdown from "./Dropdown";
 import Cftridropdown from './Cftridropdown'
 
 function Navbar() {
     const [dropdownSoil, setDropdownSoil] = useState(false);
     const [dropdownFood, setDropdownFood] = useState(false);
+    const [dropdownMore, setDropdownMore] = useState(false);
+
+    const location = useLocation();
+
 
   return (
       <>
@@ -45,7 +49,19 @@ function Navbar() {
                       </li>
                   );
               }
-              
+              if (item.title === "More") {
+                  return (
+                      <li
+                          key={item.id}
+                          className={item.cName}
+                          onMouseEnter={() => setDropdownMore(true)}
+                          onMouseLeave={() => setDropdownMore(false)}
+                      >
+                          <Link to={location.pathname}>{item.title}</Link>
+                          {dropdownMore && <Dropdown dropdownList={moreDropdown} />}
+                      </li>
+                  );
+              }
               
             return (
               <li key={item.id} className={item.cName}>

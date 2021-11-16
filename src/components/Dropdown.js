@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Cftridropdown from './Cftridropdown'
-import { cftriDropdown } from "./NavItems";
 import "./Dropdown.css";
 
 function Dropdown({ dropdownList, cftri }) {

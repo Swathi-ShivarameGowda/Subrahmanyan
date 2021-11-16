@@ -83,7 +83,7 @@ export default function InfantFoodPaper2() {
                 <div className="earlylife" style={{ fontSize: 'large' }} >Vijaya Spray</div>
                 <div>
                     <img style={{ float: 'left', margin: '15px' }} src={babyfood7} height={220} width={380} />
-                    <div className="earlylifepara" >In the seventies some scientists at the C.F.T.R.I: G.Ramnatham, P.K.Ramanathan and B.S. Ramachandra developed a “milk food for babies” and this was taken up by  the Vijaya Dairy Corporation.</div>
+                    <div className="earlylifepara" >In the seventies some scientists at the C.F.T.R.I: G.Ramnatham, P.K.Ramanathan and B.S. Ramachandra developed a "milk food for babies" and this was taken up by  the Vijaya Dairy Corporation.</div>
                 </div>
                 <br></br><br></br><br></br><br></br><br></br><br></br>
                 <div className="earlylife" style={{ fontSize: 'large' }} >Development of Humaized buffalo infant food</div>
