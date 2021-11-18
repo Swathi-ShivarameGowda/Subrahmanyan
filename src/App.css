@@ -80,6 +80,8 @@ h2 {
     font-size: 19px;
     line-height: 35px !important;
     margin-bottom: 10px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .video-responsive {
@@ -94,8 +96,8 @@ h2 {
     .video-responsive iframe {
         left: 0;
         top: 0;
-        height: 500px;
-        width: 650px;
+        height: 400px;
+        width: 630px;
         position: absolute;
     }
 

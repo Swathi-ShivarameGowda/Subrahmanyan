@@ -31,9 +31,8 @@ export default function Untitled() {
                 <br></br>
                 <div className="earlylife" >Amul Milk Powder (continued...)</div>
                 <br></br>
-                <div className="earlylife" style={{ fontSize: 'larger' }} >Subrahmanyan's Notes on the Process in his own words</div>
-                <br></br>
-                <div className="earlylife" style={{ fontSize: 'larger' }} >"A note on the researches, pilot plant studies and negotiations leading to the lease of the process for the production of baby food based on buffalo milk".</div>
+                <div className="earlylifepara" style={{ fontSize: 'larger' }} >Subrahmanyan's Notes on the Process in his own words</div>
+                <div className="earlylifepara" style={{ fontStyle: 'italic' }} >"A note on the researches, pilot plant studies and negotiations leading to the lease of the process for the production of baby food based on buffalo milk".</div>
                 <br></br>
                 <div className="earlylifepara" >"It was in the above capacity (Director,CFTRI, Mysore) that I started during the early fifties, a program of research relating to the production of a baby food based on buffalo milk. I realized that, at that time it was only buffalo milk which was available in surplus quantities in some parts of the country. There was need for such a research because all the baby foods produced till then, in different parts of the world were based only on cow's milk and buffalo milk was not being used anywhere for the production of baby food.</div>
                 <br></br>

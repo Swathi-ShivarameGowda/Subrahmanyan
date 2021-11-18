@@ -66,7 +66,8 @@ export default function Home() {
                 }} >
                             <React.Fragment>
                                 
-                        <CardContent>
+                                <CardContent>
+                                    <Typography sx={{ fontSize: 18, fontWeight: 'bold' }} color="darkblue" gutterBottom>Early Life</Typography>
                             <Typography sx={{ fontSize: 14 }} color="white" gutterBottom>
                                         Subrahmanyan was born on September 1902 at Sirkazhi, Thanjavur to Vaidyanathan and Bagirathi. His father Vaidyanathan was a Revenue Inspector...
                             </Typography>
@@ -86,7 +87,8 @@ export default function Home() {
                 }} >
                             <React.Fragment>
                                
-                        <CardContent>
+                                <CardContent>
+                                    <Typography sx={{ fontSize: 18, fontWeight: 'bold' }} color="darkblue" gutterBottom>Research</Typography>
                             <Typography sx={{ fontSize: 14 }} color="white" gutterBottom>
                                         Soil science was his first love. Beginning with a small nucleus of research associates he soon built up a prominent school of research in soil science....
                             </Typography>
@@ -107,13 +109,14 @@ export default function Home() {
                             height: '180px'
                 }} >
                     <React.Fragment>
-                        <CardContent>
+                                <CardContent>
+                                    <Typography sx={{ fontSize: 18, fontWeight: 'bold' }} color="darkblue" gutterBottom>Journey</Typography>
                             <Typography sx={{ fontSize: 14 }} color="white" gutterBottom>
-                                        "Something's been attempted, something's been done, And I've earned a good night's rest"...
+                                        Subrahmanyan who was the director at the C.F.T.R.I. has occasionally referred to the role of the CFTRI in development of baby and Infant food from Buffalo milk....
                             </Typography>
                         </CardContent>
                         <CardActions>
-                                    <Button size="small" style={{ color: 'darkblue', fontWeight: 'bold', marginTop:'20px' }} onClick={learnMoreFoodTech} >Learn More</Button>
+                                    <Button size="small" style={{ color: 'darkblue', fontWeight: 'bold'}} onClick={learnMoreFoodTech} >Learn More</Button>
                         </CardActions>
                     </React.Fragment>
                 </Card>
@@ -126,7 +129,8 @@ export default function Home() {
                             height: '180px'
                 }} >
                     <React.Fragment>
-                        <CardContent>
+                                <CardContent>
+                                    <Typography sx={{ fontSize: 18, fontWeight: 'bold' }} color="darkblue" gutterBottom>Awards</Typography>
                             <Typography sx={{ fontSize: 14 }} color="white" gutterBottom>
                                         Subrahmanyan received the Sen medal from the Institution of Chemists , the Rafi Ahmed Kidwai Award for work on the development of baby food and the Padma Shri in 1960....
                             </Typography>
