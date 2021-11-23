@@ -1,11 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
 import stjoseph from '../../../img/stjoseph.jpg'
-import amul1 from '../../../img/amul1.jpg'
-import amul2 from '../../../img/amul2.jpg'
-import amul3 from '../../../img/amul3.jpg'
-import larsenandturbo from '../../../img/larsenandturbo.jpg'
 
 export default function InfantFood() {
     const history = useHistory();
@@ -15,6 +11,10 @@ export default function InfantFood() {
     const onClickNext = (event) => {
         history.push("/infant-food-continued");
     }
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <>

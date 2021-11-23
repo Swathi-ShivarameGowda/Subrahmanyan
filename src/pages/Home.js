@@ -1,17 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useHistory } from "react-router-dom";
-import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
-import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import stjoseph from '../img/stjoseph.jpg';
+import headerphoto3 from '../img/headerphoto3.jpg';
 
 export default function Home() {
 
     const history = useHistory();
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     const learnMoreEarlyLife = (event) => {
         history.push("/early-life");
@@ -30,12 +32,12 @@ export default function Home() {
     return (
         <>
             <div style={{
-            backgroundImage: "url(" + stjoseph + ")",
-            backgroundPosition: 'center',
-            backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat',
-            width: '100%',
-            height: '155px'
+                backgroundImage: "url(" + headerphoto3 + ")",
+                backgroundPosition: 'center',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat',
+                width: '100%',
+                height: '155px'
         }} />
             <br></br><br></br><br></br><br></br>
             <div className="container" >
@@ -51,7 +53,7 @@ export default function Home() {
                     />
             </div>
             <div className="aboutdisplay">
-                <h2>"I have done what little I can to safeguard the interest of the center and those who have been working with us."</h2>
+                        <h2 style={{fontStyle: 'italic'}} >"I have done what little I can to safeguard the interest of the center and those who have been working with us."</h2>
             </div>
             </div>
             <div style={{ display: "inline" }} >

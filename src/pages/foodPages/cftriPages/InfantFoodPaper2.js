@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
 import stjoseph from '../../../img/stjoseph.jpg'
@@ -17,6 +17,10 @@ export default function InfantFoodPaper2() {
     const onClickNext = (event) => {
         history.push("/infant-food-paper2-continued");
     }
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <>

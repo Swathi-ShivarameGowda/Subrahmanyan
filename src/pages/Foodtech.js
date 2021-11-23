@@ -1,12 +1,16 @@
-import React from 'react';
-import stjoseph from '../img/stjoseph.jpg'
+import React, { useEffect } from 'react';
+import headerphoto2 from '../img/headerphoto2.jpg'
 
 export default function Foodtech() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <>
             <div style={{
-                backgroundImage: "url(" + stjoseph + ")",
+                backgroundImage: "url(" + headerphoto2 + ")",
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',

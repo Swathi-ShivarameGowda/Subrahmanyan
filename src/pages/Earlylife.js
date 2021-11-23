@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
 import aryanschoolcertificate from '../img/aryanschoolcertificate.jpg'
@@ -13,6 +13,10 @@ export default function Earlylife() {
     const onClickHome = (event) => {
         history.push("/");
     }
+
+    useEffect(() => {
+        window.scrollTo(0,0)
+    },[])
 
     return (
         <>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
 import stjoseph from '../../../img/stjoseph.jpg'
@@ -13,6 +13,10 @@ export default function InfantFoodPaper2Continued() {
     const onClickBack = (event) => {
         history.push("/infant-food-paper2");
     }
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <>
@@ -45,6 +49,7 @@ export default function InfantFoodPaper2Continued() {
                 <div className="earlylife" style={{ fontSize: 'large' }} >Vijaya Spray</div>
                 <div>
                     <img style={{ float: 'left', margin: '15px' }} src={babyfood7} height={220} width={380} />
+                    <br></br><br></br><br></br>
                     <div className="earlylifepara" >In the seventies some scientists at the C.F.T.R.I: G.Ramnatham, P.K.Ramanathan and B.S. Ramachandra developed a "milk food for babies" and this was taken up by  the Vijaya Dairy Corporation.</div>
                 </div>
                 <br></br><br></br><br></br><br></br><br></br><br></br>

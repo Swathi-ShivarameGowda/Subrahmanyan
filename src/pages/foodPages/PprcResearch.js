@@ -1,13 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
 import stjoseph from '../../img/stjoseph.jpg';
 import saltparboiling from '../../img/saltparboiling.png'
 import sandparboiling from '../../img/sandparboiling.png'
 import pressureparboiling from '../../img/pressureparboiling.png'
-import babyextractor from '../../img/babyextractor.png'
-import pressureguage from '../../img/pressureguage.png'
-import ricemill from '../../img/ricemill.png'
 
 export default function PprcResearch() {
     const history = useHistory();
@@ -17,6 +14,10 @@ export default function PprcResearch() {
     const onClickNext = (event) => {
         history.push("/pprc-research-continued");
     }
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <>
