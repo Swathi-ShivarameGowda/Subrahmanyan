@@ -21,14 +21,7 @@ export default function PprcResearchContinued() {
 
     return (
         <>
-            <div style={{
-                backgroundImage: "url(" + stjoseph + ")",
-                backgroundPosition: 'center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                width: '100%',
-                height: '155px'
-            }} />
+            <div className="headerimg" style={{backgroundImage: "url(" + stjoseph + ")"}} />
             <div className="container" >
                 <br></br>
                 <div className="earlylife" >Research carried out in PPRC (continued...)</div>

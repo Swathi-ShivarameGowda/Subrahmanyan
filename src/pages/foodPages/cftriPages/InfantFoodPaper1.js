@@ -20,14 +20,7 @@ export default function InfantFoodPaper1() {
 
     return (
         <>
-            <div style={{
-                backgroundImage: "url(" + stjoseph + ")",
-                backgroundPosition: 'center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                width: '100%',
-                height: '155px'
-            }} />
+            <div className="headerimg" style={{backgroundImage: "url(" + stjoseph + ")"}} />
             <div className="container" >
                 <br></br>
                 <div className="earlylife" >Papers published mainly on Buffalo milk Baby food from the C.F.T.R.I. and N.D.R.I.</div>
@@ -39,10 +32,12 @@ export default function InfantFoodPaper1() {
                 <br></br><br></br>
                 <div className="earlylife" style={{ fontSize: 'large' }} >Curd Tension</div>
                 <br></br>
-                <div className="earlylifepara" >Curd tension, a measure of the thickness of the curd, was measured using the apparatus whose illustration may be seen below. Rennet was added to milk in which the "H" (curd tension knife)  was suspended. Weight of lead shots added to the basket required to lift knife from curd. </div>
-                <br></br>
-                <img src={buffalomilk1} height={400} width={300} style={{ marginLeft: '300px' }} />
-                <br></br>
+                <div>
+                    <img src={buffalomilk1} height={300} width={200} style={{ float: 'left', marginRight: '15px' }} />
+                    <br></br><br></br><br></br>
+                    <div className="earlylifepara">Curd tension, a measure of the thickness of the curd, was measured using the apparatus whose illustration may be seen in the picture. Rennet was added to milk in which the "H" (curd tension knife)  was suspended. Weight of lead shots added to the basket required to lift knife from curd. </div>
+                </div>
+                <br></br><br></br><br></br><br></br><br></br>
                 <div className="earlylifepara" >It may be seen from the attached table that the largest reduction in curd tension was when partially skimmed and heated to 85oC or so heated along with addition of either phosphate buffer or sodium citrate was added</div>
                 <img src={infantfood} height={450} width={920} />
                 <div style={{ fontSize: '12px' }} >* Expressed as weight in grams required for the knife to cut through the curd.t Phosphate buffer prepared by dissolving 9 gm of Na2HPO4and 7 gm NaH2PO4 in 100 cc. distilled water added to 50 lbs of milk.# Whole buffalo milk was partially skimmed to a fat content of 4%  before spray drying.</div>
@@ -53,9 +48,9 @@ export default function InfantFoodPaper1() {
                 <br></br>
                 <div className="earlylifepara" >In a paper11 describing the conditions for the preparation of infant food, begins with mention of 3000 tons of mainly milk based food was imported and that "only recently steps have been taken for establishing a factory at Anand for the production of whole and skim milk powder". The milk was obtained from murrah buffalos (a breed that is high milk yielder) and from the palace dairy farm at Mysore. It was decided that since commercial Infant foods varied protein (14-27% and fat (15-25%) contents and the possible lower fats requirements of Indian children, the infant food that would contain 17-22% protein and a fat content of 15% should be suitable. Milk, received in clean, sterile closed aluminum cans from the diary within three hours of milking, was sampled for both bacteriological and chemical analysis and skimmed with a hand operated cream separator (to a level 2.9% fat ). Phosphate buffer was added to the milk prior to pasteurization at 185oF (85oC) for 5min. The process of skimming, addition of phosphate and pasteurization helped bring down curd tension.  helped bring down curd tension. Sugar (boiled syrup)  was added to the milk prior to concentration in an vacuum evaporator. After vitamins (water soluble and fat soluble) supplementation, the concentrated milk was spray dried using a Niro laboratory model spray dryer (Bulletin of the C.F.T.R.I.1951-52 volume 1 page 125) with an inlet air temperature of 392oF (200oC) and outlet air temperature of 210oF  (98oC) The powder was stored in air or under nitrogen. These workers continued their work while trying to compare the use of sterilized stainless-steel containers and sterilized aluminum containers with addition of straw (as was wont by some farmers) or with storage in copper vessels. The bacteriological count and copper content in the infant food was least when sterilized steel vessels were used for collection of milk. The infant milk powder had the level of protein and fat that they aimed at while the curd tension of the food was similar to that to of commercial infant foods tested (Cow and Gate (half cream), Glaxo and Lactogen).</div>
                 <br></br>
-                <div style={{display: 'flex'}} >
-                    <img src={infantfood1} height={350} width={450} />
-                    <div style={{marginLeft: '50px'}} ><img src={infantfood2} height={350} width={450} /></div>
+                <div className="cheluvajamanniimg">
+                    <div style={{ marginRight: '50px' }} ><img src={infantfood1} height={350} width={450} /></div>
+                    <img src={infantfood2} height={350} width={450} />
                 </div>
                 <br></br>
                 <div className="earlylifepara" >The paper acknowledges the help of Shri B.H. Krishna and S.K. Lakshminarayan (Engineers) for help in the pilot plant.</div>

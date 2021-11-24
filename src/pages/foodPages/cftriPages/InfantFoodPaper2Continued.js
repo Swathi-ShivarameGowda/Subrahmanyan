@@ -20,14 +20,7 @@ export default function InfantFoodPaper2Continued() {
 
     return (
         <>
-            <div style={{
-                backgroundImage: "url(" + stjoseph + ")",
-                backgroundPosition: 'center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                width: '100%',
-                height: '155px'
-            }} />
+            <div className="headerimg" style={{backgroundImage: "url(" + stjoseph + ")"}} />
             <div className="container" >
                 <br></br>
                 <div className="earlylife" style={{ fontSize: 'large' }} >Roller Drying</div>

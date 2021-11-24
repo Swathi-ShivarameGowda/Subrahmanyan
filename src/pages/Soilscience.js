@@ -17,14 +17,7 @@ export default function Soilscience() {
 
     return (
         <>
-        <div style={{
-            backgroundImage: "url(" + stjoseph + ")",
-            backgroundPosition: 'center',
-            backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat',
-                width: '100%',
-            height: '155px'
-        }} />
+            <div className="headerimg" style={{ backgroundImage: "url(" + stjoseph + ")" }} />
             <div className="container" >
                     <br></br>
                 <div className="earlylife" >Soil Science</div>
@@ -39,12 +32,9 @@ export default function Soilscience() {
                 <br></br>
                 <div className="earlylife" >Again in England</div>
                 <br></br>
-                <div style={{ display: 'flex' }} >
-                    <div style={{ display: 'inline', marginTop: '10px' }} >
-                        <img src={davidezragreen} height={200} width={150} />
-                        <div style={{ fontSize: '12px', textAlign: 'center' }}>David E. Green</div>
-                     </div>
-                    <div className="earlylifepara" style={{ marginLeft: '20px', marginTop: '10px' }} >Subrahmanyan worked at the Rowlett Institute in Aberdeen, Scotland with Dr. Godden, on an enzymatic process (trypsin or papain) for the removal of tissue adherents to the bony skeleton of rats. At Oxford, he worked on the diffusion of chloride and glucose into frog muscle, noting that diffusion of chlorides into muscle was continuous over a much longer period than that of glucose whose level saturated earlier.</div>
+                <div>
+                    <img style={{float:'left', marginRight:'15px'}} src={davidezragreen} height={200} width={150} />
+                    <div className="earlylifepara" style={{marginTop: '10px' }} >Subrahmanyan worked at the Rowlett Institute in Aberdeen, Scotland with Dr. Godden, on an enzymatic process (trypsin or papain) for the removal of tissue adherents to the bony skeleton of rats. At Oxford, he worked on the diffusion of chloride and glucose into frog muscle, noting that diffusion of chlorides into muscle was continuous over a much longer period than that of glucose whose level saturated earlier. <font style={{fontStyle:'italic'}}>In Picture: David E. Green</font></div>
                 </div>
                 <div className="earlylifepara" >At Cambridge, he worked with Dr. D.E. Green and enzymes of the glycolytic pathway with purification and characterization of an aldolase from muscle (which they called Zymohexase) which was involved in the breakdown of fructose bi phosphate. They used acetaldehyde to take the breakdown products of fructose 1,6 phosphate to completion. The presence of an isomerase, another enzyme that could interfere, was eliminated by using Iodine and then measuring the alkalilabile phosphorus (it was always half the level, as expected). </div>
                 <div className="earlylifepara" >It would appear from the acknowledgements that Dr. Godden and Miss Simson from the Rowlett Institute were involved in this part of the work. Dr. Godden and V. Subrahmanyan have a paper on skeletal cleaning using enzymes. The ratio of triose phosphate to hexose phosphate produced with muscle extracts and with the purified enzyme to distinguish between aldolase and aldose isomerase where different indicating that the two enzymes where different from each other. An enzyme that broke down pyruvic acid to release carbon dioxide was isolated as a magnesium thiamine pyrophosphate (A Vitamin). This enzyme (Pyruvate decarboxylase) is important during the aerobic fermentation of yeast where the enzyme provides for production of alcohol or energy.</div>

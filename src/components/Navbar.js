@@ -16,7 +16,7 @@ function Navbar() {
 
   return (
       <>
-          <div style={{ backgroundColor: '#e6e6e6', width: '100%', height: '130px' }} >
+          <div className="homeheader" >
               <h1>DR.V. SUBRAHMANYAN</h1>
               <h3>A man who dedicated his life to research about food science and a founder of many great institutes.</h3>
           </div>

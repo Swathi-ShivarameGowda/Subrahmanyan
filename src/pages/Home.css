@@ -1,0 +1,69 @@
+.css-1v5z4dq-MuiPaper-root-MuiCard-root {
+    margin: 0px 20px !important;
+    background-color: darkcyan !important;
+    color: white !important;
+    border-radius: 0px !important;
+    width: 450px !important;
+    height: 180px !important;
+}
+
+@media screen and (max-width: 767px) {
+    .css-1v5z4dq-MuiPaper-root-MuiCard-root {
+        width: 350px !important;
+        height: 200px !important;
+        margin-bottom: 50px !important;
+    }
+}
+
+.videocontent {
+    display: flex;
+}
+
+@media screen and (max-width: 767px) {
+    .videocontent {
+        display: inline;
+    }
+}
+
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 32.25%;
+    position: relative;
+    height: 0;
+    height: 100px;
+    width: 2200px;
+}
+
+    .video-responsive iframe {
+        left: 0;
+        top: 0;
+        height: 400px;
+        width: 630px;
+        position: absolute;
+    }
+
+@media screen and (max-width: 767px) {
+    .video-responsive iframe {
+        height: 298px;
+    }
+}
+
+.aboutdisplay {
+    padding: 40px 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    margin: 20px 20px;
+    text-align: left;
+}
+
+.carddivision {
+    display: flex;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 767px) {
+    .carddivision {
+        display: inline;
+    }
+} 

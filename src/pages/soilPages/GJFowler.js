@@ -13,21 +13,14 @@ export default function GJFowler() {
 
     return (
         <>
-            <div style={{
-                backgroundImage: "url(" + stjoseph + ")",
-                backgroundPosition: 'center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                width: '100%',
-                height: '155px'
-            }} />
+            <div className="headerimg" style={{backgroundImage: "url(" + stjoseph + ")"}} />
             <div className="container" >
                 <br></br>
                 <div className="earlylife" >Gilbert John Fowler</div>
                 <br></br><br></br>
-                <div style={{ display: 'flex' }} >
-                    <img src={gilbertFowler} height={300} width={300} />
-                    <div className="earlylifepara" style={{ marginLeft: '20px' }} >Gilbert John Folwer was born on January 23 1868 at Paris. From 1896 to 1916, he was responsible for sewage treatment at Manchester. He was awarded a D.Sc from the University of Heidelburg in 1904. He developed the activated sludge process along with Arden and Lockett in 1914. He was consultant to the cities of New York, Shangai etc advising their sewage disposal. He became professor of Applied Chemistry and the Department of Biochemistry in Indian Institute of Science at Bangalore in 1921. He had visited Rothamsted in 1921 and learns about the ADCO process and becomes interested in composting.</div>
+                <div>
+                    <img style={{float:'left', marginRight:'15px'}} src={gilbertFowler} height={300} width={300} />
+                    <div className="earlylifepara">Gilbert John Folwer was born on January 23 1868 at Paris. From 1896 to 1916, he was responsible for sewage treatment at Manchester. He was awarded a D.Sc from the University of Heidelburg in 1904. He developed the activated sludge process along with Arden and Lockett in 1914. He was consultant to the cities of New York, Shangai etc advising their sewage disposal. He became professor of Applied Chemistry and the Department of Biochemistry in Indian Institute of Science at Bangalore in 1921. He had visited Rothamsted in 1921 and learns about the ADCO process and becomes interested in composting.</div>
                 </div>
                 <div className="earlylifepara" >Between 1925 and 1953, Fowler was responsible for the installation of a number of sludge plants across India. A sewage plant was put up by Fowler in 1922 at IISc Bangalore proved valuable not only in elucidating the principle of the purification process but also demonstrating the value of sludge as an organic fertilizer. S.C.Pillai was the foremost student who continued with this work.</div>
                 <br></br>

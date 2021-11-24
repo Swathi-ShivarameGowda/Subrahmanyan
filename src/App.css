@@ -13,6 +13,102 @@
   }
 }
 
+.earlylifediv {
+    display: flex;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    .earlylifediv {
+        display: inline;
+    }
+}
+
+.earlylifedesc {
+    font-size: 12px;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .earlylifedesc {
+        text-align: left;
+    }
+}
+
+.rothamsteddiv {
+    display: flex;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 767px) {
+    .rothamsteddiv {
+        display: inline;
+    }
+}
+
+.rothamstedpic {
+    display: inline;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+@media screen and (max-width: 767px) {
+    .rothamstedpic {
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+}
+
+.cheluvajamannidiv {
+    display: flex;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    .cheluvajamannidiv {
+        display: inline;
+    }
+}
+.cheluvajamanniimg {
+    display: flex;
+}
+
+@media screen and (max-width: 767px) {
+    .cheluvajamanniimg {
+        display: inline;
+    }
+}
+
+.cheluvajamannisec {
+    margin-left: 60px;
+}
+@media screen and (max-width: 767px) {
+    .cheluvajamannisec {
+        margin-top:10px;
+        margin-left: 0px;
+    }
+}
+
+.cheluvajamannithird {
+    margin-left: 160px;
+}
+@media screen and (max-width: 767px) {
+    .cheluvajamannithird {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+}
+
+.biography {
+margin-left: 200px;
+}
+
+@media screen and (max-width: 767px) {
+    .biography {
+        margin-left: 100px;
+    }
+}
+
 .container {
     overflow: hidden;
     width: 100%;
@@ -21,106 +117,94 @@
     padding-bottom: 15px;
 }
 
-.menulist {
-    overflow: hidden;
+@media screen and (max-width: 767px) {
+    .container {
+        font-size: 15px;
+    }
+}
+
+.headerimg {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
-    padding: 10px 0;
-    background: #ffffff;
-    box-sizing: border-box;
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    max-width: 960px;
-    margin: 0 auto;
+    height: 155px;
 }
 
-.aboutdisplay {
-    padding: 40px 20px;
-    box-sizing: border-box;
-    overflow: hidden;
-    width: 100%;
-    margin: 20px 20px;
-    text-align: left;
-}
-
-.videocontent {
-    display: flex;
-}
-
-h1 {
-    font-family: "Actor" !important;
-    color: #131f79 !important;
-    letter-spacing: 4px !important;
-    text-align: center;
-    font-size: 40px;
-}
-
-h3 {
-    font-family: "Actor" !important;
-    color: #131f79 !important;
-    letter-spacing: 2px !important;
-    text-align: center;
-    font-size: 18px;
-}
-
-h2 {
-    line-height: 29px !important;
-    text-align: center;
-    color: rgb(233, 170, 60);
-    
-}
-
-
-.earlylife {
-    font-size: x-large;
-    font-weight: bold;
-}
-
-.earlylifepara {
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 35px !important;
-    margin-bottom: 10px;
-    text-align: justify;
-    text-justify: inter-word;
-}
-
-.video-responsive {
-    overflow: hidden;
-    padding-bottom: 32.25%;
-    position: relative;
-    height: 0;
-    height: 100px;
-    width: 2200px;
-}
-
-    .video-responsive iframe {
-        left: 0;
-        top: 0;
-        height: 400px;
-        width: 630px;
-        position: absolute;
+    .menulist {
+        overflow: hidden;
+        width: 100%;
+        padding: 10px 0;
+        background: #ffffff;
+        box-sizing: border-box;
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        max-width: 960px;
+        margin: 0 auto;
     }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+   
 
-.App-link {
-  color: #61dafb;
-}
+    h1 {
+        font-family: "Actor" !important;
+        color: #131f79 !important;
+        letter-spacing: 4px !important;
+        text-align: center;
+        font-size: 40px;
+    }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+    h3 {
+        font-family: "Actor" !important;
+        color: #131f79 !important;
+        letter-spacing: 2px !important;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    h2 {
+        line-height: 29px !important;
+        text-align: center;
+        color: rgb(233, 170, 60);
+    }
+
+
+    .earlylife {
+        font-size: x-large;
+        font-weight: bold;
+    }
+
+    .earlylifepara {
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 35px !important;
+        margin-bottom: 10px;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    
+
+    .App-header {
+        background-color: #282c34;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 2vmin);
+        color: white;
+    }
+
+    .App-link {
+        color: #61dafb;
+    }
+
+    @keyframes App-logo-spin {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }

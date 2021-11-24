@@ -6,6 +6,7 @@ import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import headerphoto3 from '../img/headerphoto3.jpg';
+import './Home.css';
 
 export default function Home() {
 
@@ -31,13 +32,8 @@ export default function Home() {
 
     return (
         <>
-            <div style={{
-                backgroundImage: "url(" + headerphoto3 + ")",
-                backgroundPosition: 'center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                width: '100%',
-                height: '155px'
+            <div className="headerimg" style={{
+                backgroundImage: "url(" + headerphoto3 + ")"
         }} />
             <br></br><br></br><br></br><br></br>
             <div className="container" >
@@ -57,15 +53,8 @@ export default function Home() {
             </div>
             </div>
             <div style={{ display: "inline" }} >
-                <div style={{ display: "flex", marginTop: '100px' }} >
-                <Card variant="outlined" style={{
-                    margin: '0 20px', margin: '0px 20px',
-                    backgroundColor: 'darkcyan',
-                    color: 'white',
-                            borderRadius: '0px',
-                            width: '450px',
-                            height: '180px'
-                }} >
+                    <div className="carddivision" >
+                <Card variant="outlined" >
                             <React.Fragment>
                                 
                                 <CardContent>
@@ -79,14 +68,7 @@ export default function Home() {
                         </CardActions>
                 </React.Fragment>
                 </Card>
-                <Card variant="outlined" style={{
-                    margin: '0 20px', margin: '0px 20px',
-                            backgroundColor: 'darkcyan',
-                    color: 'white',
-                            borderRadius: '0px',
-                            width: '450px',
-                            height: '180px'
-                }} >
+                <Card variant="outlined" >
                             <React.Fragment>
                                
                                 <CardContent>
@@ -101,15 +83,8 @@ export default function Home() {
                     </React.Fragment>
                     </Card>
                 </div>
-                <div style={{ display: 'flex', marginTop: '20px'}} >
-                <Card variant="outlined" style={{
-                    margin: '0 20px', margin: '0px 20px',
-                            backgroundColor: 'darkcyan',
-                    color: 'white',
-                            borderRadius: '0px',
-                            width: '450px',
-                            height: '180px'
-                }} >
+                    <div className="carddivision" >
+                <Card variant="outlined" >
                     <React.Fragment>
                                 <CardContent>
                                     <Typography sx={{ fontSize: 18, fontWeight: 'bold' }} color="darkblue" gutterBottom>Journey</Typography>
@@ -122,14 +97,7 @@ export default function Home() {
                         </CardActions>
                     </React.Fragment>
                 </Card>
-                <Card variant="outlined" style={{
-                    margin: '0 20px', margin: '0px 20px',
-                            backgroundColor: 'darkcyan',
-                    color: 'white',
-                            borderRadius: '0px',
-                            width: '450px',
-                            height: '180px'
-                }} >
+                <Card variant="outlined" >
                     <React.Fragment>
                                 <CardContent>
                                     <Typography sx={{ fontSize: 18, fontWeight: 'bold' }} color="darkblue" gutterBottom>Awards</Typography>

@@ -23,14 +23,7 @@ export default function Untitled() {
 
     return (
         <>
-            <div style={{
-                backgroundImage: "url(" + stjoseph + ")",
-                backgroundPosition: 'center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                width: '100%',
-                height: '155px'
-            }} />
+            <div className="headerimg" style={{backgroundImage: "url(" + stjoseph + ")"}} />
             <div className="container" >
                 <br></br>
                 <div className="earlylife" >Amul Milk Powder (continued...)</div>
@@ -64,7 +57,7 @@ export default function Untitled() {
                 <br></br>
                 <div className="earlylifepara" >Further more In contrast to the sharp comments  by Kurien mentioned above, it is clear that in a number of advertisements during the years 1964-1966 at least that the advertisements from Amul have carried openly references to the contribution of the C.F.T.R.I. Dr. Kurien was made honorary member of the Association of food scientist and technologists (Journal of Food science and Technology,1965: 6, 49.) and in 1983 received the  Subrahmanyan Industrial Achievement Award (named after Dr.V.Subrahmanyan) by that Association.</div>
                 <br></br>
-                <div style={{ display: 'flex' }} >
+                <div className="cheluvajamanniimg" >
                     <img src={amul1} height={280} width={280} />
                     <div style={{ marginLeft: '30px' }} ><img src={amul2} height={280} width={280} /></div>
                     <div style={{ marginLeft: '30px' }} ><img src={amul3} height={280} width={280} /></div>

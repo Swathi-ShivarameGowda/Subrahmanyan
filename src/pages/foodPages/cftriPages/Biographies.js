@@ -17,14 +17,7 @@ export default function Biographies() {
 
     return (
         <>
-            <div style={{
-                backgroundImage: "url(" + stjoseph + ")",
-                backgroundPosition: 'center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                width: '100%',
-                height: '155px'
-            }} />
+            <div className="headerimg" style={{backgroundImage: "url(" + stjoseph + ")"}} />
             <div className="container" >
                 <br></br>
                 <div className="earlylife" style={{ fontSize: 'larger' }} >Brief Biographies of some of those involved in initial work on the AMUL infant food at the C.F.T.R.I.</div>
@@ -33,9 +26,9 @@ export default function Biographies() {
                 <br></br>
                 <div className="earlylife" style={{ fontSize: 'larger' }} >M.R.Chandrasekara  (1916-2010)</div>
                 <div className="earlylifepara" >MRC's maternal grandfather was H V Nanjundayya who was first councilor and then s first vice chancellor of the Mysore university and the founder of the Sahitya Parishat. He was conferred with the title of Raja Mantra Praveena by the palace.</div>
-                <div style={{ display: 'flex' }} >
+                <div className="cheluvajamanniimg" >
                     <div style={{ marginLeft: '100px' }} ><img src={biography} /></div>
-                    <div style={{ marginLeft: '200px' }} > <img src={chandra} /></div>
+                    <div className="biography" > <img src={chandra} /></div>
                 </div>
                 <div className="earlylifepara" >He was a man with very progressive ideas and was very keen that girls and women should get a good education and in fact gave his huge house and the land surrounding it in Malleswaram, Bangalore to the government to be converted into a girl's high school. It is now a junior college for women. The old house has been declared a heritage site and is being restored to its original glory by the govt.</div>
                 <br></br>
