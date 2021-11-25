@@ -1,0 +1,25 @@
+.paddyimg {
+    height: 300px;
+    width: 470px;
+    float: left;
+    margin: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    .paddyimg {
+        width: 235px;
+    }
+}
+
+.pprcteam {
+    height: 400px;
+    width: 450px;
+    float: left;
+    margin: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    .pprcteam {
+        width: 225px;
+    }
+}

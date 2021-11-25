@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import stjoseph from '../../img/stjoseph.jpg'
+import headerphoto2 from '../../img/headerphoto2.jpg'
 
 export default function CompleteList() {
     const history = useHistory();
@@ -11,7 +11,9 @@ export default function CompleteList() {
 
     return (
         <>
-            <div className="headerimg" style={{backgroundImage: "url(" + stjoseph + ")"}} />
+            <div className="headerimg">
+                <img src={headerphoto2} style={{ height: '155px', width: '100%' }} />
+            </div>
             <div className="container" >
                 <br></br>
                 <div className="earlylife" >Complete list of Publications (PPRC)</div>
@@ -70,7 +72,7 @@ export default function CompleteList() {
                                 <div className="earlylifepara" >50) Venkatesan,V. Anthoni Raj, S., Singarvadivel,K. (1984) Evaluation of container sacks for effective rice bran storage. Agricultural mechanization in Asia, Africa and Latin America vo.15.</div>
                 <div className="earlylifepara" >51) Barber, S., Benedito de Barber (1985) Rice Bran: An under-utilized raw material. United Nations, New York. <a href="https://open.undo.org/api/documents/4839609/download/RICE520BRAN%20-%20AN%20UNDERUTILIZED%20RAWMATERIAL%2020(14421.en)." target="_blank" style={{ textDecoration: 'none', color: '#3819e9' }} >https://open.undo.org/api/documents/4839609/download/RICE520BRAN%20-%20AN%20UNDERUTILIZED%20RAWMATERIAL%2020(14421.en).</a></div>
                 <br></br><br></br>
-                <Button size="small" style={{ color: 'white', fontWeight: 'bold', backgroundColor: 'darkblue', width: '155px', height: '35px' }} onClick={onClickHome} >Back to Home</Button>
+                <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
             </div>
         </>
     )

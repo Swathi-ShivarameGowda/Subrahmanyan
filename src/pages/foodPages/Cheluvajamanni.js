@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import stjoseph from '../../img/stjoseph.jpg'
+import headerphoto2 from '../../img/headerphoto2.jpg'
 import maharani from '../../img/maharani.jpg'
 import chamarajendraOrig from '../../img/chamarajendraOrig.jpg'
 import maharajapicOrig from '../../img/maharajapicOrig.jpg'
@@ -11,6 +11,7 @@ import palaceb from '../../img/palaceb.jpg'
 import firstdaughter from '../../img/firstdaughter.jpg'
 import seconddaughter from '../../img/seconddaughter.png'
 import cheluvambamansion from '../../img/cheluvambamansion.jpg'
+import './Cheluvajamanni.css';
 
 export default function Cheluvajamanni() {
     const history = useHistory();
@@ -20,7 +21,9 @@ export default function Cheluvajamanni() {
 
     return (
         <>
-            <div className="headerimg" style={{backgroundImage: "url(" + stjoseph + ")"}} />
+            <div className="headerimg">
+                <img src={headerphoto2} style={{ height: '155px', width: '100%' }} />
+            </div>
             <div className="container" >
                 <br></br>
                 <div className="earlylife" >Cheluvajamanni, The Third Maharajakumari</div>
@@ -49,7 +52,7 @@ export default function Cheluvajamanni() {
                 <div className="earlylifepara" >Land where the Cheluvamba Mansion now stands, belonged to the Military and "Sick lines of the Siledhar horses" that were stationed there. (Siledhar horses were cavalry where the horses were maintained for the government by the private individuals) (1). The Sildehar horses system was abolished in Mysore state around in 1890 when the Lancers regiments were raised. Evan Maconochie, an Indian Civil Service officer deputed to the Mysore court, was private secretary to the Maharaja Krishnaraja Wodeyar from 1902-19092. He wrote on 4.3.09 to  Mr. Madhava Rao for transfer of land to the third Maharaja Kumari (as Princess Cheluvajamanni was referred to) after payment of Rs. 3,262 for site and Rs.6,300 of site and buildings. This land was acquired for building a house for the third Maharaja Kumari. </div>
                 <br></br>
                 <div style={{ display: 'inline' }} >
-                    <img src={royalfamily} height={300} />
+                    <img src={royalfamily} style={{ height: '300px', width: '100%' }} />
                     <div style={{ fontSize: '12px', textAlign: 'center' }}>Seated: from the left 2. Col.  J. Des Raj Urs , 3.  Sirdar M. Kantha Raja Urs ,  (Both brother in laws of the Maharaja), 4. Yuvaraja Kanteerava Narasimharaja Wadiyar , 5. Maharaja  Krishna Raja Wadiyar, 6.  Dewan P.N. Krishnamurthi , 7. First Councilor V.P. Madhava Rao. Seated on the ground: 3, Evan Maconochie, KCIE, CIE, ICS ( retd), Private Secretary to Maharaja.Standing: 2. Colonel Benson IMS, 11. Major Smitth, IMS;(https://www.rct.uk/collection/2916578/the-mysore-state-officials-andnbspkrishna-raja-wadijar-iv-maharaja-of-mysore-1884)</div>
                     <br></br>
                 </div>
@@ -87,7 +90,7 @@ export default function Cheluvajamanni() {
                 <div className="earlylifepara" ><span style={{ textDecoration: 'underline' }} >Gratitude</span> : Thanks are due to Mr.Rajachandra, He has been a tremendous source of authentic information and always prompt with answers to our questions. Thanks are due to Mr Sridhar Raj and  Bharathi Urs  for launching me in the path the article has taken. Our gratitude to the Mysore archives is great.  Photos of the palace from N. Niranjan Nikam, Star of Mysore Sunday 18 April 2021 </div>
                 <div className="earlylifepara" ><a href="/references" style={{ textDecoration: 'none' }} ><font color="#3819e9">References</font></a></div>
                 <br></br>
-                <Button size="small" style={{ color: 'white', fontWeight: 'bold', backgroundColor: 'darkblue', width: '155px', height: '35px' }} onClick={onClickHome} >Back to Home</Button>
+                <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
             </div>
         </>
     )

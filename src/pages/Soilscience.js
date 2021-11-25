@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import stjoseph from '../img/stjoseph.jpg'
+import headerphoto3 from '../img/headerphoto3.jpg'
 import davidezragreen from '../img/davidezragreen.jpg'
 
 export default function Soilscience() {
@@ -17,7 +17,9 @@ export default function Soilscience() {
 
     return (
         <>
-            <div className="headerimg" style={{ backgroundImage: "url(" + stjoseph + ")" }} />
+            <div className="headerimg">
+                <img src={headerphoto3} style={{ height: '155px', width: '100%' }} />
+            </div>
             <div className="container" >
                     <br></br>
                 <div className="earlylife" >Soil Science</div>
@@ -40,7 +42,7 @@ export default function Soilscience() {
                 <div className="earlylifepara" >It would appear from the acknowledgements that Dr. Godden and Miss Simson from the Rowlett Institute were involved in this part of the work. Dr. Godden and V. Subrahmanyan have a paper on skeletal cleaning using enzymes. The ratio of triose phosphate to hexose phosphate produced with muscle extracts and with the purified enzyme to distinguish between aldolase and aldose isomerase where different indicating that the two enzymes where different from each other. An enzyme that broke down pyruvic acid to release carbon dioxide was isolated as a magnesium thiamine pyrophosphate (A Vitamin). This enzyme (Pyruvate decarboxylase) is important during the aerobic fermentation of yeast where the enzyme provides for production of alcohol or energy.</div>
                 <div className="earlylifepara" > It may be surmised that this work began Subrahmanyan's later entry into nutrition as two of the enzymes that he studied where those that had vitamins as cofactors, A review written by D.E. Green (1941) deals with the relation between enzymes and prosthetic groups.</div>
                 <br></br><br></br>
-                <Button size="small" style={{ color: 'white', fontWeight: 'bold', backgroundColor: 'darkblue', width: '155px', height: '35px' }} onClick={onClickHome} >Back to Home</Button>
+                <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
             </div>
         </>
     )

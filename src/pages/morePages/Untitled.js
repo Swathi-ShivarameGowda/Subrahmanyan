@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import stjoseph from '../../img/stjoseph.jpg'
+import headerphoto1 from '../../img/headerphoto1.jpg'
 
 export default function Untitled() {
     const history = useHistory();
@@ -11,12 +11,14 @@ export default function Untitled() {
 
     return (
         <>
-            <div className="headerimg" style={{backgroundImage: "url(" + stjoseph + ")"}} />
+            <div className="headerimg">
+                <img src={headerphoto1} style={{ height: '155px', width: '100%' }} />
+            </div>
             <div className="container" >
                 <br></br>
                 <div className="earlylife" >Untitled</div>
                 <br></br>
-                <Button size="small" style={{ color: 'white', fontWeight: 'bold', backgroundColor: 'darkblue', width: '155px', height: '35px' }} onClick={onClickHome} >Back to Home</Button>
+                <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
             </div>
         </>
     )

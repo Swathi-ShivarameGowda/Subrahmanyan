@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import stjoseph from '../../img/stjoseph.jpg'
+import headerphoto2 from '../../img/headerphoto2.jpg'
 import babyextractor from '../../img/babyextractor.png'
 import pressureguage from '../../img/pressureguage.png'
 import ricemill from '../../img/ricemill.png'
@@ -21,7 +21,9 @@ export default function PprcResearchContinued() {
 
     return (
         <>
-            <div className="headerimg" style={{backgroundImage: "url(" + stjoseph + ")"}} />
+            <div className="headerimg">
+                <img src={headerphoto2} style={{ height: '155px', width: '100%' }} />
+            </div>
             <div className="container" >
                 <br></br>
                 <div className="earlylife" >Research carried out in PPRC (continued...)</div>
@@ -66,8 +68,8 @@ export default function PprcResearchContinued() {
                 <div className="earlylifepara" >Pillaiyar, (1977) discussed the issues involved in stabilizing rice bran and mentions the development of the bran stabilizer at the PPRC. Pillaiyar et al (1978) have designed and fabricated an air heated stabilizer for rice bran. There is an outer drum placed on guide rollers and a inner drum connected at one end to the hot air source which can even be husk fired. A central duct carries the air stream. Metallic plates are soldered to this duct to help mix the bran. 150 kg of bran is loaded each time through a hatch which is hermetically then sealed. The air temperature is 240-260 degrees celsius and the barn reaches 105 degrees celsius in 40-45 minutes. There was some fall in moisture in this process. The free fatty acid level (measure of oil degradation) was about 1.6 to 2.56% after four months of storage for parboiled rice bran and 5.2 to 6.4% for raw bran within three months. The furnace used for heating water for parboiling could be used to generate hot air (see also Barber and Benito de Barber, 1985). A Pelletization  technology to avoid breaking of rice bran pellets in commercial solvent extraction of rice bran oil industry, Low cost bran stabilization unit was  developed (100kg per hr) using husk as fuel. Hydraulic pressing technology for rice bran oil extraction for edible use was tried. Methods for enhancing the quality of rice bran prior to extraction of oil was developed. Containers suitable for the was storage of bran from parboiled rice was evaluated  suggesting the use of HDPE sacks instead of jute bags (Kumaravel, et al, 1980; Venekatsan et al, 1984). Black ash from burnt husk was used as a carrier for nitrogen fixing organisms (biofertilizers) and has the advantage that it is ubiquitous and is alkaline (Singaravadivel and Anthoniraj, 1988) and for preparation of Sodium silicate.</div>
                 <br></br>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                    <Button size="small" style={{ color: 'white', fontWeight: 'bold', backgroundColor: 'darkblue', width: '155px', height: '35px' }} onClick={onClickHome} >Back to Home</Button>
-                    <Button size="small" style={{ color: 'white', fontWeight: 'bold', backgroundColor: 'darkblue', width: '155px', height: '35px' }} onClick={onClickBack} >Back</Button>
+                    <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
+                    <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back</Button></div>
                 </div>
             </div>
         </>

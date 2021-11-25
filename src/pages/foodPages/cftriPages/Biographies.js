@@ -1,13 +1,14 @@
 import React from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import stjoseph from '../../../img/stjoseph.jpg'
+import headerphoto2 from '../../../img/headerphoto2.jpg'
 import biography from '../../../img/biography.jpg'
 import chandra from '../../../img/chandra.jpg'
 import swami from '../../../img/swami.jpg'
 import bhatia from '../../../img/bhatia.jpg'
 import murthy from '../../../img/murthy.jpg'
 import rao from '../../../img/rao.jpg'
+import './Biographies.css';
 
 export default function Biographies() {
     const history = useHistory();
@@ -17,7 +18,9 @@ export default function Biographies() {
 
     return (
         <>
-            <div className="headerimg" style={{backgroundImage: "url(" + stjoseph + ")"}} />
+            <div className="headerimg">
+                <img src={headerphoto2} style={{ height: '155px', width: '100%' }} />
+            </div>
             <div className="container" >
                 <br></br>
                 <div className="earlylife" style={{ fontSize: 'larger' }} >Brief Biographies of some of those involved in initial work on the AMUL infant food at the C.F.T.R.I.</div>
@@ -87,7 +90,7 @@ export default function Biographies() {
                 <div className="earlylifepara" ><a href="/references" style={{ textDecoration: 'none' }} ><font color="#3819e9">References</font></a></div>
 
                 <br></br><br></br>
-                <Button size="small" style={{ color: 'white', fontWeight: 'bold', backgroundColor: 'darkblue', width: '155px', height: '35px' }} onClick={onClickHome} >Back to Home</Button>
+                <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
             </div>
         </>
     )

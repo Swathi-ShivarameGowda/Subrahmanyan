@@ -1,10 +1,11 @@
 import React from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import stjoseph from '../../img/stjoseph.jpg'
+import headerphoto2 from '../../img/headerphoto2.jpg'
 import postharvesttech from '../../img/postharvesttech.png'
 import postharvesttech1 from '../../img/postharvesttech1.png'
 import postharvesttech2 from '../../img/postharvesttech2.png'
+import './PostHarvestTech.css';
 
 export default function PostHarvestTech() {
     const history = useHistory();
@@ -14,7 +15,9 @@ export default function PostHarvestTech() {
 
     return (
         <>
-            <div className="headerimg" style={{backgroundImage: "url(" + stjoseph + ")"}} />
+            <div className="headerimg">
+                <img src={headerphoto2} style={{ height: '155px', width: '100%' }} />
+            </div>
             <div className="container" >
                 <br></br>
                 <div className="earlylife" >Centre for Post-Harvest Technology of Rice based crops and Rural Development</div>
@@ -28,12 +31,12 @@ export default function PostHarvestTech() {
                 <div className="earlylifepara" >The role of medical practitioners in extension and in developmental programs was suggested. Shortage of oil within the rural community was talked about. While oil and oil seeds are exported from the village to be sold elsewhere, rice bran "which had not yet found efficient use". In Tamil Nadu for instance, the potential for producing at least half a lakh tonnes of edible rice oil was emphasised. The importance of government intervention for the production of rice bran was delineated. Development of new technology simpler in form was suggested. The recovery and use of the rice germ was discussed. Propagation of potato was suggested. Tapioca could be grown and then preserved in moist soil. "In this condition, the tuber remains viable for at least two months and is even capable of sprouting". The tuber could also be used as animal food. Varieties of sweet potato grown in Far Eastern countries which are larger in size, have a bland taste and is less fibrous, may be tried in Thanjavur district. Such varieties could also be used as animal food. The need to use millets, ragi or Jawar for both human and animals was stressed. There was need to increase yield of green and black gram which are dry season crops. The possibility of using soybean as both oil seed and cattle feed was suggested. The need to increase yield of coconuts, prevention of water logging and pests were also suggested. A technology for "the drying the coconut kernels without infection and then to extract the major part of the oil with acceptable white shreds which could be used for food preparation in the same way as fresh coconut" was developed at Thiruvarur and the C.F.T.R.I. at Trivandrum. Finally the work that needed to be carried out on rice, pulses, coconut, palmyra, tamarind, Mango, chilli, millets, oil seeds, potato and market vegetables was suggested.</div>
                 <div className="earlylifepara" >Vasan and Venkatesan (1979) punctured the eye of the coconut, drained out the water and then steamed the kernel at 5-8 psi pressure for 45 minutes. The coconuts were cooled, with  water at room temperature, for 5 minutes. On breaking the coconut with a rod, the kernel came out intact as a ball. This contrasts with the Kraft-Maffei procedure where the coconuts are heated in shell at 40 psi.</div>
                 <div>
-                <img style={{ float: 'left', margin: '15px' }} src={postharvesttech} height={700} width={900} />
-                <img style={{ float: 'left', margin: '15px' }} src={postharvesttech1} height={700} width={900} />
-                    <img style={{ float: 'left', margin: '15px' }} src={postharvesttech2} height={350} width={900} />
+                    <img className="postharvesttech" src={postharvesttech} />
+                    <img className="postharvesttech" src={postharvesttech1} />
+                    <img className="postharvesttech1" src={postharvesttech2} />
                 </div>
                 <br></br><br></br>
-                <Button size="small" style={{ color: 'white', fontWeight: 'bold', backgroundColor: 'darkblue', width: '155px', height: '35px' }} onClick={onClickHome} >Back to Home</Button>
+                <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
             </div>
         </>
     )

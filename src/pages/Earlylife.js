@@ -7,6 +7,8 @@ import highschoolcertificate from '../img/highschoolcertificate.jpg'
 import subrahmanyansaraswati from '../img/subrahmanyansaraswati.jpg'
 import staffatstjosephscollege from '../img/staffatstjosephscollege.jpg'
 import stjoseph from '../img/stjoseph.jpg'
+import headerphoto3 from '../img/headerphoto1.jpg'
+import './Earlylife.css';
 
 export default function Earlylife() {
     const history = useHistory();
@@ -20,7 +22,9 @@ export default function Earlylife() {
 
     return (
         <>
-            <div className="headerimg" style={{backgroundImage: "url(" + stjoseph + ")"}} />
+            <div className="headerimg">
+                <img src={headerphoto3} style={{ height: '155px', width: '100%' }} />
+            </div>
             <div className="container" >
                     <br></br>
                 <div className="earlylife" >Early Life</div>
@@ -70,7 +74,7 @@ export default function Earlylife() {
                     <div className="earlylifepara" style={{whiteSpace: 'pre-line' }} >Subrahmanayan was married to Saraswathi in 1922. She was very young about eleven then. She used to talk about her father, who was Sub Collector at Bapatla, (She could speak Telugu all her life) who asked her whether she would marry a dark man? Her reply was "as her father was dark so could her husband be". Seshadri Iyer, who became an ICS officer , later, was also a suitor. {"\n"} They had seven children. Ramarathnam 1928 (deceased early ), Leela (1930), Sulochana (1932), Sundaram (1934), Santhanam (1936), Saroja (1941), Ventakesh (1946). Leela, Sulochana and Saroja were named by their car driver, Sheik Mohammed after popular actresses of the time. Sundaram was named after the bridge at Rameshwaram.</div>
                 </div>
                 <br></br><br></br>
-                <Button size="small" style={{ color: 'white', fontWeight: 'bold', backgroundColor: 'darkblue', width: '155px', height:'35px' }} onClick={onClickHome} >Back to Home</Button>
+                <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
             </div>
         </>
     )

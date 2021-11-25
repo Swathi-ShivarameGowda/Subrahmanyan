@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import stjoseph from '../../img/stjoseph.jpg'
+import headerphoto3 from '../../img/headerphoto3.jpg'
 
 export default function Iisc() {
     const history = useHistory();
@@ -11,7 +11,9 @@ export default function Iisc() {
 
     return (
         <>
-            <div className="headerimg" style={{backgroundImage: "url(" + stjoseph + ")"}} />
+            <div className="headerimg">
+                <img src={headerphoto3} style={{ height: '155px', width: '100%' }} />
+            </div>
             <div className="container" >
                 <br></br>
                 <div className="earlylife" >IISC</div>
@@ -29,7 +31,7 @@ export default function Iisc() {
                 <br></br>
                 <div className="earlylifepara" >There were two V.Subramanian at that time at the institue of science. One was an Institute scholar (V.Subramanian Jr) and the other a Madras government scholar (V.Subramanian Sr.).  V.Subramanainan Jr worked as Institute scholar from 28.07.1922 to 01.09.1924. He was selected for a Tata scholarship to work at Rothamsted in Nov 1923. Dr.R.V.Noris was appointed as Professor of Biochemistry vacated by G J Fowler in June 1924 and it has been mentioned in the annual report for that year that work on the actinomyces of soil was discontinued as V.Subramanian (Jr) was on his way to London.</div>
                 <br></br><br></br>
-                <Button size="small" style={{ color: 'white', fontWeight: 'bold', backgroundColor: 'darkblue', width: '155px', height: '35px' }} onClick={onClickHome} >Back to Home</Button>
+                <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
             </div>
         </>
     )

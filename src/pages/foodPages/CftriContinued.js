@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import stjoseph from '../../img/stjoseph.jpg'
+import headerphoto2 from '../../img/headerphoto2.jpg'
 
 export default function CftriContinued() {
     const history = useHistory();
@@ -18,7 +18,9 @@ export default function CftriContinued() {
 
     return (
         <>
-            <div className="headerimg" style={{backgroundImage: "url(" + stjoseph + ")"}} />
+            <div className="headerimg">
+                <img src={headerphoto2} style={{ height: '155px', width: '100%' }} />
+            </div>
             <div className="container" >
                 <br></br>
                 <div className="earlylife" >Central Food Technology Research Institute (CFTRI)(continued...)</div>
@@ -47,8 +49,8 @@ export default function CftriContinued() {
                 <div className="earlylifepara" ><a href="/references" style={{ textDecoration: 'none' }} ><font color="#3819e9">References</font></a></div>
                 <br></br>
                 <div style={{ display: 'flex', justifyContent:'space-between' }} >
-                <Button size="small" style={{ color: 'white', fontWeight: 'bold', backgroundColor: 'darkblue', width: '155px', height: '35px' }} onClick={onClickHome} >Back to Home</Button>
-                <Button size="small" style={{ color: 'white', fontWeight: 'bold', backgroundColor: 'darkblue', width: '155px', height: '35px' }} onClick={onClickBack} >Back</Button>
+                    <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
+                    <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back</Button></div>
                 </div>
             </div>
         </>

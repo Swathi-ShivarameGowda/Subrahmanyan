@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import stjoseph from '../../../img/stjoseph.jpg'
+import headerphoto2 from '../../../img/headerphoto2.jpg'
 
 export default function More() {
     const history = useHistory();
@@ -11,7 +11,9 @@ export default function More() {
 
     return (
         <>
-            <div className="headerimg" style={{backgroundImage: "url(" + stjoseph + ")"}} />
+            <div className="headerimg">
+                <img src={headerphoto2} style={{ height: '155px', width: '100%' }} />
+            </div>
             <div className="container" >
                 <br></br>
                 <div className="earlylife" >Spices</div>
@@ -20,7 +22,7 @@ export default function More() {
                 <div className="earlylifepara" >The spices red pepper (chillies), turmeric, black pepper and their respective active principles capsaicin, curcumin and piperine were investigated for their influence on growth, blood constituents, various organs and nitrogen balance in albino rats. Red pepper, black pepper and their active principles fed to rats at levels close to human intake were found to be quite safe. Turmeric and curcumin when fed to rats at levels even higher than the normal human intake did not cause any adverse effects. Preliminary investigations have indicated that both red pepper and capsaicin may influence beneficially the transport and metabolism of lipids. Ingestion of curcumin reduced the blood and liver cholesterol levels in experimental rats fed a hyptr- chlolesterolemic diet. Capsaicin fed to rats or rabbits is not excreted as such in the feces or urine. Rabbits fed capsaicin excrete more of glucuronides than sulphates as conjugates. Rats fed curcumin absorb it to the extent of 50 per cent and excrete more of sulphate than glucuronides as conjugates in the urine. </div>
                 <div className="earlylifepara" >Dr.V.Subrahmanyan was a pioneer and a prophet of science. It is for the younger generation of scientists, now working in the Discipline of Microbiology at C.F.T.R.I., Mysore to further Dr Subrahmanyan's vision, by dedicated and motivated work. </div>
                 <br></br><br></br>
-                <Button size="small" style={{ color: 'white', fontWeight: 'bold', backgroundColor: 'darkblue', width: '155px', height: '35px' }} onClick={onClickHome} >Back to Home</Button>
+                <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
             </div>
         </>
     )

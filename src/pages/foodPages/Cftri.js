@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import stjoseph from '../../img/stjoseph.jpg';
+import headerphoto2 from '../../img/headerphoto2.jpg';
 import kcreddy from '../../img/kcreddy.jpg';
 import convocation from '../../img/convocation.png'
 import cftriopening from '../../img/cftriopening.png'
@@ -22,7 +22,9 @@ export default function Cftri() {
 
     return (
         <>
-            <div className="headerimg" style={{backgroundImage: "url(" + stjoseph + ")"}} />
+            <div className="headerimg">
+                <img src={headerphoto2} style={{ height: '155px', width: '100%' }} />
+            </div>
             <div className="container" >
                 <br></br>
                 <div className="earlylife" >Central Food Technology Research Institute (CFTRI)</div>
@@ -53,8 +55,8 @@ export default function Cftri() {
                 <div className="earlylifepara" >Declaring the Institute open, C. Rajagopalachari paid a tribute to the work of Dr. Shanti Swarup Bhatnagar in speedily establishing the national laboratories in the country. He drew attention to the vast scope for research in solving the food problems facing the country, and suggested that scientific research and technological processes should be employed to minimize all forms of food wastage and to preserve all surplus food material. Another field for investigation, he said, <font style={{ fontStyle: 'italic' }} >"is the elimination of the harmful constituents of non-edible materials, and the conversion of the latter in to healthy and attractive food. This also is a vast and very important field of investigation in the plan of supplementing our food resources. Closely linked up with this is the maintenance of nutritional standards by the use of staple subsidiary foods. There is again the problem of the manufacture of concentrated foods and accessories like vitamins on a large scale which would assist the maintenance of proper nutritional standards in India".</font></div>
                 <br></br>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                    <Button size="small" style={{ color: 'white', fontWeight: 'bold', backgroundColor: 'darkblue', width: '155px', height: '35px' }} onClick={onClickHome} >Back to Home</Button>
-                    <Button size="small" style={{ color: 'white', fontWeight: 'bold', backgroundColor: 'darkblue', width: '155px', height: '35px' }} onClick={onClickNext} >Next</Button>
+                    <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
+                    <div className="backbutton" ><Button size="small" onClick={onClickHome} >Next</Button></div>
                 </div>
             </div>
         </>

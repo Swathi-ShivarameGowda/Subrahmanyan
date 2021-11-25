@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import stjoseph from '../../../img/stjoseph.jpg'
+import headerphoto2 from '../../../img/headerphoto2.jpg'
 
 export default function InfantFood() {
     const history = useHistory();
@@ -18,7 +18,9 @@ export default function InfantFood() {
 
     return (
         <>
-            <div className="headerimg" style={{backgroundImage: "url(" + stjoseph + ")"}} />
+            <div className="headerimg">
+                <img src={headerphoto2} style={{ height: '155px', width: '100%' }} />
+            </div>
             <div className="container" >
                 <br></br>
                 <div className="earlylife" >Amul Milk Powder</div>
@@ -57,8 +59,8 @@ export default function InfantFood() {
                 <div className="earlylifepara" >The UNICEF had funded the purchase of the NIRO atomiser spray dyer for the KAIRA District Milk Producers Union  while the C.F.T.R.I. obtained" a Niro spray drying for pilot plant trials in connection  with malted milk powder, glucose powder and fruit Juice powder" (Bulletin of the C.F.T.R.I.1951-52 volume 1 page 125). Therefore, it appears as though the C.F.R.I. had used the Niro spray dryer even before they had used the large one at Anand(see also Infant Food Part 2)  and "Actually CFTRI had already demonstrated that using the Australian spray drier at Benares a cheaper and more stable product was obtained. Solubility of the spray dried product was always better while the keeping quality of the roller dried product was superior." </div>
                 <br></br><br></br>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                    <Button size="small" style={{ color: 'white', fontWeight: 'bold', backgroundColor: 'darkblue', width: '155px', height: '35px' }} onClick={onClickHome} >Back to Home</Button>
-                    <Button size="small" style={{ color: 'white', fontWeight: 'bold', backgroundColor: 'darkblue', width: '155px', height: '35px' }} onClick={onClickNext} >Next</Button>
+                    <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
+                    <div className="backbutton" ><Button size="small" onClick={onClickHome} >Next</Button></div>
                 </div>
             </div>
         </>

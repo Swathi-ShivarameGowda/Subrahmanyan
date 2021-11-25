@@ -5,7 +5,7 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import headerphoto3 from '../img/headerphoto3.jpg';
+import headerphoto2 from '../img/headerphoto2.jpg';
 import './Home.css';
 
 export default function Home() {
@@ -32,9 +32,9 @@ export default function Home() {
 
     return (
         <>
-            <div className="headerimg" style={{
-                backgroundImage: "url(" + headerphoto3 + ")"
-        }} />
+            <div className="headerimg">
+                <img src={headerphoto2} style={{ height: '155px', width: '100%'}} />
+            </div>
             <br></br><br></br><br></br><br></br>
             <div className="container" >
         <div className="videocontent">

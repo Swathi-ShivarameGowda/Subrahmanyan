@@ -1,0 +1,29 @@
+.babyfood {
+    height:400px;
+    width:90%;
+    margin-left:50px;
+}
+
+.babyfood1 {
+    height: 500px;
+    width: 300px;
+    margin-left:350px;
+}
+
+@media screen and (max-width: 767px) {
+    .babyfood1 {
+        width: 300px;
+        margin-left: 0px;
+    }
+}
+
+.babyfood3 {
+    height: 800px;
+    width: 66%;
+    margin-left: 50px;
+}
+ .infantfoodcontinued{
+     height:800px;
+     width:90%;
+     margin-left:50px;
+ }

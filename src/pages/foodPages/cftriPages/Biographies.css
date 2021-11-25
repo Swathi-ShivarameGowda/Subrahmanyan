@@ -1,0 +1,9 @@
+.biography {
+    margin-left: 200px;
+}
+
+@media screen and (max-width: 767px) {
+    .biography {
+        margin-left: 100px;
+    }
+}

@@ -1,0 +1,12 @@
+.thesubrahmanyanprocess{
+    float: left;
+    margin-left:15px;
+    height:500px;
+    width:500px;
+}
+
+@media screen and (max-width: 767px) {
+    .thesubrahmanyanprocess {
+        width: 300px;
+    }
+}

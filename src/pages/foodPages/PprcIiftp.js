@@ -1,10 +1,11 @@
 import React from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import stjoseph from '../../img/stjoseph.jpg'
+import headerphoto2 from '../../img/headerphoto2.jpg'
 import iiftp from '../../img/iiftp.png'
 import thiyagaraja from '../../img/thiyagaraja.png'
 import pprcTeam from '../../img/pprcTeam.png'
+import './PprcIiftp.css';
 
 export default function PprcIiftp() {
     const history = useHistory();
@@ -14,7 +15,9 @@ export default function PprcIiftp() {
 
     return (
         <>
-            <div className="headerimg" style={{backgroundImage: "url(" + stjoseph + ")"}} />
+            <div className="headerimg">
+                <img src={headerphoto2} style={{ height: '155px', width: '100%' }} />
+            </div>
             <div className="container" >
                 <br></br>
                 <div className="earlylife" >IIFPT Tanjore</div>
@@ -24,7 +27,7 @@ export default function PprcIiftp() {
                 <div className="earlylife" style={{ fontSize: 'larger' }} >Paddy Processing Research Center</div>
                 <br></br>
                 <div>
-                    <img style={{ float: 'left', margin: '15px' }} src={iiftp} height={300} width={470} />
+                    <img className="paddyimg" src={iiftp}  />
                     <div className="earlylifepara" >On his return from the Philippines, Dr V. Subrahmanyan was the Advisor of Subsidiary Foods and Nutrition, Ministry of Food and Agriculture, Community Development and Cooperation in New Delhi from 1966-1969. Between 1952 and 1957, C. Subramaniam was Minister of Food, Finance, Education, Information and Publicity. During this period, the mid-day meal (developed and formulated at the C.F.T.R.I. when Dr V. Subrahmanyan was the Director) was sufficient to feed 1.5 million children per day. C. Subramaniam was involved in the green revolution and the white revolution and there is evidence that he supported the growth of food industry in the country.</div>
                 </div>
                 <br></br>
@@ -39,7 +42,7 @@ export default function PprcIiftp() {
                 <div className="earlylife" style={{ fontSize: 'larger' }} >PPRC Team and Journey</div>
                 <br></br>
                 <div>
-                    <img style={{ float: 'left', margin: '15px' }} src={pprcTeam} height={400} width={450} />
+                    <img className="pprcteam" src={pprcTeam} />
                     <div className="earlylifepara" >The Food Corporation of India deputed Dr V. Subrahmanyan as the Project Head of PPRC. Shortly after, R. Chandrashekar and B. S. Vasan joined the TCMF Lab, along with B. S. Iengar, Yousuf, C. S. Shivanna and N. S. Gangadhar. Mr. R. Baskar came from the NCDC. P. Pillaiyar was from the Food Corporation of India. The center was managed by the Tamil Nadu Civil Supplies Corporation and then from 1981 by the Tamil Nadu Agricultural University.  On 1.12.1984 the PPRC was registered as PPRC Society under Tamil Nadu Societies registration act of 1975. The entire budget of PPRC was provided by the Ministry of Food, the Food Corporation of India and the Tamil Nadu Civil Services Corporation and later solely by Ministry of Food Processing Industries, Government of India. The Institute was moved to its current location at Thanjavur in 1984. The Project Head designation was changed to that of Director who heads and manages the institute along with Executive Committee members and Board of Directors. The Ministry of Food Processing Industries (MFPI) took over the funding and management of the PPRC and renamed it as the Indian Institute of Crop Processing Technology in 2008. The Directors who managed the PPRC and the IICPT were Dr V. Subramaniyan, Dr A. Dahshinamoorthy from ICAR, Dr A. Alagusundaram from TNAU, Dr K. Singaravadivel, from PPRC and presently, Dr. Anandharamakrishnan from CFTRI.</div>
                 </div>
                 <br></br>
@@ -78,7 +81,7 @@ export default function PprcIiftp() {
                 <div className="earlylifepara" >5) Subrahmanyan,V. (1969) Some Application of Technology for the Betterment of Human nutrition.  Biresh Chandra Guha Memorial Lecture.</div>
                 <div className="earlylifepara" ><a href="/complete-list" style={{ textDecoration: 'none', color: '#3819e9', fontWeight: '500' }} >Complete list</a></div>
                 <br></br><br></br>
-                <Button size="small" style={{ color: 'white', fontWeight: 'bold', backgroundColor: 'darkblue', width: '155px', height: '35px' }} onClick={onClickHome} >Back to Home</Button>
+                <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
             </div>
         </>
     )

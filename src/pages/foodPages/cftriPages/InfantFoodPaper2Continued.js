@@ -1,9 +1,10 @@
 import React, { useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import stjoseph from '../../../img/stjoseph.jpg'
+import headerphoto2 from '../../../img/headerphoto2.jpg'
 import babyfood6 from '../../../img/babyfood6.jpg'
 import babyfood7 from '../../../img/babyfood7.jpg'
+import './InfantFoodPaper2.css';
 
 export default function InfantFoodPaper2Continued() {
     const history = useHistory();
@@ -20,14 +21,16 @@ export default function InfantFoodPaper2Continued() {
 
     return (
         <>
-            <div className="headerimg" style={{backgroundImage: "url(" + stjoseph + ")"}} />
+            <div className="headerimg">
+                <img src={headerphoto2} style={{ height: '155px', width: '100%' }} />
+            </div>
             <div className="container" >
                 <br></br>
                 <div className="earlylife" style={{ fontSize: 'large' }} >Roller Drying</div>
                 <br></br>
                 <div className="earlylifepara" >The series  of papers21,22,23,24 on manufacture using the roller drying process begin with a description of large scale manufacturing that was accomplished in using the roller driers at the Healthway company  at Varanasi .The paper begins with differentiating the two processes and states that for scale and solubility of product the spray drying method was better while for flexibility in scale and keeping quality the roller dried method was better. These trials were also carried out close to a cooperative dairy while the roller dryer was with Healthway foods at Varanasi.</div>
                 <br></br>
-                <div style={{ marginLeft: '50px' }} ><img src={babyfood6} height={800} width={800} /></div>
+                <img className="infantfoodcontinued" src={babyfood6} />
                 <br></br>
                 <div className="earlylifepara" >Chandrasekahara,et al 196023 reported much better shelf-life  than the spray dried product as gauged by organoleptic scores and thiobarbituric acid values. A shelf-life of 10months at 37oc was extrapolated to an expected shelf life of 20 months at room temperature. There was  degradation of thiamine of 15% at room temperature stored samples and 25% in that stored at 37oC. Degradation of thiamine was somewhat higher in Samples containing added iron than those without.</div>
                 <br></br>
@@ -69,8 +72,8 @@ export default function InfantFoodPaper2Continued() {
                 <div className="earlylifepara" ><a href="/references" style={{ textDecoration: 'none' }} ><font color="#3819e9">References</font></a></div>
                 <br></br>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }} >
-                    <Button size="small" style={{ color: 'white', fontWeight: 'bold', backgroundColor: 'darkblue', width: '155px', height: '35px' }} onClick={onClickHome} >Back to Home</Button>
-                    <Button size="small" style={{ color: 'white', fontWeight: 'bold', backgroundColor: 'darkblue', width: '155px', height: '35px' }} onClick={onClickBack} >Back</Button>
+                    <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
+                    <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back</Button></div>
                 </div>
             </div>
         </>

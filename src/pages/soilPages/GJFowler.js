@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import stjoseph from '../../img/stjoseph.jpg'
+import headerphoto3 from '../../img/headerphoto3.jpg'
 import gilbertFowler from '../../img/gilbertFowler.jpg'
 
 export default function GJFowler() {
@@ -13,7 +13,9 @@ export default function GJFowler() {
 
     return (
         <>
-            <div className="headerimg" style={{backgroundImage: "url(" + stjoseph + ")"}} />
+            <div className="headerimg">
+                <img src={headerphoto3} style={{ height: '155px', width: '100%' }} />
+            </div>
             <div className="container" >
                 <br></br>
                 <div className="earlylife" >Gilbert John Fowler</div>
@@ -37,7 +39,7 @@ export default function GJFowler() {
                 Part 1-VIII,  Journal of the Indian Institute of Science 7:97-144.
                     </div>
                 <br></br><br></br>
-                <Button size="small" style={{ color: 'white', fontWeight: 'bold', backgroundColor: 'darkblue', width: '155px', height: '35px' }} onClick={onClickHome} >Back to Home</Button>
+                <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
             </div>
         </>
     )

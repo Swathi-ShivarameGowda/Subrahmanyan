@@ -13,101 +13,16 @@
   }
 }
 
-.earlylifediv {
-    display: flex;
-    margin-top: 30px;
-}
-
-@media screen and (max-width: 767px) {
-    .earlylifediv {
-        display: inline;
-    }
-}
-
-.earlylifedesc {
-    font-size: 12px;
+.backbutton {
+    color: white !important;
+    font-weight: bold !important;
+    background-color: darkblue !important;
+    width: 155px !important;
+    height: 35px !important;
     text-align: center;
+    font-size: larger;
 }
 
-@media screen and (max-width: 767px) {
-    .earlylifedesc {
-        text-align: left;
-    }
-}
-
-.rothamsteddiv {
-    display: flex;
-    margin-top: 40px;
-}
-
-@media screen and (max-width: 767px) {
-    .rothamsteddiv {
-        display: inline;
-    }
-}
-
-.rothamstedpic {
-    display: inline;
-    margin-top: 40px;
-    margin-left: 80px;
-}
-
-@media screen and (max-width: 767px) {
-    .rothamstedpic {
-        margin-top: 40px;
-        margin-left: 0px;
-    }
-}
-
-.cheluvajamannidiv {
-    display: flex;
-    margin-top: 30px;
-}
-
-@media screen and (max-width: 767px) {
-    .cheluvajamannidiv {
-        display: inline;
-    }
-}
-.cheluvajamanniimg {
-    display: flex;
-}
-
-@media screen and (max-width: 767px) {
-    .cheluvajamanniimg {
-        display: inline;
-    }
-}
-
-.cheluvajamannisec {
-    margin-left: 60px;
-}
-@media screen and (max-width: 767px) {
-    .cheluvajamannisec {
-        margin-top:10px;
-        margin-left: 0px;
-    }
-}
-
-.cheluvajamannithird {
-    margin-left: 160px;
-}
-@media screen and (max-width: 767px) {
-    .cheluvajamannithird {
-        margin-top: 10px;
-        margin-left: 0px;
-    }
-}
-
-.biography {
-margin-left: 200px;
-}
-
-@media screen and (max-width: 767px) {
-    .biography {
-        margin-left: 100px;
-    }
-}
 
 .container {
     overflow: hidden;

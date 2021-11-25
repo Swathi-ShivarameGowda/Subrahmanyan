@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import stjoseph from '../img/stjoseph.jpg'
+import headerphoto1 from '../img/headerphoto1.jpg'
 import awards from '../img/awards.png'
 
 export default function Awards() {
@@ -16,7 +16,9 @@ export default function Awards() {
 
     return (
         <>
-            <div className="headerimg" style={{backgroundImage: "url(" + stjoseph + ")"}} />
+            <div className="headerimg">
+                <img src={headerphoto1} style={{ height: '155px', width: '100%' }} />
+            </div>
             <div className="container" >
                 <br></br>
                 <div className="earlylife" >Awards</div>
@@ -38,7 +40,7 @@ export default function Awards() {
                 <div className="earlylifepara" >PUBLICATIONS</div>
                 <div className="earlylifepara" >He was prolific in his scientific publications. He has authored over 600 research papers in different national and international journals and holds 30 patents. He is co-author of a monograph on "Proteins in Foods" and another on "Milks of Vegetable Origin", both published by the Indian Council of Medical Research.He placed high premium on publications and always advised his younger colleagues to publish as much of their work as possible.</div>
                 <br></br><br></br>
-                <Button size="small" style={{ color: 'white', fontWeight: 'bold', backgroundColor: 'darkblue', width: '155px', height: '35px' }} onClick={onClickHome} >Back to Home</Button>
+                <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
             </div>
         </>
     )

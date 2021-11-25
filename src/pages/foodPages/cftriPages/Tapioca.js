@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import stjoseph from '../../../img/stjoseph.jpg'
+import headerphoto2 from '../../../img/headerphoto2.jpg'
 
 export default function Tapioca() {
     const history = useHistory();
@@ -11,7 +11,9 @@ export default function Tapioca() {
 
     return (
         <>
-            <div className="headerimg" style={{backgroundImage: "url(" + stjoseph + ")"}} />
+            <div className="headerimg">
+                <img src={headerphoto2} style={{ height: '155px', width: '100%' }} />
+            </div>
             <div className="container" >
                 <br></br>
                 <div className="earlylife" >Tapioca/Cassava</div>
@@ -27,7 +29,7 @@ export default function Tapioca() {
                 <div className="earlylifepara" >Enriched macaroni products: Macaroni products can be cooked and consumed in the same way as rice. Two types of enriched macaroni products- (i) enriched tapioca macaroni and (ii) enriched wheat macaroni have been prepared and their supplementary value to poor cereal diets studied with albino rats and children. The results are briefly described below: Enriched tapioca macroni: This has been prepared in the form of rice shaped grains from a blend of groundnut flour (30 per cent), wheat flour (30 per cent) and tapioca flour (40 per cent). This product was fortified with vitamin A and D, riboflavin and calcium carbonate. It cooks readily in 5 min and the cooked product can be consumed in the same way as cooked rice. It contains about 2 to 3 times as much protein and 3 to 6 times as much B-vitamins as compared with raw milled rice.</div>
                 <div className="earlylifepara" >It is a rich source of calcium in which rice is deficient. Studies with albino rats showed that when fed as sole source of nutrients enriched tapioca macaroni promoted good growth in albino rats (16.4 g/week), comparing well with that obtained on stock diet16. When a poor rice diet was supplemented with 50 g of enriched tapioca macaroni, the diet promoted significantly higher growth in weaned infants and pre-school children as compared with the control rice diet17 in a period of 6 months</div>
                 <br></br><br></br>
-                <Button size="small" style={{ color: 'white', fontWeight: 'bold', backgroundColor: 'darkblue', width: '155px', height: '35px' }} onClick={onClickHome} >Back to Home</Button>
+                <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
             </div>
         </>
     )
