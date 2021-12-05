@@ -7,46 +7,30 @@
     height: 180px !important;
 }
 
-@media screen and (max-width: 767px) {
-    .css-1v5z4dq-MuiPaper-root-MuiCard-root {
-        width: 350px !important;
-        height: 200px !important;
-        margin-bottom: 50px !important;
-    }
-}
-
 .videocontent {
     display: flex;
+    height: 480px;
 }
 
-@media screen and (max-width: 767px) {
-    .videocontent {
-        display: inline;
-    }
-}
 
 .video-responsive {
     overflow: hidden;
     padding-bottom: 32.25%;
     position: relative;
     height: 0;
-    height: 100px;
+    height: 100%;
     width: 2200px;
 }
 
     .video-responsive iframe {
         left: 0;
         top: 0;
-        height: 400px;
+        height: 480px;
         width: 630px;
         position: absolute;
     }
 
-@media screen and (max-width: 767px) {
-    .video-responsive iframe {
-        height: 298px;
-    }
-}
+
 
 .aboutdisplay {
     padding: 40px 20px;
@@ -62,8 +46,27 @@
     margin-top: 100px;
 }
 
+
 @media screen and (max-width: 767px) {
+    .css-1v5z4dq-MuiPaper-root-MuiCard-root {
+        width: 350px !important;
+        height: 200px !important;
+        margin-bottom: 50px !important;
+    }
+
     .carddivision {
         display: inline;
     }
-} 
+
+    .video-responsive {
+        height: 400px;
+    }
+
+        .video-responsive iframe {
+            width: 400px;
+        }
+
+    .videocontent {
+        display: inline;
+    }
+}

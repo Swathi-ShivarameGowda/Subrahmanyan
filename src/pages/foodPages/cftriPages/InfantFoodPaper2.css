@@ -10,13 +10,6 @@
     margin-left:350px;
 }
 
-@media screen and (max-width: 767px) {
-    .babyfood1 {
-        width: 300px;
-        margin-left: 0px;
-    }
-}
-
 .babyfood3 {
     height: 800px;
     width: 66%;
@@ -27,3 +20,10 @@
      width:90%;
      margin-left:50px;
  }
+
+@media screen and (max-width: 767px) {
+    .babyfood1 {
+        width: 300px;
+        margin-left: 0px;
+    }
+}

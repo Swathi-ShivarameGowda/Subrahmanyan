@@ -32,7 +32,7 @@ export default function Home() {
 
     return (
         <>
-            <div className="headerimg">
+            <div className="headerimg" >
                 <img src={headerphoto2} style={{ height: '155px', width: '100%'}} />
             </div>
             <br></br><br></br><br></br><br></br>

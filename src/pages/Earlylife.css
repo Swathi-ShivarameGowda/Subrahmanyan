@@ -3,12 +3,6 @@
     margin-top: 30px;
 }
 
-@media screen and (max-width: 767px) {
-    .earlylifediv {
-        display: inline;
-    }
-}
-
 .earlylifedesc {
     font-size: 12px;
     text-align: center;
@@ -17,5 +11,9 @@
 @media screen and (max-width: 767px) {
     .earlylifedesc {
         text-align: left;
+    }
+
+    .earlylifediv {
+        display: inline;
     }
 }

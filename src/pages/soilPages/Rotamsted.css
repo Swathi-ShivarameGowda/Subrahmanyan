@@ -3,12 +3,6 @@
     margin-top: 40px;
 }
 
-@media screen and (max-width: 767px) {
-    .rothamsteddiv {
-        display: inline;
-    }
-}
-
 .rothamstedpic {
     display: inline;
     margin-top: 40px;
@@ -19,5 +13,8 @@
     .rothamstedpic {
         margin-top: 40px;
         margin-left: 0px;
+    }
+    .rothamsteddiv {
+        display: inline;
     }
 }

@@ -1,35 +1,15 @@
 
-
 .cheluvajamannidiv {
     display: flex;
     margin-top: 30px;
-}
-
-@media screen and (max-width: 767px) {
-    .cheluvajamannidiv {
-        display: inline;
-    }
 }
 
 .cheluvajamanniimg {
     display: flex;
 }
 
-@media screen and (max-width: 767px) {
-    .cheluvajamanniimg {
-        display: inline;
-    }
-}
-
 .cheluvajamannisec {
     margin-left: 60px;
-}
-
-@media screen and (max-width: 767px) {
-    .cheluvajamannisec {
-        margin-top: 10px;
-        margin-left: 0px;
-    }
 }
 
 .cheluvajamannithird {
@@ -40,5 +20,17 @@
     .cheluvajamannithird {
         margin-top: 10px;
         margin-left: 0px;
+    }
+    .cheluvajamannisec {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .cheluvajamannidiv {
+        display: inline;
+    }
+
+    .cheluvajamanniimg {
+        display: inline;
     }
 }
