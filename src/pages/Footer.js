@@ -19,7 +19,7 @@ export default function Footer() {
                                           <br></br><br></br>
                                           <span>In honour of our grandfather,</span>
                                           <br></br>
-                                          <span>Dr. V. Subrahmanyan</span>
+                                          <span>Dr.V. Subrahmanyan</span>
                                      </font>
                                 </div>
                             </td>

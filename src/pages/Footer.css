@@ -1,8 +1,8 @@
 .footer {
     background-color: darkblue;
-    height: 220px;
+    height: 315px;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 180px;
 }
 
 .footerdiv {
@@ -48,6 +48,7 @@
 
     .footerpara {
         margin-top: 10px;
+        font-size: 15px;
     }
 
     .tablecolumn {
@@ -57,6 +58,9 @@
     .footerdiv {
         margin-left: 0px;
         margin-right: 0px;
+    }
+    .anotherfooterpara {
+        margin-top: -125px;
     }
 }
 

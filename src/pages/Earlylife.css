@@ -11,6 +11,7 @@
 @media screen and (max-width: 767px) {
     .earlylifedesc {
         text-align: left;
+        margin-left: 10px;
     }
 
     .earlylifediv {
