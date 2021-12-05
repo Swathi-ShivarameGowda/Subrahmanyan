@@ -10,6 +10,7 @@
 .videocontent {
     display: flex;
     height: 480px;
+    margin-left: 20px;
 }
 
 
