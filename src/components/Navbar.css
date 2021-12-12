@@ -213,8 +213,7 @@ nav .content {
             }
 
     /* dropdown responsive code start */
-    .content .links ul,
-    .content .links ul ul {
+    .content .links ul{
         position: static;
         opacity: 1;
         visibility: visible;
@@ -222,6 +221,16 @@ nav .content {
         max-height: 0px;
         overflow: hidden;
     }
+
+        .content .links ul ul {
+            position: static;
+            opacity: 1;
+            visibility: visible;
+            background: none;
+            max-height: 0px;
+            overflow: hidden;
+            margin-left: 0px;
+        }
 
     .content .links #show-features:checked ~ ul,
     .content .links #show-services:checked ~ ul,
