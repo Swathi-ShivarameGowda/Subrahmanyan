@@ -42,6 +42,7 @@ function Navbar() {
                                                 <li><a href="/infant-food">Infant Food</a></li>
                                                 <li><a href="/tapioca-cassava">Tapioca/Cassava</a></li>
                                                 <li><a href="/spices">Spices</a></li>
+                                            <li><a href="/pencillin-glucanate-and-soluble-casein" ><div>Pencillin, Glucanate and Soluble Casein</div></a></li>
                                             </ul>
                                         </li>
                                         <li><a href="/philippines">The Philippines</a></li>
@@ -56,7 +57,6 @@ function Navbar() {
                             <label for="show-more">More</label>
                             <ul>
                                 <li><a href="/site-map">Site Map</a></li>
-                                <li><a href="/untitlted">Untitled</a></li>
                             </ul>
                         </li>
 

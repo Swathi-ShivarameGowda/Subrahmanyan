@@ -13,17 +13,23 @@
 .babyfood3 {
     height: 800px;
     width: 66%;
-    margin-left: 50px;
+    margin-left: 150px;
 }
  .infantfoodcontinued{
      height:800px;
-     width:90%;
+     width:80%;
      margin-left:50px;
  }
 
 @media screen and (max-width: 767px) {
     .babyfood1 {
         width: 300px;
+        margin-left: 20px;
+    }
+    .babyfood3 {
+        margin-left: 20px;
+    }
+    .babyfood {
         margin-left: 0px;
     }
 }

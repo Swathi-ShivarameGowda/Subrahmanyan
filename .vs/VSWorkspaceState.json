@@ -2,8 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\pages"
+    "\\src\\components",
+    "\\src\\pages",
+    "\\src\\pages\\foodPages",
+    "\\src\\pages\\foodPages\\cftriPages",
+    "\\src\\pages\\morePages"
   ],
-  "SelectedNode": "\\src\\pages\\foodPages",
+  "SelectedNode": "\\src\\components\\Navbar.js",
   "PreviewInSolutionExplorer": false
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import headerphoto2 from '../../../img/headerphoto2.jpg'
+import FOODTECHNOLOGY from '../../../img/FOODTECHNOLOGY.png'
 import biography from '../../../img/biography.jpg'
 import chandra from '../../../img/chandra.jpg'
 import swami from '../../../img/swami.jpg'
@@ -19,7 +19,7 @@ export default function Biographies() {
     return (
         <>
             <div className="headerimg">
-                <img src={headerphoto2} style={{ height: '155px', width: '100%' }} />
+                <img src={FOODTECHNOLOGY} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                 <br></br>
@@ -27,7 +27,8 @@ export default function Biographies() {
                 <br></br>
                 <div className="earlylifepara" >The first author of the papers (except One) on both spray dried and roller dried infant foods is M.R.Chandrashekar followed by that of M.Swaminathan, D.S. Bhatia. Occasionally V. Sreenivasmurthy and Doariswamy were named. M.Narayana Rao was associated with papers on the name of H.A.B.Parpia is in two papers initially in conjunction with many of the above. He has two papers related to Buffalo milk and a review published after he had become Director.</div>
                 <br></br>
-                <div className="earlylife" style={{ fontSize: 'larger' }} >M.R.Chandrasekara  (1916-2010)</div>
+                <div className="earlylife" style={{ fontSize: 'larger' }} >M.R.Chandrasekara (1916-2010)</div>
+                <br></br>
                 <div className="earlylifepara" >MRC's maternal grandfather was H V Nanjundayya who was first councilor and then s first vice chancellor of the Mysore university and the founder of the Sahitya Parishat. He was conferred with the title of Raja Mantra Praveena by the palace.</div>
                 <div className="cheluvajamanniimg" >
                     <div style={{ marginLeft: '100px' }} ><img src={biography} /></div>
@@ -71,7 +72,6 @@ export default function Biographies() {
                 <div className="earlylifepara" >On return to India, , Dr Parpia worked as Chief Technologist and Production Manager (1952-56) at Pure Products and Madhu Canning, Bombay, as Assistant Director in charge of Information, Statistics, Process Development and Food Plant Design in 1956 at CFTRI and as Assistant Director General, Council of Scientific and Industrial Research-(CSIR), 1959 in charge of Industrial Liaison Office and Extension, Delhi and as Chief Executive at Kisan Products in 1961. Dr Parpia worked  as Chief Defense Research Co-ordinator of CSIR during India's war with China, 1962 and  was appointed as director of CFTRI in 1963. In 1972 he joined the FAO at Rome. In 1981 he was with the UN conference on Science and  Technology at New York. In 1998 he became Director Planning and Evaluation at UN University, Tokyo.</div>
                 <div>
                     <img style={{ float: 'left', margin: '15px' }} src={murthy} height={180} width={180} />
-                    <br></br>
                     <div className="earlylife" style={{ fontSize: 'larger' }} >Dr. V.Sreenivasa Murthy (1924-2008)</div>
                     <div className="earlylifepara" >V. Srinivasa Murthy after completing his doctoral degree in Microbiology form the N.D.R.I. Bangalore joined the C.F.T.R.I. He was involved in the estimation of Vitamins in infant food. On a UNICEF fellowship, he worked the Tropical Products Institute. 25-6-1964. He subsequently became Head of the Department of Microbiology, C.F.T.R.I. </div>
                     <br></br>
@@ -79,7 +79,6 @@ export default function Biographies() {
                 <br></br>
                 <div>
                     <img style={{ float: 'left', margin: '15px' }} src={rao} height={180} width={180} />
-                    <br></br>
                     <div className="earlylife" style={{ fontSize: 'larger' }} >M.Narayana Rao</div>
                     <div className="earlylifepara" >Narayana Rao worked at the C.F.T.R.I. during the development of the roller drying process for making weaning food. He did postdoctoral work at the  Food and Drug Research Laboratories Ottawa Canada1  . After a tenure at the C.F.T.R.I. he was appointed as Nutrition Officer, Food Policy and Nutrition Division, FAO, Rome, Italy.</div>
                     <br></br>

@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import headerphoto1 from '../img/headerphoto1.jpg'
-import awards from '../img/awards.png'
+import AWARDS from '../img/AWARDS.png'
+import award from '../img/award.png'
 
 export default function Awards() {
     const history = useHistory();
@@ -17,14 +17,14 @@ export default function Awards() {
     return (
         <>
             <div className="headerimg">
-                <img src={headerphoto1} style={{ height: '155px', width: '100%' }} />
+                <img src={AWARDS} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                 <br></br>
                 <div className="earlylife" >Awards</div>
                 <br></br>
                 <div>
-                    <img style={{ float: 'right', margin: '15px' }} src={awards} height={400} width={300} />
+                    <img style={{ float: 'right', margin: '15px' }} src={award} height={400} width={300} />
                     <div className="earlylifepara" >Subrahmanyan received the  Sen medal from the Institution of Chemists , the Rafi Ahmed Kidwai Award for work on the development of baby food and the Padma Shri  in 1960. In 1961 he again received the Raffi Ahmed Kidwai prize  for  development of technique of wax coating of fruits and vegetables to increase their shelf life. In 1962 he received the Babcock Hart Award from the Institute of Food Technologists USA for work on the devlopment of the Indian Multi-Purpose Food. Dr. V. Subrahmanyan was awarded the first "Friesland" Award by Cooperative Milk Products Factory On September 10, 1963, on the occasion of their 50th anniversary of the  founding of their factory. He recieved the the K.G. Naik medal for distinguished contributions to biochemistry in 1964 from the University of Baroda. He received a citation and plaque from the National  </div>
                     <br></br>
                 </div>

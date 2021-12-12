@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import headerphoto2 from '../../img/headerphoto2.jpg'
+import FOODTECHNOLOGY from '../../img/FOODTECHNOLOGY.png'
 
 export default function CftriContinued() {
     const history = useHistory();
@@ -19,7 +19,7 @@ export default function CftriContinued() {
     return (
         <>
             <div className="headerimg">
-                <img src={headerphoto2} style={{ height: '155px', width: '100%' }} />
+                <img src={FOODTECHNOLOGY} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                 <br></br>
@@ -32,8 +32,8 @@ export default function CftriContinued() {
                 <div className="earlylifepara" >In his message Pandit Jawaharlal Nehru, the Prime Minister of India, referred to the scientific developments in the country during the past few years and said: "One of the remarkable developments in India, during the last three years, has been the opening of national laboratories and research institutes. We have put up some magnificent laboratories, not only impressive to look at, but I hope, the homes of productive effort and work. It is ultimately on the basis of work done in our research institutes and laboratories that we can progress in most directions. Thus far we have depended on other countries and have merely copied them or taken advantage of something that they have done. We cannot go far with this dependence. We have at least laid good and true foundations for scientific progress. It is for the young scientists of India to take advantage of the great opportunities   offered to them and thus help in building up the New India. "We have given top priority to the production of food grains or subsidiary foods. It is obvious that food is of the first importance and its value cannot be judged merely in money terms. We cannot depend on imports for our food and, therefore, we have laid down a target for food sufficiency.    This is the 1951-1952 season. In spite of all difficulties and disasters, we still adhere to that target and are trying to work up to it. We hope to succeed. It must always be remembered that food production has the highest priority. "How can science help in this? The primary responsibility is of our Department of Agriculture. Science can help in agriculture greatly. It can also help in various other processes. It is particularly with these other processes that this Institute will be concerned. I hope the work done in this Institute will bear fruit not in developments on paper and in scientific journals but in terms of human values and in increase of suitable food for our people."</div>
                 <div className="earlylifepara" >The functions of the Central Food Technological Institute include:</div>
                 <div className="earlylifepara" >
-                    <ul style={{ color: "rgb(42, 42, 42)" }} >
-                        <li>Development of improved methods of storage; refrigeration, freezing, gas storage, dehydration, canning, etc; study of biochemical and microbiological changes accompanying spoilage; reclamation and utilization of infested or otherwise affected food materials ;</li>
+                    <ul style={{ color: "rgb(42, 42, 42)", listStyle: "disc outside", margin:"5px 0", paddingLeft:"3em" }} >
+                        <li>Development of improved methods of storage; refrigeration, freezing, gas storage, dehydration, canning, etc; study of biochemical and microbiological changes accompanying spoilage; reclamation and utilization of infested or otherwise affected food materials;</li>
                         <li>Processing of food stuffs with a view to</li>
                         <li>Facilitating their ready usage, and</li>
                         <li>Improving their keeping quality; treatment of coarse materials to improve palatability, digestibility and food value; elimination of harmful and unpalatable ingredients from food materials;</li>
@@ -50,7 +50,7 @@ export default function CftriContinued() {
                 <br></br>
                 <div style={{ display: 'flex', justifyContent:'space-between' }} >
                     <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
-                    <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back</Button></div>
+                    <div className="backbutton" ><Button size="small" onClick={onClickBack} >Back</Button></div>
                 </div>
             </div>
         </>

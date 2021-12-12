@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import headerphoto2 from '../../../img/headerphoto2.jpg'
+import FOODTECHNOLOGY from '../../../img/FOODTECHNOLOGY.png'
 
 export default function Tapioca() {
     const history = useHistory();
@@ -12,7 +12,7 @@ export default function Tapioca() {
     return (
         <>
             <div className="headerimg">
-                <img src={headerphoto2} style={{ height: '155px', width: '100%' }} />
+                <img src={FOODTECHNOLOGY} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                 <br></br>

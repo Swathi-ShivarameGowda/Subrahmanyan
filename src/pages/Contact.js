@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import headerphoto1 from '../img/headerphoto1.jpg'
+import ABOUTUS from '../img/ABOUTUS.png'
 
 export default function Contact() {
 
@@ -13,7 +13,7 @@ export default function Contact() {
     return (
         <>
             <div className="headerimg">
-                <img src={headerphoto1} style={{ height: '155px', width: '100%' }} />
+                <img src={ABOUTUS} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                 <br></br>

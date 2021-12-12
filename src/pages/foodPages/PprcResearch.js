@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import headerphoto2 from '../../img/headerphoto2.jpg';
+import FOODTECHNOLOGY from '../../img/FOODTECHNOLOGY.png';
 import saltparboiling from '../../img/saltparboiling.png'
 import sandparboiling from '../../img/sandparboiling.png'
 import pressureparboiling from '../../img/pressureparboiling.png'
@@ -22,7 +22,7 @@ export default function PprcResearch() {
     return (
         <>
             <div className="headerimg">
-                <img src={headerphoto2} style={{ height: '155px', width: '100%' }} />
+                <img src={FOODTECHNOLOGY} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                 <br></br>
@@ -76,7 +76,7 @@ export default function PprcResearch() {
                 <br></br><br></br>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                     <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
-                    <div className="backbutton" ><Button size="small" onClick={onClickHome} >Next</Button></div>
+                    <div className="backbutton" ><Button size="small" onClick={onClickNext} >Next</Button></div>
                 </div>
             </div>
         </>

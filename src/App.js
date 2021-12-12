@@ -6,7 +6,6 @@ import Soilscience from './pages/Soilscience';
 import Foodtech from './pages/Foodtech';
 import Contact from './pages/Contact';
 import Awards from './pages/Awards';
-import Untitled from './pages/morePages/Untitled';
 import Sitemap from './pages/morePages/Sitemap';
 import Iisc from './pages/soilPages/Iisc';
 import Rothamsted from './pages/soilPages/Rothamsted';
@@ -29,6 +28,7 @@ import InfantFoodPaper2 from './pages/foodPages/cftriPages/InfantFoodPaper2';
 import InfantFoodPaper2Continued from './pages/foodPages/cftriPages/InfantFoodPaper2Continued';
 import Spices from './pages/foodPages/cftriPages/Spices';
 import Tapioca from './pages/foodPages/cftriPages/Tapioca';
+import Pencillin from './pages/foodPages/cftriPages/Pencillin';
 import Navbar from './components/Navbar';
 import Scroll from './components/Scroll';
 import {
@@ -72,9 +72,9 @@ function App() {
                         <Route path="/infant-food-paper2-continued" component={InfantFoodPaper2Continued} />
                         <Route path="/spices" component={Spices} />
                         <Route path="/tapioca-cassava" component={Tapioca} />
+                        <Route path="/pencillin-glucanate-and-soluble-casein" component={Pencillin} />
                         <Route path="/awards" component={Awards} />
                         <Route path="/contact" component={Contact} />
-                        <Route path="/untitled" component={Untitled} />
                         <Route path="/site-map" component={Sitemap} />
                     </Switch>
             </div>

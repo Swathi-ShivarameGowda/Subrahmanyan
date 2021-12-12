@@ -15,11 +15,10 @@ export default function Footer() {
                                      <font size="3" color="#ffffff">
                                           <span><font font-weight="600" color="#e9cf76" >INFO</font></span>
                                           <br></br>
-                                          <span>About us</span>
-                                          <br></br><br></br>
-                                          <span>In honour of our grandfather,</span>
+                                            <div style={{ fontSize: "14px" }}>About us</div>
                                           <br></br>
-                                          <span>Dr.V. Subrahmanyan</span>
+                                            <div style={{fontSize:"14px"}}>In honour of our grandfather,</div>
+                                            <div style={{ fontSize: "14px" }}>Dr.V. Subrahmanyan</div>
                                      </font>
                                 </div>
                             </td>
@@ -28,7 +27,7 @@ export default function Footer() {
                                       <font color="#fff3f3" size="3">
                                            <span><font font-weight="600" color="#e9cf76" >CONTACT US</font></span>
                                            <br></br>
-                                           <span style={{ caretColor: "rgb(255, 243, 243)" }} >subraroc@gmail.com</span>
+                                            <div style={{ fontSize: "14px" }}>subraroc@gmail.com</div>
                                        </font>
                                  </div>
                             </td>

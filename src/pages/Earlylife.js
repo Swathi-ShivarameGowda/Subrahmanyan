@@ -7,7 +7,7 @@ import highschoolcertificate from '../img/highschoolcertificate.jpg'
 import subrahmanyansaraswati from '../img/subrahmanyansaraswati.jpg'
 import staffatstjosephscollege from '../img/staffatstjosephscollege.jpg'
 import stjoseph from '../img/stjoseph.jpg'
-import headerphoto3 from '../img/headerphoto1.jpg'
+import EARLYLIFE from '../img/EARLYLIFE.png'
 import './Earlylife.css';
 
 export default function Earlylife() {
@@ -23,7 +23,7 @@ export default function Earlylife() {
     return (
         <>
             <div className="headerimg">
-                <img src={headerphoto3} style={{ height: '155px', width: '100%' }} />
+                <img src={EARLYLIFE} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                     <br></br>
@@ -32,7 +32,7 @@ export default function Earlylife() {
                 <div className="earlylifepara" >Subrahmanyan was born to Vaidyanathan and Bagirathi at Sirkazhi, Thanjavur on September 16th 1902. Bagirathi fell before the horse of the collector, stating that she was poor and her son who was brilliant deserved a scholarship (probably extending from school to college) and this apparently was granted. Vaidyanathan was Revenue Inspector. </div>
                     <br></br>
 
-                <div className="earlylife" >Education</div>
+                <div className="earlylife" style={{fontSize: "22px"}} >Education</div>
                     <br></br>
                 <div style={{ display: 'inline' }} >
                     <div>
@@ -66,11 +66,11 @@ export default function Earlylife() {
                 <br></br>
                 <br></br>
             
-                <div className="earlylife" >Family</div>
+                <div className="earlylife" style={{ fontSize: "22px" }} >Family</div>
                 <br></br>
                 <br></br>
                 <div>
-                    <img style={{float:'left', marginRight:'15px'}} src={subrahmanyansaraswati} height={350} width={300} />
+                    <img style={{float:'left', marginRight:'15px'}} src={subrahmanyansaraswati} height={370} width={250} />
                     <div className="earlylifepara" style={{whiteSpace: 'pre-line' }} >Subrahmanayan was married to Saraswathi in 1922. She was very young about eleven then. She used to talk about her father, who was Sub Collector at Bapatla, (She could speak Telugu all her life) who asked her whether she would marry a dark man? Her reply was "as her father was dark so could her husband be". Seshadri Iyer, who became an ICS officer , later, was also a suitor. {"\n"} They had seven children. Ramarathnam 1928 (deceased early ), Leela (1930), Sulochana (1932), Sundaram (1934), Santhanam (1936), Saroja (1941), Ventakesh (1946). Leela, Sulochana and Saroja were named by their car driver, Sheik Mohammed after popular actresses of the time. Sundaram was named after the bridge at Rameshwaram.</div>
                 </div>
                 <br></br><br></br>

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import headerphoto3 from '../img/headerphoto3.jpg'
+import headerphoto2 from '../img/headerphoto2.jpg'
 import davidezragreen from '../img/davidezragreen.jpg'
 
 export default function Soilscience() {
@@ -18,7 +18,7 @@ export default function Soilscience() {
     return (
         <>
             <div className="headerimg">
-                <img src={headerphoto3} style={{ height: '155px', width: '100%' }} />
+                <img src={headerphoto2} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                     <br></br>
@@ -26,13 +26,13 @@ export default function Soilscience() {
                     <br></br>
                 <div className="earlylifepara" >Subrahmanyan started his career in the department of biochemistry at IISC and developed an interest in soil science. He secured a scholarship from J.N. Tata Endowment for higher studies in Great Britain. He then started his work in Agricultural Research station at Rothamsted, England on problem related to water-logged soils and nutrition of the rice plant. The study earned him the D.Sc. degree from University of London in 1927. </div>
                 <br></br>
-                <div className="earlylife" >His love for soil science</div>
+                <div className="earlylife" style={{ fontSize: "22px" }} >His love for soil science</div>
                 <br></br>
                 <div className="earlylifepara" >Soil science was his first love in the early researches in the Department of Biochemistry at the IISc. Beginning with a small nucleus of research associates he soon built up a prominent school of research in soil science. The influence of manurial and cultural conditions as also of trace nutrients on soil structure, plant growth and crop yields provided the themes. Another important line of investigation related to the chemurgic treatment of sanitary wastes from towns. An aerobic process (known as the Activated Sludge Process) for the conversion of sewage into an inoffensive and innocuous effluent on the one hand and on the other a sludge of organic nutrients which could serve as manure for various types of crops. In more recent times the utilization of sewage for algal culture for food protein production has received considerable attention. An anaerobic process for fermentation of vegetable garbage and night-soil in deep pits for producing useful compost was also developed. It was suitable for adoption in villages as well as in towns and cities and found nationwide application. </div>
                 <br></br>
                 <div className="earlylifepara" >After his return form UK, he joined IISC as assistant professor. After two years he became the first Indian Head of Bio chemistry lab department and served for 19 years. Later he flew back to England to work on an Enzymatic Process for the removal of tissue adherents to the skeleton of rats. </div>
                 <br></br>
-                <div className="earlylife" >Again in England</div>
+                <div className="earlylife" style={{ fontSize: "22px" }} >Again in England</div>
                 <br></br>
                 <div>
                     <img style={{float:'left', marginRight:'15px'}} src={davidezragreen} height={200} width={150} />
