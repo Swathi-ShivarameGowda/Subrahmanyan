@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import ABOUTUS from '../../img/ABOUTUS.png'
+import SITEMAP from '../../img/SITEMAP.png'
 
 export default function Sitemap() {
     const history = useHistory();
@@ -12,7 +12,7 @@ export default function Sitemap() {
     return (
         <>
             <div className="headerimg">
-                <img src={ABOUTUS} style={{ height: '155px', width: '100%' }} />
+                <img src={SITEMAP} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                 <br></br>

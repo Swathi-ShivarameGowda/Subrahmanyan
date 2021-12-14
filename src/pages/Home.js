@@ -5,7 +5,7 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import headerphoto2 from '../img/headerphoto2.jpg';
+import ABOUTUS from '../img/ABOUTUS.png';
 import './Home.css';
 
 export default function Home() {
@@ -33,7 +33,7 @@ export default function Home() {
     return (
         <>
             <div className="headerimg" >
-                <img src={headerphoto2} style={{ height: '155px', width: '100%'}} />
+                <img src={ABOUTUS} style={{ height: '155px', width: '100%'}} />
             </div>
             <br></br><br></br><br></br><br></br>
             <div className="container" >
@@ -49,7 +49,7 @@ export default function Home() {
                     />
             </div>
             <div className="aboutdisplay">
-                        <h2 style={{fontStyle: 'italic'}} >"I have done what little I can to safeguard the interest of the center and those who have been working with us."</h2>
+                        <h2>Doyen of food science and food technology in India, Dr.V.Subrahmanyan</h2>
             </div>
             </div>
             <div style={{ display: "inline" }} >

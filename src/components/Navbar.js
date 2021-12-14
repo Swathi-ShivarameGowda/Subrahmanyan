@@ -51,16 +51,7 @@ function Navbar() {
                         </li>
                         <li><a href="/awards">Awards</a></li>
                         <li><a href="/contact">Contact</a></li>
-                        <li>
-                            <a className="desktop-link">More</a>
-                            <input type="checkbox" id="show-more" />
-                            <div style={{ display: 'flex' }} ><a className="mobile-link" >More</a>
-                            <label for="show-more" ><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
-                            <ul>
-                                <li><a href="/site-map">Site Map</a></li>
-                            </ul>
-                        </li>
-
+                        <li><a href="/site-map">Site Map</a></li>
                     </ul>
                 </div>
             </nav>

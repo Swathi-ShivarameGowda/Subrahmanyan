@@ -42,7 +42,7 @@ export default function Untitled() {
                 <br></br>
                 <div className="earlylifepara" >All the scientific and technological research papers on the subject bear the name of Shri Chandrasekhara, Dr. M.Swaminathan, Bhatia and myself Subsequently we published two more papers bearing on the calculation of costs and this was in collaboration with Dr.Parpia.</div>
                 <br></br>
-                <div className="earlylifepara" ><a href="/infant-food-paper1" target="_blank" style={{ textDecoration: 'none', color: '#3819e9' }} >To know more about the process click here. </a></div>
+                <div className="earlylifepara" ><a href="/infant-food-paper1" style={{ textDecoration: 'none', color: '#3819e9' }} >To know more about the process click here. </a></div>
                 <br></br>
                 <div className="earlylife" style={{ fontSize: 'larger' }} >Pilot Plant studies with assistance from the NRDC</div>
                 <br></br>

@@ -38,14 +38,19 @@
     box-sizing: border-box;
     overflow: hidden;
     width: 100%;
-    margin: 20px 20px;
+    margin: 55px 20px;
     text-align: left;
 }
 
-.carddivision {
-    display: flex;
-    margin-top: 100px;
-}
+    .aboutdisplay h2 {
+        font-size: 25px;
+        line-height: 40px !important;
+    }
+
+    .carddivision {
+        display: flex;
+        margin-top: 100px;
+    }
 
 
 @media screen and (max-width: 767px) {
