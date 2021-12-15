@@ -1,7 +1,7 @@
-import React from 'react';
-import { useHistory } from "react-router-dom";
+import React, { useEffect } from 'react';
+import { useHistory, Link } from "react-router-dom";
 import Button from '@mui/material/Button';
-import FOODTECHNOLOGY from '../../../img/FOODTECHNOLOGY.png'
+import ABOUTUS from '../../../img/ABOUTUS.png'
 import biography from '../../../img/biography.jpg'
 import chandra from '../../../img/chandra.jpg'
 import swami from '../../../img/swami.jpg'
@@ -16,10 +16,14 @@ export default function Biographies() {
         history.push("/");
     }
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <>
             <div className="headerimg">
-                <img src={FOODTECHNOLOGY} style={{ height: '155px', width: '100%' }} />
+                <img src={ABOUTUS} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                 <br></br>
@@ -86,7 +90,7 @@ export default function Biographies() {
                 <br></br>
                 <div className="earlylifepara" >Thanks are due to Dr.G.Ramanatham for his help in writing about the role of the C.F.T.R.I. in the development of Infant Baby foods from Buffalo Milk.</div>
                 <br></br>
-                <div className="earlylifepara" ><a href="/references" style={{ textDecoration: 'none' }} ><font color="#3819e9">References</font></a></div>
+                <div className="earlylifepara" ><Link to="/references" style={{ textDecoration: 'none' }} ><font color="#3819e9">References</font></Link></div>
 
                 <br></br><br></br>
                 <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>

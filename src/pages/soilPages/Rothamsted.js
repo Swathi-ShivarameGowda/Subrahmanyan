@@ -1,5 +1,5 @@
 import React from 'react';
-import { useHistory } from "react-router-dom";
+import { useHistory, Link } from "react-router-dom";
 import Button from '@mui/material/Button';
 import headerphoto2 from '../../img/headerphoto2.jpg'
 import rothamstedannualreport from '../../img/rothamstedannualreport.png'
@@ -34,7 +34,7 @@ export default function Rothamsted() {
                     <br></br>
                 </div>
                 <br></br>
-                <div className="earlylifepara" ><a href="/references" style={{ textDecoration: 'none' }} ><font color="#3819e9">References</font></a></div>
+                <div className="earlylifepara" ><Link to="/references" style={{ textDecoration: 'none' }} ><font color="#3819e9">References</font></Link></div>
                 <br></br>
                 <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
             </div>

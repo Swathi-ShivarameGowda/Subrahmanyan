@@ -1,7 +1,7 @@
 import React from 'react';
-import { useHistory } from "react-router-dom";
+import { useHistory, Link } from "react-router-dom";
 import Button from '@mui/material/Button';
-import FOODTECHNOLOGY from '../../img/FOODTECHNOLOGY.png'
+import ABOUTUS from '../../img/ABOUTUS.png'
 import maharani from '../../img/maharani.jpg'
 import chamarajendraOrig from '../../img/chamarajendraOrig.jpg'
 import maharajapicOrig from '../../img/maharajapicOrig.jpg'
@@ -22,7 +22,7 @@ export default function Cheluvajamanni() {
     return (
         <>
             <div className="headerimg">
-                <img src={FOODTECHNOLOGY} style={{ height: '155px', width: '100%' }} />
+                <img src={ABOUTUS} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                 <br></br>
@@ -85,10 +85,10 @@ export default function Cheluvajamanni() {
                     <br></br>
                 </div>
                 <br></br>
-                <div className="earlylifepara" >"In the fifteenth century, Mateswamy, probably a contemporary of Allam Prabhu, came into the Mysore area. He started a movement based on secularism and protection of women.  Two disciples of Manteswamy where settled at Kuruban katte near Kollegala Town while Mateswamy lived at Kappadi  in K.R. Nagar taluk on the banks of the River Cauvery. Two branches of the royal family were entrusted with periodical Jathres (Religious Gathering) at the two sites. Sirdar M. Lakhsmikanta Raj  Urs was hereditary head (Matadhipathi) of Kappadi.  His adopted son M.R. Lakshmikanth Raje Urs succeeded him as Matadhipathi. His grandson M.L.  Varchusvee Srikanta Siddalinga Raje Urs is now the head. The jathre starts close to Shivarathri in February and ends close to Ugadi in March every year and the Mathadhipathi is in charge of conducting it. Food is free and the pilgrims come from different casts and religions. Sirdar  Lakshmikanth Raj Urs would send meticulous bills to the Maharaja regarding expenditure during his tenure as Matadhipathi. <a href="/references" style={{ textDecoration: 'none', color: '#3819e9' }} >5,6</a></div>
+                <div className="earlylifepara" >"In the fifteenth century, Mateswamy, probably a contemporary of Allam Prabhu, came into the Mysore area. He started a movement based on secularism and protection of women.  Two disciples of Manteswamy where settled at Kuruban katte near Kollegala Town while Mateswamy lived at Kappadi  in K.R. Nagar taluk on the banks of the River Cauvery. Two branches of the royal family were entrusted with periodical Jathres (Religious Gathering) at the two sites. Sirdar M. Lakhsmikanta Raj  Urs was hereditary head (Matadhipathi) of Kappadi.  His adopted son M.R. Lakshmikanth Raje Urs succeeded him as Matadhipathi. His grandson M.L.  Varchusvee Srikanta Siddalinga Raje Urs is now the head. The jathre starts close to Shivarathri in February and ends close to Ugadi in March every year and the Mathadhipathi is in charge of conducting it. Food is free and the pilgrims come from different casts and religions. Sirdar  Lakshmikanth Raj Urs would send meticulous bills to the Maharaja regarding expenditure during his tenure as Matadhipathi. <Link to="/references" style={{ textDecoration: 'none', color: '#3819e9' }} >5,6</Link></div>
                 <br></br>
                 <div className="earlylifepara" ><span style={{ textDecoration: 'underline' }} >Gratitude</span> : Thanks are due to Mr.Rajachandra, He has been a tremendous source of authentic information and always prompt with answers to our questions. Thanks are due to Mr Sridhar Raj and  Bharathi Urs  for launching me in the path the article has taken. Our gratitude to the Mysore archives is great.  Photos of the palace from N. Niranjan Nikam, Star of Mysore Sunday 18 April 2021 </div>
-                <div className="earlylifepara" ><a href="/references" style={{ textDecoration: 'none' }} ><font color="#3819e9">References</font></a></div>
+                <div className="earlylifepara" ><Link to="/references" style={{ textDecoration: 'none' }} ><font color="#3819e9">References</font></Link></div>
                 <br></br>
                 <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
             </div>

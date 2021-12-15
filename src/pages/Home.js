@@ -5,7 +5,7 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import ABOUTUS from '../img/ABOUTUS.png';
+import FOODTECHNOLOGY from '../img/FOODTECHNOLOGY.png';
 import './Home.css';
 
 export default function Home() {
@@ -33,7 +33,7 @@ export default function Home() {
     return (
         <>
             <div className="headerimg" >
-                <img src={ABOUTUS} style={{ height: '155px', width: '100%'}} />
+                <img src={FOODTECHNOLOGY} style={{ height: '155px', width: '100%'}} />
             </div>
             <br></br><br></br><br></br><br></br>
             <div className="container" >
@@ -54,7 +54,13 @@ export default function Home() {
             </div>
             <div style={{ display: "inline" }} >
                     <div className="carddivision" >
-                <Card variant="outlined" >
+                        <Card variant="outlined" style={{
+                            margin: "0px 20px",
+                            backgroundColor: "darkcyan",
+                            color: "white",
+                            borderRadius: "0px",
+                            width: "450px",
+                            height: "180px"}}>
                             <React.Fragment>
                                 
                                 <CardContent>
@@ -68,7 +74,14 @@ export default function Home() {
                         </CardActions>
                 </React.Fragment>
                 </Card>
-                <Card variant="outlined" >
+                        <Card variant="outlined" style={{
+                            margin: "0px 20px",
+                            backgroundColor: "darkcyan",
+                            color: "white",
+                            borderRadius: "0px",
+                            width: "450px",
+                            height: "180px"
+                        }}>
                             <React.Fragment>
                                
                                 <CardContent>
@@ -84,7 +97,14 @@ export default function Home() {
                     </Card>
                 </div>
                     <div className="carddivision" >
-                <Card variant="outlined" >
+                        <Card variant="outlined" style={{
+                            margin: "0px 20px",
+                            backgroundColor: "darkcyan",
+                            color: "white",
+                            borderRadius: "0px",
+                            width: "450px",
+                            height: "180px"
+                        }}>
                     <React.Fragment>
                                 <CardContent>
                                     <Typography sx={{ fontSize: 18, fontWeight: 'bold' }} color="darkblue" gutterBottom>Journey</Typography>
@@ -97,7 +117,14 @@ export default function Home() {
                         </CardActions>
                     </React.Fragment>
                 </Card>
-                <Card variant="outlined" >
+                        <Card variant="outlined" style={{
+                            margin: "0px 20px",
+                            backgroundColor: "darkcyan",
+                            color: "white",
+                            borderRadius: "0px",
+                            width: "450px",
+                            height: "180px"
+                        }}>
                     <React.Fragment>
                                 <CardContent>
                                     <Typography sx={{ fontSize: 18, fontWeight: 'bold' }} color="darkblue" gutterBottom>Awards</Typography>

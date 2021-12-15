@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import { useHistory } from "react-router-dom";
+import { useHistory, Link } from "react-router-dom";
 import Button from '@mui/material/Button';
-import FOODTECHNOLOGY from '../../../img/FOODTECHNOLOGY.png'
+import ABOUTUS from '../../../img/ABOUTUS.png'
 
 export default function InfantFood() {
     const history = useHistory();
@@ -19,7 +19,7 @@ export default function InfantFood() {
     return (
         <>
             <div className="headerimg">
-                <img src={FOODTECHNOLOGY} style={{ height: '155px', width: '100%' }} />
+                <img src={ABOUTUS} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                 <br></br>
@@ -27,7 +27,7 @@ export default function InfantFood() {
                 <br></br>
                 <div className="earlylife" style={{ fontSize: 'larger' }} >Development of Amul Baby food</div>
                 <br></br>
-                <div className="earlylifepara" >India became the first country in the world to produce Infant food from Buffalo milk in the years 1950-1962. This established the pre-eminence of Amul in the manufacture of this product. The CFTRI, CSIR and the NRDC in their many web sites (<a href="https://blog.mygov.in" target="_blank" style={{ textDecoration: 'none', color: '#3819e9' }} >https://blog.mygov.in</a> > csirs-breakthrough-in-baby-food; <a href="http://www.nrdcindia.com" target="_blank" style={{ textDecoration: 'none', color: '#3819e9' }} > http://www.nrdcindia.com</a> > SucessStory; <a href="http://www.niscair.res.in" target="_blank" style={{ textDecoration: 'none', color: '#3819e9' }} >http://www.niscair.res.in</a> > images > csirnews_jul10); <a href="" target="_blank" style={{ textDecoration: 'none', color: '#3819e9' }} >Celebrating the successes of science in post-independence India-IndiaBioscience</a>) as well as government records of the time (4) proclaim that the CFTRI at Mysore was instrumental in the development of the process. Verghese Kurien in at least three versions of his biography denies this. However Amul in its own advertisements have acknowledged the role of the CFTRI especially the fact that the Raffi Ahmed Kidwai prize for 1960 was given to team from CFTRI for development of the process. Subrahmanyan who was director of C.F.T.R.I. at that time has occasionally referred to the role of the Institute in development of the process. We present the story in his own words and also gather information that presents an unbiased story while in a subsequent chapter, we summarize publications on the process from the C.F.T.R.I. Lastly biographies of some scientists from the C.F.T.R.I. who contributed to the development of the process is appended here, <a href="/biographies" style={{ textDecoration: 'none', color: '#3819e9' }} >Click to know more.</a></div>
+                <div className="earlylifepara" >India became the first country in the world to produce Infant food from Buffalo milk in the years 1950-1962. This established the pre-eminence of Amul in the manufacture of this product. The CFTRI, CSIR and the NRDC in their many web sites (<a href="https://blog.mygov.in" target="_blank" style={{ textDecoration: 'none', color: '#3819e9' }} >https://blog.mygov.in</a> > csirs-breakthrough-in-baby-food; <a href="http://www.nrdcindia.com" target="_blank" style={{ textDecoration: 'none', color: '#3819e9' }} > http://www.nrdcindia.com</a> > SucessStory; <a href="http://www.niscair.res.in" target="_blank" style={{ textDecoration: 'none', color: '#3819e9' }} >http://www.niscair.res.in</a> > images > csirnews_jul10); <a href="https://indiabioscience.org/news/2018/celebrating-the-successes-of-science-in-post-independence-india" target="_blank" style={{ textDecoration: 'none', color: '#3819e9' }} >Celebrating the successes of science in post-independence India-IndiaBioscience</a>) as well as government records of the time (4) proclaim that the CFTRI at Mysore was instrumental in the development of the process. Verghese Kurien in at least three versions of his biography denies this. However Amul in its own advertisements have acknowledged the role of the CFTRI especially the fact that the Raffi Ahmed Kidwai prize for 1960 was given to team from CFTRI for development of the process. Subrahmanyan who was director of C.F.T.R.I. at that time has occasionally referred to the role of the Institute in development of the process. We present the story in his own words and also gather information that presents an unbiased story while in a subsequent chapter, we summarize publications on the process from the C.F.T.R.I. Lastly biographies of some scientists from the C.F.T.R.I. who contributed to the development of the process is appended here, <Link to="/biographies" style={{ textDecoration: 'none', color: '#3819e9' }} >Click to know more.</Link></div>
                 <br></br>
                 <div className="earlylife" style={{ fontSize: 'larger' }} >Differing Versions </div>
                 <br></br>

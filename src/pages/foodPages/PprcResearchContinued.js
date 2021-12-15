@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import FOODTECHNOLOGY from '../../img/FOODTECHNOLOGY.png'
+import ABOUTUS from '../../img/ABOUTUS.png'
 import babyextractor from '../../img/babyextractor.png'
 import pressureguage from '../../img/pressureguage.png'
 import ricemill from '../../img/ricemill.png'
@@ -22,7 +22,7 @@ export default function PprcResearchContinued() {
     return (
         <>
             <div className="headerimg">
-                <img src={FOODTECHNOLOGY} style={{ height: '155px', width: '100%' }} />
+                <img src={ABOUTUS} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                 <br></br>

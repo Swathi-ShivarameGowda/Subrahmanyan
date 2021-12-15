@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './Footer.css';
 
 export default function Footer() {
@@ -13,7 +14,7 @@ export default function Footer() {
                                 <td className="tablecolumn" >
                                     <div className="footerpara" >
                                      <font size="3" color="#ffffff">
-                                          <span><a href="/site-map"><font font-weight="600" color="#e9cf76" >INFO</font></a></span>
+                                          <span><Link to="/site-map"><font font-weight="600" color="#e9cf76" >INFO</font></Link></span>
                                           <br></br>
                                             <div style={{fontSize:"14px"}}>In honour of our grandfather,</div>
                                             <div style={{ fontSize: "14px" }}>Dr.V. Subrahmanyan</div>

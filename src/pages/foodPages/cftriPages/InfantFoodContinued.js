@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import { useHistory } from "react-router-dom";
+import { useHistory, Link } from "react-router-dom";
 import Button from '@mui/material/Button';
-import FOODTECHNOLOGY from '../../../img/FOODTECHNOLOGY.png'
+import ABOUTUS from '../../../img/ABOUTUS.png'
 import amul1 from '../../../img/amul1.jpg'
 import amul2 from '../../../img/amul2.jpg'
 import amul3 from '../../../img/amul3.jpg'
@@ -25,7 +25,7 @@ export default function Untitled() {
     return (
         <>
             <div className="headerimg">
-                <img src={FOODTECHNOLOGY} style={{ height: '155px', width: '100%' }} />
+                <img src={ABOUTUS} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                 <br></br>
@@ -42,7 +42,7 @@ export default function Untitled() {
                 <br></br>
                 <div className="earlylifepara" >All the scientific and technological research papers on the subject bear the name of Shri Chandrasekhara, Dr. M.Swaminathan, Bhatia and myself Subsequently we published two more papers bearing on the calculation of costs and this was in collaboration with Dr.Parpia.</div>
                 <br></br>
-                <div className="earlylifepara" ><a href="/infant-food-paper1" style={{ textDecoration: 'none', color: '#3819e9' }} >To know more about the process click here. </a></div>
+                <div className="earlylifepara" ><Link to="/infant-food-paper1" style={{ textDecoration: 'none', color: '#3819e9' }} >To know more about the process click here. </Link></div>
                 <br></br>
                 <div className="earlylife" style={{ fontSize: 'larger' }} >Pilot Plant studies with assistance from the NRDC</div>
                 <br></br>
@@ -90,7 +90,7 @@ export default function Untitled() {
                     <br></br>
                 </div>
 
-                <div className="earlylifepara" ><a href="/references" style={{ textDecoration: 'none' }} ><font color="#3819e9">References</font></a></div>
+                <div className="earlylifepara" ><Link to="/references" style={{ textDecoration: 'none' }} ><font color="#3819e9">References</font></Link></div>
                 <br></br><br></br>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                     <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
 import headerphoto2 from '../../img/headerphoto2.jpg'
@@ -8,6 +8,10 @@ export default function References() {
     const onClickHome = (event) => {
         history.push("/");
     }
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <>

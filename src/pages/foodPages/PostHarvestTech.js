@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import FOODTECHNOLOGY from '../../img/FOODTECHNOLOGY.png'
+import ABOUTUS from '../../img/ABOUTUS.png'
 import postharvesttech from '../../img/postharvesttech.png'
 import postharvesttech1 from '../../img/postharvesttech1.png'
 import postharvesttech2 from '../../img/postharvesttech2.png'
@@ -16,7 +16,7 @@ export default function PostHarvestTech() {
     return (
         <>
             <div className="headerimg">
-                <img src={FOODTECHNOLOGY} style={{ height: '155px', width: '100%' }} />
+                <img src={ABOUTUS} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                 <br></br>

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import { useHistory } from "react-router-dom";
+import { useHistory, Link } from "react-router-dom";
 import Button from '@mui/material/Button';
-import FOODTECHNOLOGY from '../../../img/FOODTECHNOLOGY.png'
+import ABOUTUS from '../../../img/ABOUTUS.png'
 import buffalomilk from '../../../img/buffalomilk.jpg'
 import buffalomilk1 from '../../../img/buffalomilk1.jpg'
 import infantfood from '../../../img/infantfood.jpg'
@@ -22,7 +22,7 @@ export default function InfantFoodPaper1() {
     return (
         <>
             <div className="headerimg">
-                <img src={FOODTECHNOLOGY} style={{ height: '155px', width: '100%' }} />
+                <img src={ABOUTUS} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                 <br></br>
@@ -58,8 +58,8 @@ export default function InfantFoodPaper1() {
                 <br></br>
                 <div className="earlylifepara" >The paper acknowledges the help of Shri B.H. Krishna and S.K. Lakshminarayan (Engineers) for help in the pilot plant.11</div>
                 <br></br>
-                <div className="earlylifepara" >To know about the Shelf life of Spray dried Product, <a href="/infant-food-paper2" style={{ textDecoration: 'none' }} ><font color="#3819e9">click here</font></a>.</div>
-                <div className="earlylifepara" ><a href="/references" style={{ textDecoration: 'none' }} ><font color="#3819e9">References</font></a></div>
+                <div className="earlylifepara" >To know about the Shelf life of Spray dried Product, <Link to="/infant-food-paper2" style={{ textDecoration: 'none' }} ><font color="#3819e9">click here</font></Link>.</div>
+                <div className="earlylifepara" ><Link to="/references" style={{ textDecoration: 'none' }} ><font color="#3819e9">References</font></Link></div>
                 <br></br><br></br>
                 <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
             </div>

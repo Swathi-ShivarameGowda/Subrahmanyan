@@ -1,7 +1,7 @@
 import React from 'react';
-import { useHistory } from "react-router-dom";
+import { useHistory, Link } from "react-router-dom";
 import Button from '@mui/material/Button';
-import FOODTECHNOLOGY from '../../img/FOODTECHNOLOGY.png'
+import ABOUTUS from '../../img/ABOUTUS.png'
 import iiftp from '../../img/iiftp.png'
 import thiyagaraja from '../../img/thiyagaraja.png'
 import pprcTeam from '../../img/pprcTeam.png'
@@ -16,7 +16,7 @@ export default function PprcIiftp() {
     return (
         <>
             <div className="headerimg">
-                <img src={FOODTECHNOLOGY} style={{ height: '155px', width: '100%' }} />
+                <img src={ABOUTUS} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                 <br></br>
@@ -48,7 +48,7 @@ export default function PprcIiftp() {
                 <br></br>
                 <div className="earlylifepara" >Dr S. V. Pingle who once had been at the C.F.T.R.I. when Dr V. Subrhmanyan was its Director, had become Director (Quality Control) at the Food Corporation of India. He was definitely instrumental in helping in the formation of the Paddy Processing Research Center at the time when FCI provided manpower and partial funding. Dr P. Krishna Kymal was Executive Director, Food and Nutrition Board, Ministry of Agriculture Government of India, New Delhi from 1965. B. S. Raghavan and T. U. Vijayasekharan was also very much involved in the council and activities of the PPRC. Dr H. S. R. Desikachar of the C.F.T.R.I. Mysore was for years in the Executive Committee of the PPRC and would visit the laboratory monthly to discuss the research going on.</div>
                 <br></br>
-                <div className="earlylifepara" ><a href="/pprc-research" style={{ textDecoration: 'none', color: '#3819e9', fontWeight: '500' }} >Research carried out in PPRC</a></div>
+                <div className="earlylifepara" ><Link to="/pprc-research" style={{ textDecoration: 'none', color: '#3819e9', fontWeight: '500' }} >Research carried out in PPRC</Link></div>
                 <div className="earlylifepara" style={{display:'flex'}} >
                     <ul style={{ color: "rgb(42, 42, 42)" }} >
                         <li>Pre Harvest Spray </li>
@@ -70,7 +70,7 @@ export default function PprcIiftp() {
                 <div className="earlylife" style={{ fontSize: 'larger' }} >Centre for Post-Harvest Technology of Rice based crops and Rural Development</div>
                 <br></br>
                 <div className="earlylifepara" >On 23.4.1977 Subrahmanyan delivered a seminar organised by the Association of Food Scientists and Technologists in collaboration with some of the Departments of state and the Food Corporation of India. He then submitted a paper on the subject of rural poverty and it's alleviation to Dr. M.S. Swaminathan on 8.5.1977. The matter of the paper was further elaborated as a proposal to convert the Paddy Processing Research Center to a Centre for Post-Harvest Technology of Rice based crops and rural development to be funded by the ICAR or the FAO.</div>
-                <div className="earlylifepara" ><a href="/post-harvest-tech" style={{ textDecoration: 'none', color: '#3819e9', fontWeight: '500' }} >More info here</a></div>
+                <div className="earlylifepara" ><Link to="/post-harvest-tech" style={{ textDecoration: 'none', color: '#3819e9', fontWeight: '500' }} >More info here</Link></div>
                 <br></br>
                 <div className="earlylife" style={{ fontSize: 'larger' }} >Publication from Paddy Processing Research Center, Thivarur</div>
                 <br></br>
@@ -79,7 +79,7 @@ export default function PprcIiftp() {
                 <div className="earlylifepara" >3) Pingale, Shriram Vishwanath  (1954) <a href="https://shodhganga.inflibnet.ac.in/handle/10603/154540" target="_blank" style={{ textDecoration: 'none', color: '#3819e9' }} >Part I  The studies on insect damage in stored staple food grains at three centers in Bombay State. Part II Biology and Morphology of Opatroides vicinus</a>.Thesis awarded by the University of Pune.</div>
                 <div className="earlylifepara" >4) Subrahmanyan, V., Deiskachar, H.S.R., and Bhatia,D.S. (1955) Commercial methods of parboiling and improvement of the quality of parboiled rice.  J. Scient. Ind. Res A14, 110-114.5).</div>
                 <div className="earlylifepara" >5) Subrahmanyan,V. (1969) Some Application of Technology for the Betterment of Human nutrition.  Biresh Chandra Guha Memorial Lecture.</div>
-                <div className="earlylifepara" ><a href="/complete-list" style={{ textDecoration: 'none', color: '#3819e9', fontWeight: '500' }} >Complete list</a></div>
+                <div className="earlylifepara" ><Link to="/complete-list" style={{ textDecoration: 'none', color: '#3819e9', fontWeight: '500' }} >Complete list</Link></div>
                 <br></br><br></br>
                 <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
             </div>

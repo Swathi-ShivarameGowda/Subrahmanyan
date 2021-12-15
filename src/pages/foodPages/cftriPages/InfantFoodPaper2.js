@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import FOODTECHNOLOGY from '../../../img/FOODTECHNOLOGY.png'
+import ABOUTUS from '../../../img/ABOUTUS.png'
 import babyfood from '../../../img/babyfood.jpg'
 import babyfood1 from '../../../img/babyfood1.png'
 import babyfood2 from '../../../img/babyfood2.jpg'
@@ -26,7 +26,7 @@ export default function InfantFoodPaper2() {
     return (
         <>
             <div className="headerimg">
-                <img src={FOODTECHNOLOGY} style={{ height: '155px', width: '100%' }} />
+                <img src={ABOUTUS} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                 <br></br>

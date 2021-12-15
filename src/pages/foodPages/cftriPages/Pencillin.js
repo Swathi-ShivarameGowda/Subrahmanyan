@@ -1,7 +1,7 @@
 import React from 'react';
-import { useHistory } from "react-router-dom";
+import { useHistory, Link } from "react-router-dom";
 import Button from '@mui/material/Button';
-import FOODTECHNOLOGY from '../../../img/FOODTECHNOLOGY.png'
+import ABOUTUS from '../../../img/ABOUTUS.png'
 import pencillin from '../../../img/pencillin.jpg'
 
 export default function Pencillin() {
@@ -13,7 +13,7 @@ export default function Pencillin() {
     return (
         <>
             <div className="headerimg">
-                <img src={FOODTECHNOLOGY} style={{ height: '155px', width: '100%' }} />
+                <img src={ABOUTUS} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                 <br></br>
@@ -31,7 +31,7 @@ export default function Pencillin() {
                     <img style={{ float: 'left', marginRight: '20px'}} src={pencillin} height={200} width={200} />
                     <div className="earlylifepara">One part of casein by weight was added to 3 parts volume of water (70oC) in a stainless-steel and washed repeadetly.  A Waring blender was used to blend the casein now suspended in 6N ammonia (80ml per 500g of  casein. A thick solution of  pH 10 was obtained . Calcium hydroxide solution equivalent to 1% of casein was added and  kept aside for 2hr at roon temperature prior to being rum dried at 50lb steam pressure. The flaky matrial ( 87 percent protein and about 6% sucrose)  was powdered by passing through a 30 mesh sieve and  was comparable with pharmaceutical calcium caseinate. It was highly acceptable organleptically with  good water dispersability and attained pH of 5.8 when in water solution.  Addition of sucrose to calcium hydroxide increased the amount of calcium that could be incorporated. It was noted that the addition of calcium to fish protein extracts helped eliminate odour. In this product (drum- dried preparation of calcium caseinate)  the calcium protein bond, could withstand drun drying at 50lb/in2 while preserving  easy water dispersiblity and lack of odour (Srinivasan et al 19624; Srinivasan et al 19635). This process was the subject of an Indian patent5. <font style={{ fontStyle: 'italic' }} >In picture: Soluble Casein marketed in India by Glaxo</font></div>
                 </div>
-                <div className="earlylifepara" ><a href="/references" style={{ textDecoration: 'none' }} ><font color="#3819e9">References</font></a></div>
+                <div className="earlylifepara" ><Link to="/references" style={{ textDecoration: 'none' }} ><font color="#3819e9">References</font></Link></div>
                 <br></br><br></br>
                 <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
             </div>

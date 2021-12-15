@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import FOODTECHNOLOGY from '../img/FOODTECHNOLOGY.png'
+import ABOUTUS from '../img/ABOUTUS.png'
 
 export default function Foodtech() {
     const history = useHistory();
@@ -15,7 +15,7 @@ export default function Foodtech() {
 
     return (
         <>
-            <div className="headerimg" style={{ backgroundImage: "url(" + FOODTECHNOLOGY + ")"}} />
+            <div className="headerimg" style={{ backgroundImage: "url(" + ABOUTUS + ")"}} />
             <div className="container" >
                 <br></br>
                 <div className="earlylife" >JOURNEY - From IISC to IIFPT</div>
