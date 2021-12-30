@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
 import ABOUTUS from '../../img/ABOUTUS.png'
@@ -12,6 +12,10 @@ export default function PostHarvestTech() {
     const onClickHome = (event) => {
         history.push("/");
     }
+	
+	useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <>

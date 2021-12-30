@@ -24,7 +24,7 @@ export default function Foodtech() {
                 <div className="earlylifepara" style={{ fontWeight: 'bold', fontStyle:'italic' }} >"Something's been attempted, something's been done, And I've earned a good night's rest"</div>
                 <div className="earlylifepara" >He attempted and did many things in his lifetime before he left the planet. He left many of his ideas and inventions behind, for the world to carry forward. </div>
                 <br></br><br></br>
-                <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
+                <div className="backbutton" ><Button size="small" style={{color: 'white'}} onClick={onClickHome} >Back to Home</Button></div>
             </div>
         </>
     )

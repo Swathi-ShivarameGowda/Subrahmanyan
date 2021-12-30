@@ -48,18 +48,22 @@ function Navbar() {
 
     const callPhilippines = (event) => {
         history.push("/philippines");
+        
     }
 
     const callPprc = (event) => {
         history.push("/pprc-iiftp");
+        
     }
 
     const callAwards = (event) => {
         history.push("/awards");
+        
     }
 
     const callContact = (event) => {
         history.push("/contact");
+        
     }
 
     const callSitemap = (event) => {

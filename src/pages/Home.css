@@ -7,6 +7,15 @@
     height: 180px !important;
 }
 
+.css-1okfn8i {
+    margin: 0px 20px !important;
+    background-color: darkcyan !important;
+    color: white !important;
+    border-radius: 0px !important;
+    width: 450px !important;
+    height: 180px !important;
+}
+
 .videocontent {
     display: flex;
     height: 480px;
@@ -55,6 +64,12 @@
 
 @media screen and (max-width: 767px) {
     .css-1v5z4dq-MuiPaper-root-MuiCard-root {
+        width: 350px !important;
+        height: 200px !important;
+        margin-bottom: 50px !important;
+    }
+
+    .css-1okfn8i {
         width: 350px !important;
         height: 200px !important;
         margin-bottom: 50px !important;

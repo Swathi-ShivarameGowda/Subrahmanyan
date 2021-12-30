@@ -3,8 +3,10 @@
     "",
     "\\src",
     "\\src\\pages",
-    "\\src\\pages\\foodPages\\cftriPages"
+    "\\src\\pages\\foodPages",
+    "\\src\\pages\\foodPages\\cftriPages",
+    "\\src\\pages\\soilPages"
   ],
-  "SelectedNode": "\\src\\pages\\Footer.js",
+  "SelectedNode": "\\src\\pages\\foodPages\\Cheluvajamanni.js",
   "PreviewInSolutionExplorer": false
 }

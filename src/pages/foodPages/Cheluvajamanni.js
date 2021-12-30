@@ -16,7 +16,7 @@ import './Cheluvajamanni.css';
 export default function Cheluvajamanni() {
     const history = useHistory();
     const onClickHome = (event) => {
-        history.push("/");
+        history.push("/cftri");
     }
 
     return (
@@ -32,7 +32,7 @@ export default function Cheluvajamanni() {
                 <br></br>
                 <div className="cheluvajamannidiv" >
                     <div style={{ display: 'inline' }} >
-                        <img src={maharani} height={300} width={300} />
+                        <img src={maharani} height={300} width={260} />
                         <div style={{ fontSize: '12px', textAlign: 'center' }}>Maharani Kempa Nanjamani Avaru of Vani Vilas Sannidhana </div>
                         <br></br>
                     </div>
@@ -42,7 +42,7 @@ export default function Cheluvajamanni() {
                         <br></br>
                     </div>
                     <div style={{ display: 'inline', marginLeft: '40px' }} >
-                        <img src={chamarajendraOrig} height={300} width={300} />
+                        <img src={chamarajendraOrig} height={300} width={320} />
                         <div style={{ fontSize: '12px' }}>H.H Chamarajendra Wadiyar X with his children, from left, Princess Jayalakshamanni, Princess Krishnajammani, H.H Krishnaraj Wadiyar IV, H.H Kanteerava Narasimharaja Wadiyar, Princess Cheluvajamanni</div>
                         <br></br>
                     </div>

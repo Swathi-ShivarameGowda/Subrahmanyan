@@ -8,7 +8,7 @@ export default function GJFowler() {
 
     const history = useHistory();
     const onClickHome = (event) => {
-        history.push("/");
+        history.push("/iisc");
     }
 
     return (
@@ -21,10 +21,9 @@ export default function GJFowler() {
                 <div className="earlylife" >Gilbert John Fowler</div>
                 <br></br><br></br>
                 <div>
-                    <img style={{float:'left', marginRight:'15px'}} src={gilbertFowler} height={300} width={300} />
-                    <div className="earlylifepara">Gilbert John Folwer was born on January 23 1868 at Paris. From 1896 to 1916, he was responsible for sewage treatment at Manchester. He was awarded a D.Sc from the University of Heidelburg in 1904. He developed the activated sludge process along with Arden and Lockett in 1914. He was consultant to the cities of New York, Shangai etc advising their sewage disposal. He became professor of Applied Chemistry and the Department of Biochemistry in Indian Institute of Science at Bangalore in 1921. He had visited Rothamsted in 1921 and learns about the ADCO process and becomes interested in composting.</div>
+                    <img style={{float:'left', marginRight:'15px', marginTop:'10px'}} src={gilbertFowler} height={300} width={300} />
+                    <div className="earlylifepara">Gilbert John Folwer was born on January 23 1868 at Paris. From 1896 to 1916, he was responsible for sewage treatment at Manchester. He was awarded a D.Sc from the University of Heidelburg in 1904. He developed the activated sludge process along with Arden and Lockett in 1914. He was consultant to the cities of New York, Shangai etc advising their sewage disposal. He became professor of Applied Chemistry and the Department of Biochemistry in Indian Institute of Science at Bangalore in 1921. He had visited Rothamsted in 1921 and learns about the ADCO process and becomes interested in composting. Between 1925 and 1953, Fowler was responsible for the installation of a number of sludge plants across India. A sewage plant was put up by Fowler in 1922 at IISc Bangalore proved valuable not only in elucidating the principle of the purification process but also demonstrating the value of sludge as an organic fertilizer. S.C.Pillai was the foremost student who continued with this work.</div>
                 </div>
-                <div className="earlylifepara" >Between 1925 and 1953, Fowler was responsible for the installation of a number of sludge plants across India. A sewage plant was put up by Fowler in 1922 at IISc Bangalore proved valuable not only in elucidating the principle of the purification process but also demonstrating the value of sludge as an organic fertilizer. S.C.Pillai was the foremost student who continued with this work.</div>
                 <br></br>
                 <div className="earlylifepara" >In 1935, Ahmedabad city municipal sanitary committee chairman, Dr Hariprasad Desai, had invited Dr Gilbert Fowler. Fowler then stated that Chinese farmers in Shanghai realized the value of organic manure. He said that conservancy cost the municipality there nothing at all and contractors were eager to get the night soil. The income thus realized was Rs.40,000 per annum. With a population of four lakh, there was a potential value of Rs.4 lakh a year in the waste of Ahmedabad. Fowler said, <span style={{ fontWeight: '600' }} >"Apart from sanitation, treating waste is a great business proposition,"</span>. He added, <span style={{ fontWeight: '600' }} >"India, like China, is an agricultural country and it needs organic manure. The proportion of organic matter in Indian soils is very low, about one-tenth of that in the soil of Europe and America. What I see in Ahmedabad is an economic sin. How can you pour organic manure into the river?"</span>. Fowler had told councilors that rich nitrate could be produced by adding organic wastes to the soil. <span style={{ fontWeight: '600' }} >"You can't grow things on mere sand"</span>, he said. He also suggested treating and utilizing effluents from industrial areas. </div>
                 <br></br>

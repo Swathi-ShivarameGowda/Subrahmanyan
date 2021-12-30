@@ -15,6 +15,10 @@
     padding: 0 173px;
 }
 
+.footertext{
+    font-size: 14px;
+}
+
 
 .anothertablecolumn {
     width: 36.775708151855%;
@@ -62,5 +66,8 @@
     .anotherfooterpara {
         margin-top: -62px;
     }
-}
+    .footertext {
+        font-size:12px;
+    }
+    }
 

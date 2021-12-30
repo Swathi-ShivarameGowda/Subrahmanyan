@@ -21,7 +21,7 @@ export default function Contact() {
                 <br></br>
                 <div className="earlylifepara" >subraroc@gmail.com</div>
                 <br></br>
-                <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
+                <div className="backbutton" ><Button size="small" style={{color:'white'}} onClick={onClickHome} >Back to Home</Button></div>
             </div>
         </>
     )
