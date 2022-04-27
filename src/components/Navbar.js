@@ -83,42 +83,42 @@ function Navbar() {
                     <label for="show-menu" className="menu-icon"><i className="fa fa-bars"></i></label>
                     <div className="content">
                         <ul className="links">
-                            <li><a href="/">Home</a></li>
-                            <li><a onClick={callEarlyLife} >Early Life</a></li>
+                            <li><a data-cy="menu-home" href="/">Home</a></li>
+                            <li><a data-cy="menu-early" onClick={callEarlyLife} >Early Life</a></li>
                             <li>
-                                <a onClick={callSoilScience} className="desktop-link">Soil Science</a>
+                                <a data-cy="menu-soil" onClick={callSoilScience} className="desktop-link">Soil Science</a>
                                 <input type="checkbox" id="show-features" />
-                                <div style={{ display: 'flex' }} ><a onClick={callSoilScience} className="mobile-link" >Soil Science</a>
+                                <div style={{ display: 'flex' }} ><a data-cy="menu-soil1" onClick={callSoilScience} className="mobile-link" >Soil Science</a>
                                     <label for="show-features" ><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
                                 <ul>
-                                    <li><a onClick={callIisc}>IISC</a></li>
-                                    <li><a onClick={callRothamsted}>Rothamsted</a></li>
+                                    <li><a data-cy="menu-iisc" onClick={callIisc}>IISC</a></li>
+                                    <li><a data-cy="menu-rothamsted" onClick={callRothamsted}>Rothamsted</a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a onClick={callFoodTech} className="desktop-link">Food Technology</a>
+                                <a data-cy="menu-food" onClick={callFoodTech} className="desktop-link">Food Technology</a>
                                 <input type="checkbox" id="show-services" />
-                                <div style={{ display: 'flex' }} ><a onClick={callFoodTech} className="mobile-link" >Food Technology</a>
+                                <div style={{ display: 'flex' }} ><a data-cy="menu-food1" onClick={callFoodTech} className="mobile-link" >Food Technology</a>
                                     <label for="show-services"><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
                                 <ul>
-                                    <li><a onClick={callCftri} className="desktop-link">CFTRI</a>
+                                    <li><a data-cy="menu-cftri" onClick={callCftri} className="desktop-link">CFTRI</a>
                                         <input type="checkbox" id="show-items" />
-                                        <div style={{ display: 'flex' }} ><a onClick={callCftri} className="mobile-link" >CFTRI</a>
+                                        <div style={{ display: 'flex' }} ><a data-cy="menu-cftri1" onClick={callCftri} className="mobile-link" >CFTRI</a>
                                             <label for="show-items"><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
                                         <ul>
-                                            <li><a onClick={callInfantFood}>Infant Food</a></li>
-                                            <li><a onClick={callTapioca}>Tapioca/Cassava</a></li>
-                                            <li><a onClick={callSpices}>Spices</a></li>
-                                            <li><a onClick={callPencillin}><div>Pencillin, Glucanate and Soluble Casein</div></a></li>
+                                            <li><a data-cy="menu-infant" onClick={callInfantFood}>Infant Food</a></li>
+                                            <li><a data-cy="menu-tapioca" onClick={callTapioca}>Tapioca/Cassava</a></li>
+                                            <li><a data-cy="menu-spices" onClick={callSpices}>Spices</a></li>
+                                            <li><a data-cy="menu-pencillin" onClick={callPencillin}><div>Pencillin, Glucanate and Soluble Casein</div></a></li>
                                         </ul>
                                     </li>
-                                    <li><a onClick={callPhilippines}>The Philippines</a></li>
-                                    <li><a onClick={callPprc}>PPRC - IIFTP</a></li>
+                                    <li><a data-cy="menu-philippines" onClick={callPhilippines}>The Philippines</a></li>
+                                    <li><a data-cy="menu-pprc" onClick={callPprc}>PPRC - IIFTP</a></li>
                                 </ul>
                             </li>
-                            <li><a onClick={callAwards}>Awards</a></li>
-                            <li><a onClick={callContact}>Contact</a></li>
-                            <li><a onClick={callSitemap}>Site Map</a></li>
+                            <li><a data-cy="menu-awards" onClick={callAwards}>Awards</a></li>
+                            <li><a data-cy="menu-contact" onClick={callContact}>Contact</a></li>
+                            <li><a data-cy="menu-sitemap" onClick={callSitemap}>Site Map</a></li>
                         </ul>
                     </div>
                 </nav>

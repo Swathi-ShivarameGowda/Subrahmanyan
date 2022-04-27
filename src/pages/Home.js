@@ -38,7 +38,7 @@ export default function Home() {
             <br></br><br></br><br></br><br></br>
             <div className="container" >
         <div className="videocontent">
-                <div className="video-responsive">
+                <div className="video-responsive" data-cy="youtube">
                     <iframe
                         width="400"
                         height="480"
@@ -70,7 +70,7 @@ export default function Home() {
                             </Typography>
                         </CardContent>
                         <CardActions>
-                                    <Button size="small" style={{ color: 'darkblue', fontWeight: 'bold' }} onClick={learnMoreEarlyLife} >Learn More</Button>
+                                    <Button data-cy="earlylife-learnmore" size="small" style={{ color: 'darkblue', fontWeight: 'bold' }} onClick={learnMoreEarlyLife} >Learn More</Button>
                         </CardActions>
                 </React.Fragment>
                 </Card>
@@ -91,7 +91,7 @@ export default function Home() {
                             </Typography>
                         </CardContent>
                         <CardActions>
-                                    <Button size="small" style={{ color: 'darkblue', fontWeight: 'bold' }} onClick={learnMoreSoilScience} >Learn More</Button>
+                                    <Button data-cy="soilscience-learnmore" size="small" style={{ color: 'darkblue', fontWeight: 'bold' }} onClick={learnMoreSoilScience} >Learn More</Button>
                         </CardActions>
                     </React.Fragment>
                     </Card>
@@ -113,7 +113,7 @@ export default function Home() {
                             </Typography>
                         </CardContent>
                         <CardActions>
-                                    <Button size="small" style={{ color: 'darkblue', fontWeight: 'bold'}} onClick={learnMoreFoodTech} >Learn More</Button>
+                                    <Button data-cy="foodtech-learnmore" size="small" style={{ color: 'darkblue', fontWeight: 'bold'}} onClick={learnMoreFoodTech} >Learn More</Button>
                         </CardActions>
                     </React.Fragment>
                 </Card>
@@ -133,7 +133,7 @@ export default function Home() {
                             </Typography>
                         </CardContent>
                         <CardActions>
-                                    <Button size="small" style={{ color: 'darkblue', fontWeight: 'bold' }} onClick={learnMoreAwards} >Learn More</Button>
+                                    <Button data-cy="awards-learnmore" size="small" style={{ color: 'darkblue', fontWeight: 'bold' }} onClick={learnMoreAwards} >Learn More</Button>
                         </CardActions>
                     </React.Fragment>
                     </Card>
