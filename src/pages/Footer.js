@@ -14,7 +14,7 @@ export default function Footer() {
                                 <td className="tablecolumn" >
                                     <div className="footerpara" >
                                      <font size="3" color="#ffffff">
-                                          <span><Link to="/site-map"><font font-weight="600" color="#e9cf76" >INFO</font></Link></span>
+                                          <span><Link to="/site-map"><font fontWeight="600" color="#e9cf76" >INFO</font></Link></span>
                                           <br></br>
                                             <div className="footertext">In honour of our grandfather,</div>
                                             <div className="footertext">Dr.V. Subrahmanyan</div>
@@ -24,7 +24,7 @@ export default function Footer() {
                                 <td className="anothertablecolumn" >
                                     <div className="anotherfooterpara" >
                                       <font color="#fff3f3" size="3">
-                                           <span><font font-weight="600" color="#e9cf76" >CONTACT US</font></span>
+                                           <span><font fontWeight="600" color="#e9cf76" >CONTACT US</font></span>
                                            <br></br>
                                             <div className="footertext">subraroc@gmail.com</div>
                                        </font>

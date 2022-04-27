@@ -80,7 +80,7 @@ function Navbar() {
             <div className="wrapper">
                 <nav>
                     <input type="checkbox" id="show-menu" />
-                    <label for="show-menu" className="menu-icon"><i className="fa fa-bars"></i></label>
+                    <label htmlFor="show-menu" className="menu-icon"><i className="fa fa-bars"></i></label>
                     <div className="content">
                         <ul className="links">
                             <li><a data-cy="menu-home" href="/">Home</a></li>
@@ -89,7 +89,7 @@ function Navbar() {
                                 <a data-cy="menu-soil" onClick={callSoilScience} className="desktop-link">Soil Science</a>
                                 <input type="checkbox" id="show-features" />
                                 <div style={{ display: 'flex' }} ><a data-cy="menu-soil1" onClick={callSoilScience} className="mobile-link" >Soil Science</a>
-                                    <label for="show-features" ><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
+                                    <label htmlFor="show-features" ><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
                                 <ul>
                                     <li><a data-cy="menu-iisc" onClick={callIisc}>IISC</a></li>
                                     <li><a data-cy="menu-rothamsted" onClick={callRothamsted}>Rothamsted</a></li>
@@ -99,12 +99,12 @@ function Navbar() {
                                 <a data-cy="menu-food" onClick={callFoodTech} className="desktop-link">Food Technology</a>
                                 <input type="checkbox" id="show-services" />
                                 <div style={{ display: 'flex' }} ><a data-cy="menu-food1" onClick={callFoodTech} className="mobile-link" >Food Technology</a>
-                                    <label for="show-services"><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
+                                    <label htmlFor="show-services"><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
                                 <ul>
                                     <li><a data-cy="menu-cftri" onClick={callCftri} className="desktop-link">CFTRI</a>
                                         <input type="checkbox" id="show-items" />
                                         <div style={{ display: 'flex' }} ><a data-cy="menu-cftri1" onClick={callCftri} className="mobile-link" >CFTRI</a>
-                                            <label for="show-items"><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
+                                            <label htmlFor="show-items"><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
                                         <ul>
                                             <li><a data-cy="menu-infant" onClick={callInfantFood}>Infant Food</a></li>
                                             <li><a data-cy="menu-tapioca" onClick={callTapioca}>Tapioca/Cassava</a></li>
