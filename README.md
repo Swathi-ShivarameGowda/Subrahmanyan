@@ -1,4 +1,4 @@
-SUBRAHMANYA WEBSITE INTRODUCTION:
+##SUBRAHMANYA WEBSITE INTRODUCTION:
 
 This is a personal project for the company Webmentix GmbH. The first draft of the website is available in demo domain http://businessinputs.com
 
@@ -7,9 +7,13 @@ The website is a biography of food scientist Subrahmanyan.
 The project is created using create-react-app. 
 
 
-TECHNOLOGY STACK USED:
+
+
+##TECHNOLOGY STACK USED:
 
 Programming language and Libraries: ReactJs, React Hooks, Css, HTML
+
+React version: 17.0.2
 
 Build tool: npm
 
@@ -26,7 +30,9 @@ Website Host: Strato
 Debugging: React Dev tools
 
 
-COMMANDS TO RUN THE PROJECT:
+
+
+##COMMANDS TO RUN THE PROJECT:
 
 once the project is cloned from git repo execute the following commands
 
@@ -37,7 +43,9 @@ npm start: to run the project in localhost:3000
 npm build: creates a build folder. The folder is uploaded in Strato which launches the website in business domain.
 
 
-INPUTS ABOUT PROJECT:
+
+
+##INPUTS ABOUT PROJECT:
 
 It is a static website, doesnot have database involved. All the data are kept in the code file(js) as requested by Webmentix.
 
@@ -46,7 +54,9 @@ Redux has not been included in the project as I dint find it necessary and simpl
 I have included Cypress just for learning purpose.
 
 
-PROJECT IMPROVEMENTS THAT NEED TO BE DONE IN SECOND DRAFT:
+
+
+##PROJECT IMPROVEMENTS THAT NEED TO BE DONE IN SECOND DRAFT:
 
 The project doesnot have input and property validation which needs to be included in the future.
 
