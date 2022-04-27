@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+SUBRAHMANYA WEBSITE INTRODUCTION:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a personal project for the company Webmentix GmbH. The first draft of the website is available in demo domain http://businessinputs.com
 
-## Available Scripts
+The website is a biography of food scientist Subrahmanyan. 
 
-In the project directory, you can run:
+The project is created using create-react-app. 
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+TECHNOLOGY STACK USED:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Programming language and Libraries: ReactJs, React Hooks, Css, HTML
 
-### `yarn test`
+Build tool: npm
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Testing tool: Cypress
 
-### `yarn build`
+Source control: git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Development tool: VS Code
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Operating System: Windows 10
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Website Host: Strato
 
-### `yarn eject`
+Debugging: React Dev tools
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+COMMANDS TO RUN THE PROJECT:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+once the project is cloned from git repo execute the following commands
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+npm install: to install all the dependencies in the package.json file.
 
-## Learn More
+npm start: to run the project in localhost:3000
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm build: creates a build folder. The folder is uploaded in Strato which launches the website in business domain.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+INPUTS ABOUT PROJECT:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+It is a static website, doesnot have database involved. All the data are kept in the code file(js) as requested by Webmentix.
 
-### Analyzing the Bundle Size
+Redux has not been included in the project as I dint find it necessary and simple Hooks have been used. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+I have included Cypress just for learning purpose.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+PROJECT IMPROVEMENTS THAT NEED TO BE DONE IN SECOND DRAFT:
 
-### Advanced Configuration
+The project doesnot have input and property validation which needs to be included in the future.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Jest and Enzyme needs to be added in the future.
 
-### Deployment
+Planning to add Webpack in the future.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+There are some inline CSS which needs to be removed. This was done as there were lot of changes requested at the end. These inline CSS will be moved to Css files soon.
 
-### `yarn build` fails to minify
+console is throwing warnings on not using href in anchor tags. Need to fix it.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+in mobile view, the menu card upon selection is not getting closed automatically. Instead manually need to click on close option. Need to fix this.
+
+The website header still shows as React app. Need to fix it.
+
+While using Git, I have not created any child branch. I worked on main branch since I was the only one who was working on the website and no code reviews were done.
+
