@@ -137,8 +137,8 @@ nav .content {
 .content .links ul ul {
     position: absolute;
     top: 0;
-    right: calc(-100% + -20px);
-    margin-left: 240px;
+    
+    margin-left: 268px;
 }
 
 .content .links ul li {

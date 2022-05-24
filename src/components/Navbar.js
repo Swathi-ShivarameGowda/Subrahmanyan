@@ -74,7 +74,7 @@ function Navbar() {
         <>
             <div className="homeheader" >
                 <h1>DR.V. SUBRAHMANYAN</h1>
-                <h3>A man who dedicated his life to research about food science and a founder of many great institutes.</h3>
+                <h3>A Man who dedicated his life to the development of Food Science and Food Technology</h3>
             </div>
 
             <div className="wrapper">
@@ -86,39 +86,76 @@ function Navbar() {
                             <li><a data-cy="menu-home" href="/">Home</a></li>
                             <li><a data-cy="menu-early" onClick={callEarlyLife} >Early Life</a></li>
                             <li>
-                                <a data-cy="menu-soil" onClick={callSoilScience} className="desktop-link">Soil Science</a>
+                                <a data-cy="menu-soil" className="desktop-link">IISC</a>
                                 <input type="checkbox" id="show-features" />
-                                <div style={{ display: 'flex' }} ><a data-cy="menu-soil1" onClick={callSoilScience} className="mobile-link" >Soil Science</a>
+                                <div style={{ display: 'flex' }} ><a data-cy="menu-soil1" className="mobile-link" >IISC</a>
                                     <label htmlFor="show-features" ><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
                                 <ul>
-                                    <li><a data-cy="menu-iisc" onClick={callIisc}>IISC</a></li>
+                                    <li><a data-cy="menu-iisc" onClick={callIisc}>Acetone Fermentation</a></li>
                                     <li><a data-cy="menu-rothamsted" onClick={callRothamsted}>Rothamsted</a></li>
+                                    <li><a data-cy="menu-rothamsted" onClick={callRothamsted}>Soil Science and Sanitation</a></li>
+                                    <li><a data-cy="menu-rothamsted" onClick={callRothamsted}>Vitamins and Enzymes</a></li>
+                                    <li><a data-cy="menu-rothamsted" onClick={callRothamsted}>Soya Milk: School Feeding Program</a></li>
+                                    <li><a data-cy="menu-rothamsted" onClick={callRothamsted}>Pencilin and Caesin</a></li>
+                                    <li><a data-cy="menu-rothamsted" onClick={callRothamsted}>C.V.Raman and Subrahmanyan</a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a data-cy="menu-food" onClick={callFoodTech} className="desktop-link">Food Technology</a>
+                                <a data-cy="menu-food" className="desktop-link">C.F.T.R.I</a>
                                 <input type="checkbox" id="show-services" />
-                                <div style={{ display: 'flex' }} ><a data-cy="menu-food1" onClick={callFoodTech} className="mobile-link" >Food Technology</a>
+                                <div style={{ display: 'flex' }} ><a data-cy="menu-food1" className="mobile-link" >C.F.T.R.I</a>
                                     <label htmlFor="show-services"><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
                                 <ul>
-                                    <li><a data-cy="menu-cftri" onClick={callCftri} className="desktop-link">CFTRI</a>
+                                    <li><a data-cy="menu-philippines" onClick={callInfantFood}>Cheluvamba Mansion</a></li>
+                                    <li><a data-cy="menu-philippines" onClick={callPhilippines}>Inaugaration of C.F.T.R.I</a></li>
+                                    <li><a data-cy="menu-cftri" className="desktop-link">Infant food</a>
                                         <input type="checkbox" id="show-items" />
-                                        <div style={{ display: 'flex' }} ><a data-cy="menu-cftri1" onClick={callCftri} className="mobile-link" >CFTRI</a>
+                                        <div style={{ display: 'flex' }} ><a data-cy="menu-cftri1" className="mobile-link" >Infant food</a>
                                             <label htmlFor="show-items"><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
                                         <ul>
-                                            <li><a data-cy="menu-infant" onClick={callInfantFood}>Infant Food</a></li>
-                                            <li><a data-cy="menu-tapioca" onClick={callTapioca}>Tapioca/Cassava</a></li>
-                                            <li><a data-cy="menu-spices" onClick={callSpices}>Spices</a></li>
-                                            <li><a data-cy="menu-pencillin" onClick={callPencillin}><div>Pencillin, Glucanate and Soluble Casein</div></a></li>
+                                            <li><a data-cy="menu-infant" onClick={callInfantFood}>Developmental History</a></li>
+                                            <li><a data-cy="menu-tapioca" onClick={callTapioca}>Process</a></li>
+                                            <li><a data-cy="menu-spices" onClick={callSpices}>Biographies of those involved</a></li>
                                         </ul>
                                     </li>
-                                    <li><a data-cy="menu-philippines" onClick={callPhilippines}>The Philippines</a></li>
-                                    <li><a data-cy="menu-pprc" onClick={callPprc}>PPRC - IIFTP</a></li>
+                                    <li><a data-cy="menu-cftri" className="desktop-link">Tapioca/Cassava</a>
+                                        <input type="checkbox" id="show-items" />
+                                        <div style={{ display: 'flex' }} ><a data-cy="menu-cftri1" className="mobile-link" >Tapioca/Cassava</a>
+                                            <label htmlFor="show-items"><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
+                                        <ul>
+                                            <li><a data-cy="menu-infant" onClick={callInfantFood}>Sago</a></li>
+                                            <li><a data-cy="menu-tapioca" onClick={callTapioca}>Tapioca Macaroni</a></li>
+                                            <li><a data-cy="menu-spices" onClick={callSpices}>Mysore flour and Indian Multipurpose food</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a data-cy="menu-philippines" onClick={callInfantFood}>Rice</a></li>
+                                    <li><a data-cy="menu-cftri" className="desktop-link">Spices</a>
+                                        <input type="checkbox" id="show-items" />
+                                        <div style={{ display: 'flex' }} ><a data-cy="menu-cftri1" className="mobile-link" >Spices</a>
+                                            <label htmlFor="show-items"><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
+                                        <ul>
+                                            <li><a data-cy="menu-infant" onClick={callInfantFood}>Oleoresins</a></li>
+                                            <li><a data-cy="menu-tapioca" onClick={callTapioca}>Garlic powder</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a data-cy="menu-philippines" onClick={callPhilippines}>Coffee and Tea</a></li>
+                                    <li><a data-cy="menu-pprc" onClick={callPprc}>Fruits</a></li>
+                                    <li><a data-cy="menu-pprc" onClick={callPprc}>Infestation</a></li>
+                                </ul>
+                            </li>
+                            <li><a data-cy="menu-sitemap" onClick={callSitemap}>The Philippines</a></li>
+                            <li>
+                                <a data-cy="menu-soil" className="desktop-link">PPRC – IIFPT</a>
+                                <input type="checkbox" id="show-features" />
+                                <div style={{ display: 'flex' }} ><a data-cy="menu-soil1" className="mobile-link" >PPRC – IIFPT</a>
+                                    <label htmlFor="show-features" ><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
+                                <ul>
+                                    <li><a data-cy="menu-iisc" onClick={callIisc}>Research</a></li>
+                                    <li><a data-cy="menu-rothamsted" onClick={callRothamsted}>Post – Harvest Technology</a></li>
                                 </ul>
                             </li>
                             <li><a data-cy="menu-awards" onClick={callAwards}>Awards</a></li>
-                            <li><a data-cy="menu-contact" onClick={callContact}>Contact</a></li>
-                            <li><a data-cy="menu-sitemap" onClick={callSitemap}>Site Map</a></li>
+                            
                         </ul>
                     </div>
                 </nav>

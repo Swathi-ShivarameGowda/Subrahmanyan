@@ -16,8 +16,9 @@
     height: 180px !important;
 }
 
+/* make display: flex once the video is available*/
 .videocontent {
-    display: flex;
+    display: none; 
     height: 480px;
     margin-left: 20px;
 }
