@@ -58,19 +58,9 @@ I have included Cypress just for learning purpose.
 
 ##PROJECT IMPROVEMENTS THAT NEED TO BE DONE IN SECOND DRAFT:
 
-The project doesnot have input and property validation which needs to be included in the future.
-
 Jest and Enzyme needs to be added in the future.
 
 Planning to add Webpack in the future.
 
 There are some inline CSS which needs to be removed. This was done as there were lot of changes requested at the end. These inline CSS will be moved to Css files soon.
-
-console is throwing warnings on not using href in anchor tags. Need to fix it.
-
-in mobile view, the menu card upon selection is not getting closed automatically. Instead manually need to click on close option. Need to fix this.
-
-The website header still shows as React app. Need to fix it.
-
-While using Git, I have not created any child branch. I worked on main branch since I was the only one who was working on the website and no code reviews were done.
 
