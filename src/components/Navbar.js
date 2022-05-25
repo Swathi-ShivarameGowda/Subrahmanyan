@@ -10,28 +10,58 @@ function Navbar() {
         history.push("/early-life");
     }
 
-    const callSoilScience = (event) => {
-        history.push("/soil-science");
+    const callAcetone = (event) => {
+        history.push("/acetone-fermentaion");
     }
-
-    const callIisc = (event) => {
-        history.push("/iisc");
-    }
-
+    
     const callRothamsted = (event) => {
         history.push("/rothamsted");
     }
 
-    const callFoodTech = (event) => {
-        history.push("/food-tech");
+    const callSoilScienceSanitation = (event) => {
+        history.push("/soil-science-sanitation");
+    }
+
+    const callVitaminsAndEnzymes = (event) => {
+        history.push("/vitamins-enzymes");
+    }
+
+    const callSoyaBeanMilk = (event) => {
+        history.push("/soyabean-milk");
+    }
+
+    const callPencillin = (event) => {
+        history.push("/pencillin-glucanate-and-soluble-casein");
+    }
+
+    const callCVRamanSubrahmanyan = (event) => {
+        history.push("/cvraman-subrahmanyan");
+    }
+
+    const callCheluvambaMansion = (event) => {
+        history.push("/cheluvajamanni");
     }
 
     const callCftri = (event) => {
         history.push("/cftri");
     }
 
-    const callInfantFood = (event) => {
-        history.push("/infant-food");
+
+    const callFoodTech = (event) => {
+        history.push("/food-tech");
+    }
+
+
+    const callDevelopmentAmulFood = (event) => {
+        history.push("/development-amul-food");
+    }
+
+    const callProcess = (event) => {
+        history.push("/process");
+    }
+
+    const callBiography = (event) => {
+        history.push("/biographies");
     }
 
     const callTapioca = (event) => {
@@ -42,9 +72,6 @@ function Navbar() {
         history.push("/spices");
     }
 
-    const callPencillin = (event) => {
-        history.push("/pencillin-glucanate-and-soluble-casein");
-    }
 
     const callPhilippines = (event) => {
         history.push("/philippines");
@@ -91,13 +118,13 @@ function Navbar() {
                                 <div style={{ display: 'flex' }} ><a data-cy="menu-soil1" className="mobile-link" >IISC</a>
                                     <label htmlFor="show-features" ><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
                                 <ul>
-                                    <li><a data-cy="menu-iisc" onClick={callIisc}>Acetone Fermentation</a></li>
+                                    <li><a data-cy="menu-iisc" onClick={callAcetone}>Acetone Fermentation</a></li>
                                     <li><a data-cy="menu-rothamsted" onClick={callRothamsted}>Rothamsted</a></li>
-                                    <li><a data-cy="menu-rothamsted" onClick={callRothamsted}>Soil Science and Sanitation</a></li>
-                                    <li><a data-cy="menu-rothamsted" onClick={callRothamsted}>Vitamins and Enzymes</a></li>
-                                    <li><a data-cy="menu-rothamsted" onClick={callRothamsted}>Soya Milk: School Feeding Program</a></li>
-                                    <li><a data-cy="menu-rothamsted" onClick={callRothamsted}>Pencilin and Caesin</a></li>
-                                    <li><a data-cy="menu-rothamsted" onClick={callRothamsted}>C.V.Raman and Subrahmanyan</a></li>
+                                    <li><a data-cy="menu-rothamsted" onClick={callSoilScienceSanitation}>Soil Science and Sanitation</a></li>
+                                    <li><a data-cy="menu-rothamsted" onClick={callVitaminsAndEnzymes}>Vitamins and Enzymes</a></li>
+                                    <li><a data-cy="menu-rothamsted" onClick={callSoyaBeanMilk}>Soya Milk: School Feeding Program</a></li>
+                                    <li><a data-cy="menu-rothamsted" onClick={callPencillin}>Pencilin and Caesin</a></li>
+                                    <li><a data-cy="menu-rothamsted" onClick={callCVRamanSubrahmanyan}>C.V.Raman and Subrahmanyan</a></li>
                                 </ul>
                             </li>
                             <li>
@@ -106,16 +133,16 @@ function Navbar() {
                                 <div style={{ display: 'flex' }} ><a data-cy="menu-food1" className="mobile-link" >C.F.T.R.I</a>
                                     <label htmlFor="show-services"><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
                                 <ul>
-                                    <li><a data-cy="menu-philippines" onClick={callInfantFood}>Cheluvamba Mansion</a></li>
-                                    <li><a data-cy="menu-philippines" onClick={callPhilippines}>Inaugaration of C.F.T.R.I</a></li>
+                                    <li><a data-cy="menu-philippines" onClick={callCheluvambaMansion}>Cheluvamba Mansion</a></li>
+                                    <li><a data-cy="menu-philippines" onClick={callCftri}>Inaugaration of C.F.T.R.I</a></li>
                                     <li><a data-cy="menu-cftri" className="desktop-link">Infant food</a>
                                         <input type="checkbox" id="show-items" />
                                         <div style={{ display: 'flex' }} ><a data-cy="menu-cftri1" className="mobile-link" >Infant food</a>
                                             <label htmlFor="show-items"><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
                                         <ul>
-                                            <li><a data-cy="menu-infant" onClick={callInfantFood}>Developmental History</a></li>
-                                            <li><a data-cy="menu-tapioca" onClick={callTapioca}>Process</a></li>
-                                            <li><a data-cy="menu-spices" onClick={callSpices}>Biographies of those involved</a></li>
+                                            <li><a data-cy="menu-infant" onClick={callDevelopmentAmulFood}>Developmental History</a></li>
+                                            <li><a data-cy="menu-tapioca" onClick={callProcess}>Process</a></li>
+                                            <li><a data-cy="menu-spices" onClick={callBiography}>Biographies of those involved</a></li>
                                         </ul>
                                     </li>
                                     <li><a data-cy="menu-cftri" className="desktop-link">Tapioca/Cassava</a>
@@ -123,18 +150,18 @@ function Navbar() {
                                         <div style={{ display: 'flex' }} ><a data-cy="menu-cftri1" className="mobile-link" >Tapioca/Cassava</a>
                                             <label htmlFor="show-items"><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
                                         <ul>
-                                            <li><a data-cy="menu-infant" onClick={callInfantFood}>Sago</a></li>
+                                            <li><a data-cy="menu-infant" onClick={callSpices}>Sago</a></li>
                                             <li><a data-cy="menu-tapioca" onClick={callTapioca}>Tapioca Macaroni</a></li>
                                             <li><a data-cy="menu-spices" onClick={callSpices}>Mysore flour and Indian Multipurpose food</a></li>
                                         </ul>
                                     </li>
-                                    <li><a data-cy="menu-philippines" onClick={callInfantFood}>Rice</a></li>
+                                    <li><a data-cy="menu-philippines" onClick={callSpices}>Rice</a></li>
                                     <li><a data-cy="menu-cftri" className="desktop-link">Spices</a>
                                         <input type="checkbox" id="show-items" />
                                         <div style={{ display: 'flex' }} ><a data-cy="menu-cftri1" className="mobile-link" >Spices</a>
                                             <label htmlFor="show-items"><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
                                         <ul>
-                                            <li><a data-cy="menu-infant" onClick={callInfantFood}>Oleoresins</a></li>
+                                            <li><a data-cy="menu-infant" onClick={callSpices}>Oleoresins</a></li>
                                             <li><a data-cy="menu-tapioca" onClick={callTapioca}>Garlic powder</a></li>
                                         </ul>
                                     </li>
@@ -150,7 +177,7 @@ function Navbar() {
                                 <div style={{ display: 'flex' }} ><a data-cy="menu-soil1" className="mobile-link" >PPRC – IIFPT</a>
                                     <label htmlFor="show-features" ><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
                                 <ul>
-                                    <li><a data-cy="menu-iisc" onClick={callIisc}>Research</a></li>
+                                    <li><a data-cy="menu-iisc" onClick={callRothamsted}>Research</a></li>
                                     <li><a data-cy="menu-rothamsted" onClick={callRothamsted}>Post – Harvest Technology</a></li>
                                 </ul>
                             </li>

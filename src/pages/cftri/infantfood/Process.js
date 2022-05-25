@@ -7,12 +7,15 @@ import buffalomilk1 from '../../../img/buffalomilk1.jpg'
 import infantfood from '../../../img/infantfood.jpg'
 import infantfood1 from '../../../img/infantfood1.jpg'
 import infantfood2 from '../../../img/infantfood2.jpg'
-import './InfantFoodPaper1.css';
+import './Process.css';
 
-export default function InfantFoodPaper1() {
+export default function Process() {
     const history = useHistory();
-    const onClickHome = (event) => {
-        history.push("/");
+    const onClickNext = (event) => {
+        history.push("/process-continued");
+    }
+    const onClickBack = (event) => {
+        history.push("/development-amul-food-continued");
     }
 
     useEffect(() => {
@@ -45,23 +48,25 @@ export default function InfantFoodPaper1() {
                 <img className="infantFood1" src={infantfood} />
                 <div style={{ fontSize: '12px' }} >* Expressed as weight in grams required for the knife to cut through the curd.t Phosphate buffer prepared by dissolving 9 gm of Na2HPO4and 7 gm NaH2PO4 in 100 cc. distilled water added to 50 lbs of milk.# Whole buffalo milk was partially skimmed to a fat content of 4%  before spray drying.</div>
                 <br></br>
-                <div className="earlylifepara" >The apparatus illustrated above was used to measure "curd tension". It may be seen that the curd of buffalo sets hard (high curd tension) whereas that of boiled milk or that heated to 85c, partially skimmed (fat content partially reduced) and treated with phosphate to citrate allowed the curd tension of buffalo milk to equal that of commercial infant foods. That is lesser weight was required to remove the "knife" from the curds. 10</div>
+                <div className="earlylifepara" >The apparatus illustrated above was used  to measure  “curd tension” . It may be seen that the curd of buffalo sets hard (high curd tension) whereas that of boiled milk or that heated to 85oC, partially skimmed (fat content partially reduced) and treated with phosphate to citrate allowed the curd tension of buffalo milk to equal that of commercial infant foods.. That is lesser weight was required to remove the “knife” from the curds. (10).</div>
                 <br></br>
                 <div className="earlylifepara" >Two methods for drying of the buffalo milk for making infant food were tried. One was roller drying and the other spray drying. The relative merits of the two processes have been discussed in review</div>
                 <br></br>
-                <div className="earlylifepara" >A paper11 describing the conditions for the preparation of infant food, begins with mention of 3000 tons of mainly milk based food was imported and that "only recently steps have been taken for establishing a factory at Anand for the production of whole and skim milk powder". The milk was obtained from murrah buffalos (a breed that is high milk yielder) and from the palace dairy farm at Mysore. It was decided that since commercial Infant foods varied protein (14-27% and fat (15-25%) contents and the possible lower fats requirements of Indian children, the infant food that would contain 17-22% protein and a fat content of 15% should be suitable. Milk, received in clean, sterile closed aluminum cans from the diary within three hours of milking, was sampled for both bacteriological and chemical analyses and skimmed with a hand operated cream separator (to a level 2.9% fat ). Phosphate buffer was added to the milk prior to pasteurization at 185oF (85oC) for 5min. The process of skimming, addition of phosphate and pasteurization helped bring down curd tension. Sugar (boiled syrup) was added to the milk prior to concentration in an vacuum evaporator. After vitamins (water soluble and fat soluble) supplementation, the concentrated milk was spray dried using a Niro laboratory model spray dryer (Bulletin of the C.F.T.R.I.1951-52 volume 1 page 125) with an inlet air temperature of 392oF (200oC) and outlet air temperature of 210oF  (98oC) The powder was stored in air or under nitrogen. These workers continued their work while trying to compare the use of sterilized stainless-steel containers and sterilized aluminum containers with addition of straw (as was wont by some farmers) or with storage in copper vessels. The bacteriological count and copper content in the infant food was least when sterilized steel vessels were used for collection of milk. The infant milk powder had the level of protein and fat that they aimed at while the curd tension of the food was similar to that of commercial infant foods tested (Cow and Gate (half cream), Glaxo and Lactogen).</div>
+                <div className="earlylifepara" >A paper (11) describing the conditions  for the preparation of infant food, begins  with mention that  3000 tons of mainly milk based food was imported and that “only recently steps have been taken for establishing a factory at Anand for the  production of whole and skim milk powder”. Milk was obtained from murrah buffalos (a breed that is high milk yielder) and from the palace dairy farm at Mysore. It was decided that since commercial Infant foods varied protein (14-27% and fat (15-25%) contents and the possible lower fats requirements of Indian children, the infant food that would contain 17-22% protein and a fat content of 15% should be suitable. Milk, received in clean, sterile closed aluminum cans from the diary within three hours of milking, was sampled for both bacteriological and chemical analysis and skimmed with a hand operated cream separator (to a level 2.9% fat). Phosphate buffer was added to the milk prior to pasteurization at 185oF (85oC) for 5min. The process of skimming, addition of phosphate and pasteurization helped bring down curd tension. Sugar (boiled syrup)  was added to the milk prior to concentration in an vacuum evaporator. After vitamins (water soluble and fat soluble) supplementation, the concentrated milk was spray dried using a Niro laboratory model spray dryer (Bulletin of the C.F.T.R.I.1951-52 volume 1 page 125) with an inlet air temperature of 392oF (200oC) and outlet air temperature of 210oF  (98oC) The powder was stored in air or under nitrogen. These workers continued their work while trying to compare the use of sterilized stainless-steel containers and sterilized aluminum containers with addition of straw (as was wont by some farmers) or with storage in copper vessels. The bacteriological count and copper content in the infant food was least when sterilized steel vessels were used for collection of milk. The infant milk powder had the level of protein and fat that they aimed at while the curd tension of the food was similar to that to of commercial infant foods tested (Cow and Gate (half cream), Glaxo and Lactogen).</div>
                 <br></br>
                 <div className="cheluvajamanniimg">
                     <div style={{ marginRight: '50px' }} ><img src={infantfood1} height={350} width={450} /></div>
                     <img src={infantfood2} height={350} width={450} />
                 </div>
                 <br></br>
-                <div className="earlylifepara" >The paper acknowledges the help of Shri B.H. Krishna and S.K. Lakshminarayan (Engineers) for help in the pilot plant.11</div>
+                <div className="earlylifepara" >The paper acknowledges the help of Shri B.H. Krishna and S.K. Lakshminarayan (Engineers) for help in the pilot plant.(11)</div>
                 <br></br>
-                <div className="earlylifepara" >To know about the Shelf life of Spray dried Product, <Link to="/infant-food-paper2" style={{ textDecoration: 'none' }} ><font color="#3819e9">click here</font></Link>.</div>
                 <div className="earlylifepara" ><Link to="/references" style={{ textDecoration: 'none' }} ><font color="#3819e9">References</font></Link></div>
                 <br></br><br></br>
-                <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
+                <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                    <div className="backbutton" ><Button size="small" onClick={onClickBack} >Back</Button></div>
+                    <div className="backbutton" ><Button size="small" onClick={onClickNext} >Next</Button></div>
+                    </div>
             </div>
         </>
     )

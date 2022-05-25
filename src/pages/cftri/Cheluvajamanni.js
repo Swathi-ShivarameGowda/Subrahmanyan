@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { useHistory, Link } from "react-router-dom";
 import Button from '@mui/material/Button';
 import ABOUTUS from '../../img/ABOUTUS.png'
@@ -15,9 +15,16 @@ import './Cheluvajamanni.css';
 
 export default function Cheluvajamanni() {
     const history = useHistory();
-    const onClickHome = (event) => {
+    const onClickNext = (event) => {
         history.push("/cftri");
     }
+    const onClickBack = (event) => {
+        history.push("/cvraman-subrahmanyan");
+    }
+
+    useEffect(() => {
+        window.scrollTo(0,0)
+    },[])
 
     return (
         <>
@@ -90,7 +97,10 @@ export default function Cheluvajamanni() {
                 <div className="earlylifepara" ><span style={{ textDecoration: 'underline' }} >Gratitude</span> : Thanks are due to Mr.Rajachandra, He has been a tremendous source of authentic information and always prompt with answers to our questions. Thanks are due to Mr Sridhar Raj and  Bharathi Urs  for launching me in the path the article has taken. Our gratitude to the Mysore archives is great.  Photos of the palace from N. Niranjan Nikam, Star of Mysore Sunday 18 April 2021 </div>
                 <div className="earlylifepara" ><Link to="/references" style={{ textDecoration: 'none' }} ><font color="#3819e9">References</font></Link></div>
                 <br></br>
-                <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
+                <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                    <div className="backbutton" ><Button size="small" onClick={onClickBack} >Back</Button></div>
+                    <div className="backbutton" ><Button size="small" onClick={onClickNext} >Next</Button></div>
+                </div>
             </div>
         </>
     )
