@@ -40,7 +40,7 @@ npm install: to install all the dependencies in the package.json file.
 
 npm start: to run the project in localhost:3000
 
-npm build: creates a build folder. The folder is uploaded in Strato which launches the website in business domain.
+npm run build: creates a build folder. The folder is uploaded in Strato which launches the website in business domain.
 
 
 
