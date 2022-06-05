@@ -29,7 +29,7 @@ import Soilscience from './pages/Soilscience';
 import Foodtech from './pages/Foodtech';
 import Contact from './pages/Contact';
 import Awards from './pages/Awards';
-import Sitemap from './pages/morePages/Sitemap';
+import Sitemap from './pages/Sitemap';
 import Iisc from './pages/soilPages/Iisc';
 import References from './pages/soilPages/References';
 

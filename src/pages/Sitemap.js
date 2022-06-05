@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import SITEMAP from '../../img/SITEMAP.png'
+import SITEMAP from '../img/SITEMAP.png'
 
 export default function Sitemap() {
     const history = useHistory();
