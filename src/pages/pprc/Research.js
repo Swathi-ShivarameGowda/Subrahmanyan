@@ -8,8 +8,8 @@ import pressureparboiling from '../../img/pressureparboiling.png'
 
 export default function Research() {
     const history = useHistory();
-    const onClickHome = (event) => {
-        history.push("/");
+    const onClickBack = (event) => {
+        history.push("/pprc");
     }
     const onClickNext = (event) => {
         history.push("/research-continued");
@@ -79,7 +79,7 @@ export default function Research() {
                 </div>
                 <br></br><br></br>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                    <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
+                    <div className="backbutton" ><Button size="small" onClick={onClickBack} >Back</Button></div>
                     <div className="backbutton" ><Button size="small" onClick={onClickNext} >Next</Button></div>
                 </div>
             </div>

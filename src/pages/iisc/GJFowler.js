@@ -7,8 +7,8 @@ import gilbertFowler from '../../img/gilbertFowler.jpg'
 export default function GJFowler() {
 
     const history = useHistory();
-    const onClickHome = (event) => {
-        history.push("/iisc");
+    const onClickBack = (event) => {
+        history.push("/acetone-fermentation");
     }
 
     return (
@@ -38,7 +38,7 @@ export default function GJFowler() {
                 Part 1-VIII,  Journal of the Indian Institute of Science 7:97-144.
                     </div>
                 <br></br><br></br>
-                <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
+                <div className="backbutton" ><Button size="small" onClick={onClickBack} >Back</Button></div>
             </div>
         </>
     )

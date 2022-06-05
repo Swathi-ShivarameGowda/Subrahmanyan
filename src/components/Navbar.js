@@ -160,24 +160,24 @@ function Navbar() {
                                         <div style={{ display: 'flex' }} ><a data-cy="menu-cftri1" className="mobile-link" >Tapioca/Cassava</a>
                                             <label htmlFor="show-items"><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
                                         <ul>
-                                            <li><a data-cy="menu-infant" onClick={callSpices}>Sago</a></li>
-                                            <li><a data-cy="menu-tapioca" onClick={callTapioca}>Tapioca Macaroni</a></li>
-                                            <li><a data-cy="menu-spices" onClick={callSpices}>Mysore flour and Indian Multipurpose food</a></li>
+                                            <li><a data-cy="menu-infant" >Sago</a></li>
+                                            <li><a data-cy="menu-tapioca" >Tapioca Macaroni</a></li>
+                                            <li><a data-cy="menu-spices" >Mysore flour and Indian Multipurpose food</a></li>
                                         </ul>
                                     </li>
-                                    <li><a data-cy="menu-philippines" onClick={callSpices}>Rice</a></li>
+                                    <li><a data-cy="menu-philippines" >Rice</a></li>
                                     <li><a data-cy="menu-cftri" className="desktop-link">Spices</a>
                                         <input type="checkbox" id="show-items" />
                                         <div style={{ display: 'flex' }} ><a data-cy="menu-cftri1" className="mobile-link" >Spices</a>
                                             <label htmlFor="show-items"><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
                                         <ul>
-                                            <li><a data-cy="menu-infant" onClick={callSpices}>Oleoresins</a></li>
-                                            <li><a data-cy="menu-tapioca" onClick={callTapioca}>Garlic powder</a></li>
+                                            <li><a data-cy="menu-infant" >Oleoresins</a></li>
+                                            <li><a data-cy="menu-tapioca" >Garlic powder</a></li>
                                         </ul>
                                     </li>
-                                    <li><a data-cy="menu-philippines" onClick={callPhilippines}>Coffee and Tea</a></li>
-                                    <li><a data-cy="menu-pprc" onClick={callPprc}>Fruits</a></li>
-                                    <li><a data-cy="menu-pprc" onClick={callPprc}>Infestation</a></li>
+                                    <li><a data-cy="menu-philippines" >Coffee and Tea</a></li>
+                                    <li><a data-cy="menu-pprc" >Fruits</a></li>
+                                    <li><a data-cy="menu-pprc" >Infestation</a></li>
                                 </ul>
                             </li>
                             <li><a data-cy="menu-sitemap" onClick={callPhilippines}>The Philippines</a></li>

@@ -3,7 +3,7 @@ import Home from './pages/Home';
 import Footer from './pages/Footer';
 import Earlylife from './pages/Earlylife';
 import AcetoneFermentation from './pages/iisc/AcetoneFermentation';
-import GJFowler from './pages/soilPages/GJFowler';
+import GJFowler from './pages/iisc/GJFowler';
 import Rothamsted from './pages/iisc/Rothamsted';
 import SoilScienceAndSanitation from './pages/iisc/SoilScienceAndSanitation';
 import VitaminsAndEnzymes from './pages/iisc/VitaminsAndEnzymes';
@@ -19,7 +19,7 @@ import DevelopmentAmulFoodContinued from './pages/cftri/infantfood/DevelopmentAm
 import Process from './pages/cftri/infantfood/Process';
 import ProcessContinued from './pages/cftri/infantfood/ProcessContinued';
 import ProcessContinued2 from './pages/cftri/infantfood/ProcessContinued2';
-import Philippines from './pages/foodPages/Philippines';
+import Philippines from './pages/Philippines';
 import Pprc from './pages/pprc/Pprc';
 import Research from './pages/pprc/Research';
 import ResearchContinued from './pages/pprc/ResearchContinued';
@@ -84,14 +84,9 @@ function App() {
                         <Route path="/iisc" component={Iisc} />
                         <Route path="/references" component={References} />
                         <Route path="/food-tech" component={Foodtech} />
-                        
-                        
-                        
-                        
                         <Route path="/complete-list" component={CompleteList} />
                         <Route path="/spices" component={Spices} />
                         <Route path="/tapioca-cassava" component={Tapioca} />
-                        
                         <Route path="/contact" component={Contact} />
                         <Route path="/site-map" component={Sitemap} />
                     </Switch>

@@ -1,16 +1,23 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import ABOUTUS from '../../img/ABOUTUS.png'
-import thesubrahmanyanprocess from '../../img/thesubrahmanyanprocess.jpg'
-import phillipines from '../../img/phillipines.png'
+import ABOUTUS from '../img/ABOUTUS.png'
+import thesubrahmanyanprocess from '../img/thesubrahmanyanprocess.jpg'
+import phillipines from '../img/phillipines.png'
 import './Philippines.css';
 
 export default function Philippines() {
     const history = useHistory();
-    const onClickHome = (event) => {
+    const onClickBack = (event) => {
         history.push("/");
     }
+    const onClickNext = (event) => {
+        history.push("/pprc");
+    }
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <>
@@ -35,7 +42,10 @@ export default function Philippines() {
                 </div>
                 <div className="earlylifepara" >He received awards of appreciation for this very valuable work from the commercial organizations and federations in the Philippines as also from the Philippine Nutrition Association. In 1965 Dr.Subramanyam received First Friesland Award from the Netherlands Association for the Advancement of Dairy Science, for outstanding contributions on the role of milk and milk products in tropical nutrition.</div>
                 <br></br>
-                <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
+                <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                    <div className="backbutton" ><Button size="small" onClick={onClickBack} >Back</Button></div>
+                    <div className="backbutton" ><Button size="small" onClick={onClickNext} >Next</Button></div>
+                </div>
             </div>
         </>
     )
