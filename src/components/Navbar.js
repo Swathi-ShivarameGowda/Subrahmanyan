@@ -11,7 +11,7 @@ function Navbar() {
     }
 
     const callAcetone = (event) => {
-        history.push("/acetone-fermentaion");
+        history.push("/acetone-fermentation");
     }
     
     const callRothamsted = (event) => {

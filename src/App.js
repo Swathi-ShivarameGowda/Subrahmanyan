@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import Footer from './pages/Footer';
 import Earlylife from './pages/Earlylife';
 import AcetoneFermentation from './pages/iisc/AcetoneFermentation';
+import GJFowler from './pages/soilPages/GJFowler';
 import Rothamsted from './pages/iisc/Rothamsted';
 import SoilScienceAndSanitation from './pages/iisc/SoilScienceAndSanitation';
 import VitaminsAndEnzymes from './pages/iisc/VitaminsAndEnzymes';
@@ -30,7 +31,6 @@ import Contact from './pages/Contact';
 import Awards from './pages/Awards';
 import Sitemap from './pages/morePages/Sitemap';
 import Iisc from './pages/soilPages/Iisc';
-import GJFowler from './pages/soilPages/GJFowler';
 import References from './pages/soilPages/References';
 
 import CompleteList from './pages/foodPages/CompleteList';
@@ -57,6 +57,7 @@ function App() {
                         <Route exact path="/" component={Home} />
                         <Route path="/early-life" component={Earlylife} />
                         <Route path="/acetone-fermentation" component={AcetoneFermentation} />
+                        <Route path="/gjfowler" component={GJFowler} />
                         <Route path="/rothamsted" component={Rothamsted} />
                         <Route path="/soil-science-sanitation" component={SoilScienceAndSanitation} />
                         <Route path="/vitamins-enzymes" component={VitaminsAndEnzymes} />
@@ -81,7 +82,6 @@ function App() {
 
                         <Route path="/soil-science" component={Soilscience} />
                         <Route path="/iisc" component={Iisc} />
-                        <Route path="/gjfowler" component={GJFowler} />
                         <Route path="/references" component={References} />
                         <Route path="/food-tech" component={Foodtech} />
                         
