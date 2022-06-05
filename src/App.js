@@ -18,6 +18,11 @@ import DevelopmentAmulFoodContinued from './pages/cftri/infantfood/DevelopmentAm
 import Process from './pages/cftri/infantfood/Process';
 import ProcessContinued from './pages/cftri/infantfood/ProcessContinued';
 import ProcessContinued2 from './pages/cftri/infantfood/ProcessContinued2';
+import Philippines from './pages/foodPages/Philippines';
+import Pprc from './pages/pprc/Pprc';
+import Research from './pages/pprc/Research';
+import ResearchContinued from './pages/pprc/ResearchContinued';
+import PostHarvestTech from './pages/pprc/PostHarvestTech';
 
 import Soilscience from './pages/Soilscience';
 import Foodtech from './pages/Foodtech';
@@ -27,11 +32,7 @@ import Sitemap from './pages/morePages/Sitemap';
 import Iisc from './pages/soilPages/Iisc';
 import GJFowler from './pages/soilPages/GJFowler';
 import References from './pages/soilPages/References';
-import Philippines from './pages/foodPages/Philippines';
-import PprcIiftp from './pages/foodPages/PprcIiftp';
-import PprcResearch from './pages/foodPages/PprcResearch';
-import PprcResearchContinued from './pages/foodPages/PprcResearchContinued';
-import PostHarvestTech from './pages/foodPages/PostHarvestTech';
+
 import CompleteList from './pages/foodPages/CompleteList';
 import Spices from './pages/foodPages/cftriPages/Spices';
 import Tapioca from './pages/foodPages/cftriPages/Tapioca';
@@ -71,21 +72,26 @@ function App() {
                         <Route path="/process-continued" component={ProcessContinued} />
                         <Route path="/process-continued2" component={ProcessContinued2} />
                         <Route path="/biographies" component={Biographies} />
+                        <Route path="/philippines" component={Philippines} />
+                        <Route path="/pprc" component={Pprc} />
+                        <Route path="/research" component={Research} />
+                        <Route path="/research-continued" component={ResearchContinued} />
+                        <Route path="/post-harvest-tech" component={PostHarvestTech} />
+                        <Route path="/awards" component={Awards} />
 
                         <Route path="/soil-science" component={Soilscience} />
                         <Route path="/iisc" component={Iisc} />
                         <Route path="/gjfowler" component={GJFowler} />
                         <Route path="/references" component={References} />
                         <Route path="/food-tech" component={Foodtech} />
-                        <Route path="/philippines" component={Philippines} />
-                        <Route path="/pprc-iiftp" component={PprcIiftp} />
-                        <Route path="/pprc-research" component={PprcResearch} />
-                        <Route path="/pprc-research-continued" component={PprcResearchContinued} />
-                        <Route path="/post-harvest-tech" component={PostHarvestTech} />
+                        
+                        
+                        
+                        
                         <Route path="/complete-list" component={CompleteList} />
                         <Route path="/spices" component={Spices} />
                         <Route path="/tapioca-cassava" component={Tapioca} />
-                        <Route path="/awards" component={Awards} />
+                        
                         <Route path="/contact" component={Contact} />
                         <Route path="/site-map" component={Sitemap} />
                     </Switch>

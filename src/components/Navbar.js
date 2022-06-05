@@ -79,7 +79,17 @@ function Navbar() {
     }
 
     const callPprc = (event) => {
-        history.push("/pprc-iiftp");
+        history.push("/pprc");
+        
+    }
+
+    const callResearch = (event) => {
+        history.push("/research");
+        
+    }
+
+    const callPostHarvestTech = (event) => {
+        history.push("/post-harvest-tech");
         
     }
 
@@ -170,15 +180,15 @@ function Navbar() {
                                     <li><a data-cy="menu-pprc" onClick={callPprc}>Infestation</a></li>
                                 </ul>
                             </li>
-                            <li><a data-cy="menu-sitemap" onClick={callSitemap}>The Philippines</a></li>
+                            <li><a data-cy="menu-sitemap" onClick={callPhilippines}>The Philippines</a></li>
                             <li>
-                                <a data-cy="menu-soil" className="desktop-link">PPRC – IIFPT</a>
+                                <a data-cy="menu-soil" onClick={callPprc} className="desktop-link">PPRC</a>
                                 <input type="checkbox" id="show-features" />
-                                <div style={{ display: 'flex' }} ><a data-cy="menu-soil1" className="mobile-link" >PPRC – IIFPT</a>
+                                <div style={{ display: 'flex' }} ><a data-cy="menu-soil1" onClick={callPprc} className="mobile-link" >PPRC</a>
                                     <label htmlFor="show-features" ><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
                                 <ul>
-                                    <li><a data-cy="menu-iisc" onClick={callRothamsted}>Research</a></li>
-                                    <li><a data-cy="menu-rothamsted" onClick={callRothamsted}>Post – Harvest Technology</a></li>
+                                    <li><a data-cy="menu-iisc" onClick={callResearch}>Research</a></li>
+                                    <li><a data-cy="menu-rothamsted" onClick={callPostHarvestTech}>Post – Harvest Technology</a></li>
                                 </ul>
                             </li>
                             <li><a data-cy="menu-awards" onClick={callAwards}>Awards</a></li>
