@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import headerphoto2 from '../../img/headerphoto2.jpg'
+import homenew from '../../img/homenew.png'
 
 export default function References() {
     const history = useHistory();
@@ -16,7 +16,7 @@ export default function References() {
     return (
         <>
             <div className="headerimg">
-                <img src={headerphoto2} style={{ height: '155px', width: '100%' }} />
+                <img src={homenew} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                 <br></br>

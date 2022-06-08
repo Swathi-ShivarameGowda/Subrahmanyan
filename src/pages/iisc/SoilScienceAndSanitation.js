@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import headerphoto2 from '../../img/headerphoto2.jpg';
+import homenew from '../../img/homenew.png';
 import SCPillai from '../../img/SCPillai.png';
 import epistylis from '../../img/epistylis.png';
 import Carchesium from '../../img/Carchesium.png';
@@ -22,7 +22,7 @@ export default function SoilScienceAndSanitation() {
     return (
         <>
             <div className="headerimg">
-                <img src={headerphoto2} style={{ height: '155px', width: '100%' }} />
+                <img src={homenew} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                 <br></br>
@@ -48,7 +48,7 @@ export default function SoilScienceAndSanitation() {
                 <br></br>
                 <div className="earlylifediv" >
                         <div style={{ display: 'inline', marginLeft: '20px' }} >
-                            <img src={SCPillai} height={200} width={300} />
+                            <img src={SCPillai} height={200} width={200} />
                             <div className="earlylifedesc" >S.C. Pillai (20-01-1914-10-06-1984)</div>
                             <br></br>
                         </div>
@@ -64,7 +64,11 @@ export default function SoilScienceAndSanitation() {
                         </div>
                 </div>
                 <br></br>
-                <div className="earlylifepara" >Protozoa occurring abundantly at the points of purification of flowing sewage at Bangalore    (taken from Pillai et al 1953; 23)</div>
+                <div className="earlylifepara" >Protozoa occurring abundantly at the points of purification of flowing sewage at Bangalore (taken from Pillai <font style={{fontStyle:'Italic'}}>et al</font> 1953; 23)</div>
+                <br></br>
+                <div className="earlylife" style={{ fontSize: 'large' }} >References</div>
+                <br></br>
+                <div className="referencepara" > (1) Subrahmanyan V. and Norris.R.V. (1928) Studies on soil Actinomyces Part 1. Introduction . Journal of the Indian  Institute of Science, 12 :53-56. (2) Subrahmanyan, V. 1928) Studies on soil Actinomyces. Part II. Their mode of occurrence in the soil. Journal of the Indian Institute of Science, 12: 57-68. (3) Ganesha, R.M. and V. Subrahmanyan, V. (1928) Studies on soil Actinomyces. Part III. Standardisation of a plate method of counting soil Actinomyces. Journal of the Indian Institute of Science, 12 : 253-273. (4) Narayan,N. and Norris,R. (1928) Studies on the proteins of Indian Foodstuffs. Part1. The proteins of Ragi (Eleusine coracana). Eleusin, the alcohol soluble protein. Journal of the Indian Institute of Science, 12 :91-95.  (5) Sundaram, P. S., Norris,R.V., and V. Subrahmanyan,V. (1928) Studies in the proteins of Indian Foodstuffs..05.Part II. The Proteins of the Pigeon Pea (Cajanus Indicus). Journal of the Indian  Institute of Science, 12 :193-205. (6) Narayana Pillai,T.R. and Subrahmanyan,V. (1931) The origin nature of the peaty soils of Travancore. Journal of the Indian Institute of Science,1 4 : 99-117.  (7) Pillai, S. C. (1935)  Tuberculation of Water Pipes. Current Science,  4: 410 411.  (8) Sreenivasan, A. and  Subrahmanyan, V. (1935). Biochemistry of water-logged soils. Part IV. Carbon and nitrogen transformations.  The Journal of Agricultural Science, 25: 6-21.  (9) Rao, J.J. and Subrahmanyan,V. (1935) A Hygienic Method of Composting Refuse with Night-Soil. Ind. Medical Gazette, 50: 202-206   (10) Subrahmanyan, V. (1932) Sewage Farming in India. Current Science, 6: 157-160 . (11) Sreenivasan, A. (1936) Investigations on the role of organic matter in plant nutrition. Part XI . Effect of manuring on the Growth and Intake of Silicon by Dry and Wet Cultivated Rice. The Proceedings of the National Academy of Science India, Section B., 3:  302-309. (12) Rajagopal,S., Siirikhande, J.G. and Subrahmanyan,V. (1936) Composting of town refuse by the "Edelmist" Process. Ind Med Gaz.,  71: 30-31.  (13) Subramanyan,V. (1937) Some Aspects of the Chemistry of Swamp Soil .Current Science, 5 : 656-659 .  (14) Subrahmanyan,V. (1937) Sewage as a source of nitrogen supply to the soil. Proceedings of the Indian National Science Academy, 3:197-210.   15. Pillai, S.C. (1941) The function of protozoa in the activated sludge process. Current Science, 2:84.  16. Pillai,S.C. (1941) A new aspect of Hydroponics : “Hanging Gardens” in the activated sludge tank. Current Science, 2:85. 17. Pillai,S.C.  and Subramanyan,V (1942) Role of Protozoa in the Activated Sludge Process. Nature, 150, 525. 18.  Pillai,S.C. and Subramanyan,V (1945)  Life cycles in the transformation of organic matter in sewage, soil and other biological media.  Science and Culture, 11: 592-596.  19.Pillai, S. C., Wadhwani, T. K., Gurbaxani, M. I.; Subrahmanyan, V. (1947) Relative efficiency of bacteria and protozoa in the flocuulation and oxidation of organic matter suspended in water . Current Science, 16: 340-340. 20. Pillai, S. C., Wadhwani, T. K.; Subrahmanya, V. (1947) Respiration of Vorticella. Current Science, 16: 341-342.  21.  Pillai, S. C.,Rajagopalan, R. and  Subrahmanyan, V. (1947) Utilisation of Sewage Farms for Growing Sugarcane and Production of White Sugar. Current Science, 16:342-343.  21.  Pillai,S.C., Wadhwani,T.K., Gurbaxani,M.L., Subrahmanynan,V. (1948) Role of protozoa in the concentration of nitrogen in the sludge during aerobic purification of sewage, Current Science, 3:  93-95. 22. Balsundaram,S and Subrahmanyan,V. (1950) Industrial wasted disposal-treatment and utilisation of textile wastes. Science and Culture, 15: 277-279. 23. Pillai,S.C., Mohan Rao,G.J., PrabhakaraRao,A.V.S., Natarajan,C.V. and Madappa,L.B. (1953) Protozoal development and natural purification of flowing sewage. Indian Medical Gazette, 88: 507-508. </div>
                 <br></br>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                     <div className="backbutton" ><Button size="small" onClick={onClickBack} >Back</Button></div>

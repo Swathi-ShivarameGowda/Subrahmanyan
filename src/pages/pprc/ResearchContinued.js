@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import ABOUTUS from '../../img/ABOUTUS.png'
+import homenew from '../../img/homenew.png'
 import babyextractor from '../../img/babyextractor.png'
 import pressureguage from '../../img/pressureguage.png'
 import ricemill from '../../img/ricemill.png'
@@ -23,7 +23,7 @@ export default function ResearchContinued() {
     return (
         <>
             <div className="headerimg">
-                <img src={ABOUTUS} style={{ height: '155px', width: '100%' }} />
+                <img src={homenew} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                 <br></br>

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import headerphoto2 from '../img/headerphoto2.jpg'
+import homenew from '../img/homenew.png'
 import davidezragreen from '../img/davidezragreen.jpg'
 
 export default function Soilscience() {
@@ -18,7 +18,7 @@ export default function Soilscience() {
     return (
         <>
             <div className="headerimg">
-                <img src={headerphoto2} style={{ height: '155px', width: '100%' }} />
+                <img src={homenew} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                     <br></br>

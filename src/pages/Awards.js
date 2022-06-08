@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import AWARDS from '../img/AWARDS.png'
+import homenew from '../img/homenew.png'
 import award from '../img/award.png'
 
 export default function Awards() {
@@ -17,7 +17,7 @@ export default function Awards() {
     return (
         <>
             <div className="headerimg">
-                <img src={AWARDS} style={{ height: '155px', width: '100%' }} />
+                <img src={homenew} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                 <br></br>
@@ -25,7 +25,7 @@ export default function Awards() {
                 <br></br>
                 <div>
                     <img style={{ float: 'right', margin: '15px' }} src={award} height={400} width={300} />
-                    <div className="earlylifepara" >Subrahmanyan received the  Sen medal from the Institution of Chemists , the Rafi Ahmed Kidwai Award for work on the development of baby food and the Padma Shri  in 1960. In 1961 he again received the Raffi Ahmed Kidwai prize  for  development of technique of wax coating of fruits and vegetables to increase their shelf life. In 1962 he received the Babcock Hart Award from the Institute of Food Technologists USA for work on the devlopment of the Indian Multi-Purpose Food. Dr. V. Subrahmanyan was awarded the first "Friesland" Award by Cooperative Milk Products Factory On September 10, 1963, on the occasion of their 50th anniversary of the  founding of their factory. He recieved the the K.G. Naik medal for distinguished contributions to biochemistry in 1964 from the University of Baroda. He received a citation and plaque from the National  </div>
+                    <div className="earlylifepara" >Subrahmanyan received the  Sen medal from the Institution of Chemists, the Rafi Ahmed Kidwai Award for work on the development of baby food and Padma Shri from the then President of India Dr.Rajendra Prasad in the year 1960 (see picture). In 1961 he again received the Raffi Ahmed Kidwai prize  for  development of technique of wax coating of fruits and vegetables to increase their shelf life. In 1962 he received the Babcock Hart Award from the Institute of Food Technologists USA for work on the devlopment of the Indian Multi-Purpose Food. Dr. V. Subrahmanyan was awarded the first "Friesland" Award by Cooperative Milk Products Factory On September 10, 1963, on the occasion of their 50th anniversary of the  founding of their factory. He recieved the the K.G. Naik medal for distinguished contributions to biochemistry in 1964 from the University of Baroda. He received a citation and plaque from the National. </div>
                     <br></br>
                 </div>
                 <div className="earlylifepara" >Institute of Science and Technology, Philippines on July 18, 1966 and  on 28th July 1966 at Cotabato City in the Philippines he received a citation for "his unselfish and dedicated efforts in the upliftment of the welfare of the coconut farmers of Cotabato province by his research and the final farm application of the treatment of coconut kernels with chemicals to produce quality copra" from the Moru Gulf Coconut Planters Association.</div>
@@ -36,9 +36,6 @@ export default function Awards() {
                 <div className="earlylifepara" >The Society Of Biological Chemists (India)" was founded in 1930, with its Head Quarters at Indian Institute of Science, Bangalore. It was registered under the Societies Act in the then Princely State of Mysore and the memorandum of registration was signed by the Profs V Subramanian, V Pattawardhan and C V Natarajan, Dr. G. J. Fowler  was president in 1931 and from 1946-1948. V.Subrahmanyan was president  in  1950-1951</div>
                 <br></br>
                 <div className="earlylifepara" >The Association of Food Technologists (AFT) was founded in 1957 in the Campus of the C.F.T.R.I.  It was renamed  in 1968 as the Association of Food Scientists and Technologists (AFST). Dr. Subrahmanyan  was president of the association from 1957 to1963.. An award was The V.Subrahmanyan Industrial Achievement award was instituted by the Association of Food Science and Technologists India. Awardees of the The V.Subrahmanyan Industrial Achievement award include  Dr.H.S.R. Deiskachar, Dr. G.S.  Siddapa, Mr. C. P.Natarajan, and M. R Chandrasehkar  who were associates of V.Subrahmanyan.</div>
-                <br></br>
-                <div className="earlylifepara" >PUBLICATIONS</div>
-                <div className="earlylifepara" >He was prolific in his scientific publications. He has authored over 600 research papers in different national and international journals and holds 30 patents. He is co-author of a monograph on "Proteins in Foods" and another on "Milks of Vegetable Origin", both published by the Indian Council of Medical Research.He placed high premium on publications and always advised his younger colleagues to publish as much of their work as possible.</div>
                 <br></br><br></br>
                 <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
             </div>

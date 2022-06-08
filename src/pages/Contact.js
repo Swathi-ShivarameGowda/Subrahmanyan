@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import SITEMAP from '../img/SITEMAP.png'
+import homenew from '../img/homenew.png'
 
 export default function Contact() {
 
@@ -13,7 +13,7 @@ export default function Contact() {
     return (
         <>
             <div className="headerimg">
-                <img src={SITEMAP} style={{ height: '155px', width: '100%' }} />
+                <img src={homenew} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                 <br></br>

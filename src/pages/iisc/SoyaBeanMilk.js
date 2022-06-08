@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import headerphoto2 from '../../img/headerphoto2.jpg';
+import homenew from '../../img/homenew.png';
 import soyamilk from '../../img/soyamilk.png';
 import hsrdesikachar from '../../img/hsrdesikachar.png';
 
@@ -21,7 +21,7 @@ export default function SoyaBeanMilk() {
     return (
         <>
             <div className="headerimg">
-                <img src={headerphoto2} style={{ height: '155px', width: '100%' }} />
+                <img src={homenew} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                 <br></br>
@@ -73,6 +73,10 @@ export default function SoyaBeanMilk() {
                 <div className="earlylife" style={{ fontSize: 'larger' }} >Paul M. Jayarajan (20,21)</div>
                 <br></br>
                 <div className="earlylifepara" >He was born in 1910 into a Srilankan Christian family (His father, Dr S.C. Paul, was the first Srilankan to gain an F.R.C.S.). He studied at Emmanuel college, Cambridge as undergraduate and as an ICS appointee. Mr. P.M. Jayarajan was appointed to the Madras cadre of the Indian Civil Service and took up his first posting in 1933 as Assistant Collector and Magistrate of Malabar District. After postings at Palghat, Madurai, Madras (Chennai), he was collector of the Civil and Military station at Bangalore from 1945-1949. He was known as the “Peoples Collector” as he built housing colonies for the poor and for carrying out campaign against tuberculosis ( and probably his support for feeding school children!).</div>
+                <br></br>
+                <div className="earlylife" style={{ fontSize: 'large' }} >References</div>
+                <br></br>
+                <div className='referencepara'>1. Report on soy bean by the soyabean sub committee of the Nutrition Advisory Board, Indian Research Fund Association (1945). The Job Press, Kanpur. 2. De,S.S. and Subrahmanyan,V (1945) Processing of soyabean for the production of milk Current Science, 8:204-205. 3. De,S.S. and Subrahmanyan,V. (1946) Nutritive Value of  soya-bean and related products. Current Science, 15:231-233. 4.   Desikachar,H.S.R., De,S.S. and Subrahmanyan,V. (1946) Studies on the nutritive value of soymilk Part 1. Nutritive value of the protein. Annals of Biochemistry and Experimental Medicine,  6: 41-56.  5. Desikachar,H.S.R., De,S.S. and Subrahmanyan,V. (1946) Studies on the nutritive value of soymilk Part II. Comparison of the Vitamin B complex content of soya milk and cow’s  milk.  Annals of Biochemistry and Experimental Medicine,  6: 57-60.  6.Desikachar,H.S.R., De,S.S. and Subrahmanyan,V. (1946) Studies on the nut ritive value of Soymilk Part III. Supplementary value of Soya milk to a Poor Indian diet.  Annals of Biochemistry and Experimental Medicine,   7: 61-.64.                        7.  Krishnaswamy,N., De,S.S. and Subrahmanyan,V. (1946) Studies on the nutritive value of Soymilk Part IV In vitro digestibility of Soymilk and trypsin Inhibitor of Soyabean. Annals of Biochemistry and Experimental Medicine,  6:65 -96.  8. Desikachar,H.S.R. De,S.S. (1947) Role of Inhibitors in soyabean. Science, 106:425-422.  9.  Subrahmanyan,V. and De,S.S.  (1946)  Co-operation in scientific report.  Science and Culture, 12: 290-291. 10. De, Sasanka S., Desikachar, H.S.R.,  Karnani, B.T. and Subrahmanyan, V. (1947) Investigations on soya bean milk and related products. Science and Culture, 2:587-591. 11. De, S.S. Desikachar,H.S.R., Dudani,A.T. Karnani,B.T. and Subrahmanyan,V. (1947) Rice Gruel in Food Preparation. Indian Medical Gazette,   82: 143-145.  12.  Desikachar,H.S.R (1948) Factors affecting the nutritive value of soya bean protein. Science and Culture, 2:52-53. 13. Desikachar,H.S.R. De,S.S and Subrahmanyan,V. (1948) In Vitro Digestibility of Soyamilk and  tryptic inhibitor of soybean. Annals of Biochemistry and Experimental Medicine, 8:93-97.  14. Patwardhan,V.N. (1952) Nutrition in India. Published by the Indian Journal of Medical Sciences, Bombay. 15. Marjorie Scott (1953) School Feeding - Its Contribution to Child Nutrition FAO Nutritional Studies No. 10.                            16. Subrahmanyan, V., Reddy, S., Moorjani, M., Sur, G., Doraiswamy, T., Sankaran, A., Swaminathan, M. (1954). Supplementary Value of Vegetable-milk Curds in the Diet of Children. British Journal of Nutrition, 8 : 348-352. doi:10.1079/BJN19540052.                 17. Milk substitutes of vegetable origin (1955) Indian Council of Medical Research Special reports series No.31: New Delhi  C.F.T.R.I. , Mysore.   18. Devadas,R.P. and Radharukmani (1967) The School Lunch Programme: Organisation and Outcomes. Ministry of Education, Government of India. 19.Shurtleff,W. and Aoyagi,A. (2007) A Chapter from the Unpublished Manuscript, History of Soybeans and Soyfoods, 1100 B.C. to the 1980s. Soyinfo Center, Lafayette, California.  20. https://www.s-asian.cam.ac.uk/archive/papers/item/jayarajan-papers/ 21. https://karnatakahistory.blogspot.com/2013/05/bangalore-cantonment-its-origin-growth.html</div>
                 <br></br>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                     <div className="backbutton" ><Button size="small" onClick={onClickBack} >Back</Button></div>

@@ -64,8 +64,8 @@ function Navbar() {
         history.push("/biographies");
     }
 
-    const callTapioca = (event) => {
-        history.push("/tapioca-cassava");
+    const callSago = (event) => {
+        history.push("/sago");
     }
 
     const callSpices = (event) => {
@@ -150,8 +150,8 @@ function Navbar() {
                                         <div style={{ display: 'flex' }} ><a data-cy="menu-cftri1" className="mobile-link" >Infant food</a>
                                             <label htmlFor="show-items"><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
                                         <ul>
-                                            <li><a data-cy="menu-infant" onClick={callDevelopmentAmulFood}>Developmental History</a></li>
-                                            <li><a data-cy="menu-tapioca" onClick={callProcess}>Process</a></li>
+                                            <li><a data-cy="menu-infant" onClick={callDevelopmentAmulFood}>Development of Amul Baby food</a></li>
+                                            <li><a data-cy="menu-tapioca" onClick={callProcess}>Process of making Amul Baby food</a></li>
                                             <li><a data-cy="menu-spices" onClick={callBiography}>Biographies of those involved</a></li>
                                         </ul>
                                     </li>
@@ -160,7 +160,7 @@ function Navbar() {
                                         <div style={{ display: 'flex' }} ><a data-cy="menu-cftri1" className="mobile-link" >Tapioca/Cassava</a>
                                             <label htmlFor="show-items"><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
                                         <ul>
-                                            <li><a data-cy="menu-infant" >Sago</a></li>
+                                            <li><a data-cy="menu-infant" onClick={callSago}>Sago</a></li>
                                             <li><a data-cy="menu-tapioca" >Tapioca Macaroni</a></li>
                                             <li><a data-cy="menu-spices" >Mysore flour and Indian Multipurpose food</a></li>
                                         </ul>
@@ -182,13 +182,14 @@ function Navbar() {
                             </li>
                             <li><a data-cy="menu-sitemap" onClick={callPhilippines}>The Philippines</a></li>
                             <li>
-                                <a data-cy="menu-soil" onClick={callPprc} className="desktop-link">PPRC</a>
+                                <a data-cy="menu-soil" className="desktop-link">PPRC</a>
                                 <input type="checkbox" id="show-features" />
-                                <div style={{ display: 'flex' }} ><a data-cy="menu-soil1" onClick={callPprc} className="mobile-link" >PPRC</a>
+                                <div style={{ display: 'flex' }} ><a data-cy="menu-soil1" className="mobile-link" >PPRC</a>
                                     <label htmlFor="show-features" ><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
                                 <ul>
+                                    <li><a data-cy="menu-iisc" onClick={callPprc}>The Establishment of PPRC</a></li>
                                     <li><a data-cy="menu-iisc" onClick={callResearch}>Research</a></li>
-                                    <li><a data-cy="menu-rothamsted" onClick={callPostHarvestTech}>Post – Harvest Technology</a></li>
+                                    <li><a data-cy="menu-rothamsted" onClick={callPostHarvestTech}>Post - Harvest Technology</a></li>
                                 </ul>
                             </li>
                             <li><a data-cy="menu-awards" onClick={callAwards}>Awards</a></li>

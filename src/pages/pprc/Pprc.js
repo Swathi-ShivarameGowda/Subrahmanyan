@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import { useHistory, Link } from "react-router-dom";
 import Button from '@mui/material/Button';
-import ABOUTUS from '../../img/ABOUTUS.png'
+import homenew from '../../img/homenew.png'
 import iiftp from '../../img/iiftp.png'
 import thiyagaraja from '../../img/thiyagaraja.png'
 import pprcTeam from '../../img/pprcTeam.png'
@@ -26,11 +26,11 @@ export default function Pprc() {
     return (
         <>
             <div className="headerimg">
-                <img src={ABOUTUS} style={{ height: '155px', width: '100%' }} />
+                <img src={homenew} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                 <br></br>
-                <div className="earlylife" >The Established of PPRC</div>
+                <div className="earlylife" >The Establishment of PPRC</div>
                 <br></br>
                 <div className="earlylifepara" >On his return from the Phillipines, from 1966-1969 Subrahmanyan was Adviser, Subsidiary Foods and Nutrition, Ministry of Food and Agriculture, Community Development and Cooperation, New Delhi. He worked with Shri C. Subramaniam then, minister, Food and Agriculture (1964-66) and that of Food and Agriculture, Community Development and Cooperation (1966-69). Between 1952 and 1957 C.Subramanian was Minister Food,  Finance, Education, Information and Publicity in the ministries of both C.Ragopalachari and Mr. Kamraj in the erstwhile state of Madras. During this period the mid-day meal (developed and formulated at the C.F.T.R.I. when V.Subrahmanyan was Director) supplement to feed 1.5 million children per day was undertaken  (5). C. Subramanian was involved in the green revolution and the white revolution and there is evidence that he supported the growth of food industry in the country.</div>
                 <br></br>

@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import ABOUTUS from '../img/ABOUTUS.png'
+import homenew from '../img/homenew.png'
 import thesubrahmanyanprocess from '../img/thesubrahmanyanprocess.jpg'
 import phillipines from '../img/phillipines.png'
 import './Philippines.css';
@@ -22,7 +22,7 @@ export default function Philippines() {
     return (
         <>
             <div className="headerimg">
-                <img src={ABOUTUS} style={{ height: '155px', width: '100%' }} />
+                <img src={homenew} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                 <br></br>
@@ -41,6 +41,10 @@ export default function Philippines() {
                     <br></br>
                 </div>
                 <div className="earlylifepara" >He received awards of appreciation for this very valuable work from the commercial organizations and federations in the Philippines as also from the Philippine Nutrition Association. In 1965 Dr.Subramanyam received First Friesland Award from the Netherlands Association for the Advancement of Dairy Science, for outstanding contributions on the role of milk and milk products in tropical nutrition.</div>
+                <br></br>
+                <div className="earlylife" style={{ fontSize: 'large' }} >References</div>
+                <br></br>
+                <div className='referencepara'>(1) Coconut Harvesting and Copra Production "COCONUT PROCESSING TECHNOLOGY” INFORMATIONDOCUMENTSUNIDOdocumenthttps://open.unido.org/api/documents/4788145/download/COCONUT%20HARVESTING%20AND%20COPRA%20PRODUCTION.%20COCONUT%20PROCESSING%20TECHNOLOGY%20INFORMATION%20DOCUMENTS.%20PART%201%20(09979.en) (2) Subramayan V.(1965) Control of infection and production of quality products from Coconut -without machinery or application of heat. Philippine Journal of Nutrition 218-234</div>
                 <br></br>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                     <div className="backbutton" ><Button size="small" onClick={onClickBack} >Back</Button></div>

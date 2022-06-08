@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useHistory, Link } from "react-router-dom";
 import Button from '@mui/material/Button';
-import ABOUTUS from '../../../img/ABOUTUS.png'
+import homenew from '../../../img/homenew.png'
 import amul1 from '../../../img/amul1.jpg'
 import amul2 from '../../../img/amul2.jpg'
 import amul3 from '../../../img/amul3.jpg'
@@ -25,7 +25,7 @@ export default function DevelopmentAmulFoodContinued() {
     return (
         <>
             <div className="headerimg">
-                <img src={ABOUTUS} style={{ height: '155px', width: '100%' }} />
+                <img src={homenew} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                 <br></br>
@@ -87,12 +87,15 @@ export default function DevelopmentAmulFoodContinued() {
                     <br></br>
                 </div>
 
-                <div className="earlylifepara" ><Link to="/references" style={{ textDecoration: 'none' }} ><font color="#3819e9">References</font></Link></div>
-                <br></br><br></br>
+                <br></br>
+                <div className="earlylife" style={{ fontSize: 'large' }} >References</div>
+                <br></br>
+                <div className='referencepara'>(1) Wright,N.C. (1937) Report on the development of the cattle and dairy industries. Government of India Press, Simla  (2) McCabe Terrence W. (1955) What kind of market is India for our dry milk. Foreign Agriculture: A Review of Foreign Farm Policy, Production, and Trade. XIC:160-161. (3) Lok Sabha Debates (1956) VOL.3. Issue 1. 3217-3218.  (4)  Subrahmanyan, V., Chandrashekar,M.R. Narayana Rao,M., and Swaminathan,M. (1959) Studies on Infant and Invalid Foods based on Milk Eds. Parpia ,H.A.B.,   Bhutiani,R.C.,   Radhakrishnan,K.L. Sankaran,A.N. and Subbarayappa , B. V. C.F.T.R.I. Mysore. (5) Sikka Chand, K. L. C. and Mehta,V.A.(1960) Report of the committee on milk powder industry. Government of India Press,  New Delhi. (6) Estimates Committee (1962-63) Twenty Seventh Report (Third Lok Sabha) Ministry of Scientific Research and Cultural Affairs. 1963. Published under rule 382 of the Rules and Procedure and Conduct of business in Lak Sabha (Fifth Edition) and printed by the Parliamentary wing of the Government of India Press, New Delhi . (7) Prime Minister Nehru Visits Plant at Anand. Baby Food to be made in the Co-operative sector. (1960)  Indian Dairyman, 12 :101-102. (8) Mr. Moraji Desai opens Amul Baby Food Plant. First of its Kind in India (1960). Indian Dairyman, 12:301-302. (9) Subrahmanyan,V. (1960) Infant food from buffalo VI Large Scale production of roller dried infant food. Food Science,  9: 1-2.  (10).  Infants foods and ISI certifications. (1961) Indian Dairyman, 357-361 (11) Balu,V.(1961)  Science aids development of Indian Infant-food. Indian Dairyman.  (12) Research and Industry (1961). 6:23. (13) Kamath,M.V. (1996) Milkman from Anand  The story of Verghese Kurien. Konark Publishers, New  Delhi. Page 100-102. (14) Ruth Heredia (1999) The Amul India Story  Tata McGraw-Hill Pub. Company. Page 153. (15 ) Kurien Verghese and Salvi Gouri. (2005) I too had a Dream.  APH Publishing. Kindle Edition. Page 81.  (16) Dalaya,H.M and Patel,I.M. (1971)  The problems of the use of Buffalo milk for milk products. Indian Dairyman, 23:199-202. (17) Government of Orissa Compilation of Important Circulars and Orders issued by Finanace Department during 2001-2002. https://finance.odisha.gov.in/sites/default/files/2020-02/2001-02.pdfpage 74. https://finance.odisha.gov.in/sites/default/files/2020-02/2001-02.pdf (18) L&T exits JV with Niro (2005) Financial Express. Mumbai, May 26.</div>
+                <br></br>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                     <div className="backbutton" ><Button size="small" onClick={onClickBack} >Back</Button></div>
                     <div className="backbutton" ><Button size="small" onClick={onClickNext} >Next</Button></div>
-                    </div>
+                </div>
             </div>
         </>
     )

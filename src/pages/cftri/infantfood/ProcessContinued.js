@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import ABOUTUS from '../../../img/ABOUTUS.png'
+import homenew from '../../../img/homenew.png'
 import babyfood from '../../../img/babyfood.jpg'
 import babyfood1 from '../../../img/babyfood1.png'
 import babyfood2 from '../../../img/babyfood2.jpg'
@@ -26,19 +26,21 @@ export default function ProcessContinued() {
     return (
         <>
             <div className="headerimg">
-                <img src={ABOUTUS} style={{ height: '155px', width: '100%' }} />
+                <img src={homenew} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
+            <br></br>
+                <div className="earlylife" >Process of making Amul Baby food (continued..)</div>
                 <br></br>
-                <div className="earlylifepara" >The next paper in the series was that on shelf life of the spray dried product (12). Their criteria as was in their reference paper (5) that of solubility of the product on reconstitution, the palatability, shelf life, presence of off odor, and the need to eliminate oxygen through the passage of oxygen during  storage of the spray dried product. Leah et al  1943 (5)  had also warned that presence of copper as was possible with copper vessel stored milk, could increase the intensity of off flavor produced in milk powder during storage. Infant food was prepared as above when milk was collected in sterilized stainless steel (and chilled ) or aluminum vessels (three hours to reach laboratory). Milk containing straw and that stored in copper vessels was also used to make the infant food. The food was packed in air or in the presence of nitrogen using an apparatus similar to that described in Leah et al 1943 (5). A Haldane apparatus was used to measure carbon di oxide and oxygen. The figure given below is from an unrelated publication but illustrates the nature of the apparatus. </div>
+                <div className="earlylifepara" >The next paper in the series was that on shelf life of the spray dried product (12). Their criteria as was in their reference paper (5) that of solubility of the product on reconstitution, the palatability, shelf life, presence of off odor, and the need to eliminate oxygen through the passage of oxygen during  storage of the spray dried product. Leah <font style={{fontStyle:'Italic'}}>et al</font>  1943 (5)  had also warned that presence of copper as was possible with copper vessel stored milk, could increase the intensity of off flavor produced in milk powder during storage. Infant food was prepared as above when milk was collected in sterilized stainless steel (and chilled ) or aluminum vessels (three hours to reach laboratory). Milk containing straw and that stored in copper vessels was also used to make the infant food. The food was packed in air or in the presence of nitrogen using an apparatus similar to that described in Leah <font style={{fontStyle:'Italic'}}>et al</font>l 1943 (5). A Haldane apparatus was used to measure carbon di oxide and oxygen. The figure given below is from an unrelated publication but illustrates the nature of the apparatus. </div>
                 <br></br>
                 <img className="babyfood" src={babyfood} />
-                <div className="earlylifepara" >Cabinet for gas packing as described in Leah et al 1943 (5). A similar apparatus used in Chandrashekara et al 1957 (12).</div>
+                <div className="earlylifepara" >Cabinet for gas packing as described in Leah <font style={{fontStyle:'Italic'}}>et al</font> 1943 (5). A similar apparatus used in Chandrashekara <font style={{fontStyle:'Italic'}}>et al</font> 1957 (12).</div>
                 <img className="babyfood" src={babyfood1} />
-                <div className="earlylifepara" >Apparatus for measuring the pressure in cans and for sampling the head-space gas for analysis (Leah et al 1943,5) similar to that adopted by Chandrashekara et al 1957. (12)</div>
+                <div className="earlylifepara" >Apparatus for measuring the pressure in cans and for sampling the head-space gas for analysis (Leah <font style={{fontStyle:'Italic'}}>et al</font> 1943,5) similar to that adopted by Chandrashekara <font style={{fontStyle:'Italic'}}>et al</font> 1957. (12)</div>
                 <img className="babyfood1" src={babyfood2} />
-                <div className="earlylifepara" >Modified Haldane Apparatus (Nagarajan and Murrin, 197333 ..  Chandrasekhara et al 195712   used a Haldane apparatus  to measure oxygen in cans.</div>
-                <div className="earlylifepara" >The apparatus was used to measure the oxygen content in the tins as varied with processing conditions and time. The samples of infant food prepared from milk obtained in stainless or aluminum cans during collection had the least peroxide values and highest palatability score using the least oxygen during storage.  This sample was acceptable even when stored at 37oC instead of at room temperature (25-29 oC) for eight months under nitrogen. At room temperature the infant food was acceptable even after 16 months (12).</div>
+                <div className="earlylifepara" >Modified Haldane Apparatus (Nagarajan and Murrin, 197333 ..  Chandrasekhara <font style={{fontStyle:'Italic'}}>et al</font> 195712   used a Haldane apparatus  to measure oxygen in cans.</div>
+                <div className="earlylifepara" >The apparatus was used to measure the oxygen content in the tins as varied with processing conditions and time. The samples of infant food prepared from milk obtained in stainless or aluminum cans during collection had the least peroxide values and highest palatability score using the least oxygen during storage.  This sample was acceptable even when stored at <span>37{'\u00b0'}C</span> instead of at room temperature (<span>25-29{'\u00b0'}C</span>) for eight months under nitrogen. At room temperature the infant food was acceptable even after 16 months (12).</div>
                 <br></br>
                 <div className="earlylifepara" >The  paper describing the large scale production of spray dried infant food13 applauds "the success of Kaira District Cooperative Milk Producers' Union at Anand in organizing the collection and processing of milk on large scale" and as an "outstanding instance of how cooperation and organization can help in the dairy development in our country" It is with their help that the authors could run large scale trials of the preparation on infant food using the 5 tons per day capacity spray drier(Niro) that had been installed at Anand. The important steps in the production was "(i) reduction of fat content of the buffalo milk to 2.5 per cent (ii) addition of phosphate buffer salts to react with ionised calcium and thus reduce the curd tension of the infant food (iii) addition of sugar so as to reduce the protein content of the final product to about 22 per cent and the fat content to about 14 per cent (iv) concentration (v) addition of vitamins and homogenization (vi) drying and (vii) packing in nitrogen atmosphere". </div>
                 <img className="babyfood3" src={babyfood3} />

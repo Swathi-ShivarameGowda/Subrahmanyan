@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import { useHistory, Link } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import ABOUTUS from '../../img/ABOUTUS.png'
+import homenew from '../../img/homenew.png'
 
 export default function CftriContinued() {
     const history = useHistory();
@@ -19,7 +19,7 @@ export default function CftriContinued() {
     return (
         <>
             <div className="headerimg">
-                <img src={ABOUTUS} style={{ height: '155px', width: '100%' }} />
+                <img src={homenew} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                 <br></br>
@@ -45,8 +45,11 @@ export default function CftriContinued() {
                         <li>Food adulteration; development of new methods of detection and quality control and food information; dissemination of general information on food and dietary problems through bulletins and technological reports.</li>
                     </ul>
                 </div>
-                <div className="earlylifepara" >The work of the Institute will be carried out through the following Divisions: Biochemistry and Nutrition, Processing, Storage and Preservation, Quality Control, Microbiology and Sanitation, Engineering, and Information and Statistics. A Division of Dietetics and a Section for Food Containers are also being organized. The Institute will soon have a staff of over 200, including 70 scientific workers.  As the activities develop, additional staff will be recruited. The Institute may also have to establish centers and regional laboratories which will work in close association with the Central Laboratory. The Institute is now in receipt of a recurring and capital grant aggregating to about Rs.  9 lakhs, but this is expected to increase steadily with the opening up of new Divisions and other activities" <Link to="/references" style={{ textDecoration: 'none', color: '#3819e9' }} >(5,6)</Link></div>
-                <div className="earlylifepara" ><Link to="/references" style={{ textDecoration: 'none' }} ><font color="#3819e9">References</font></Link></div>
+                <div className="earlylifepara" >The work of the Institute will be carried out through the following Divisions: Biochemistry and Nutrition, Processing, Storage and Preservation, Quality Control, Microbiology and Sanitation, Engineering, and Information and Statistics. A Division of Dietetics and a Section for Food Containers are also being organized. The Institute will soon have a staff of over 200, including 70 scientific workers.  As the activities develop, additional staff will be recruited. The Institute may also have to establish centers and regional laboratories which will work in close association with the Central Laboratory. The Institute is now in receipt of a recurring and capital grant aggregating to about Rs.  9 lakhs, but this is expected to increase steadily with the opening up of new Divisions and other activities" (5,6)</div>
+                <br></br>
+                <div className="earlylife" style={{ fontSize: 'large' }} >References</div>
+                <br></br>
+                <div className='referencepara'> (1) Bhima Rao, C.N. (1980) Prof. V.Subrahmanyan-Some personal reminiscences. Journal of Food Science and Technology.17:121-123. (2) Mysore Information Bulletin (1948) Prime Minister of India visits Mysore: Vol 11 ,457-459. (3)3. Mysore Information Bulletin (1949) International Forestry conference. 12, 75-76.8. (4). K.C. Reddy in Chief Ministers Speak: Being resumes of the activities of the Governments central and state during the three years 1947-1950. All India Congress Committee, New Delhi. (5) The Central Food Technological Research Institute, Mysore. Opening Ceremony , Oct 21, 1950. (1950) Journal of Scientific and Industrial Research  9.439-441.(6) Mysore Information Bulletin (1950), Fervent Efforts to fight food crisis 13, 396-402. </div>
                 <br></br>
                 <div style={{ display: 'flex', justifyContent:'space-between' }} >
                     <div className="backbutton" ><Button size="small" onClick={onClickBack} >Back</Button></div>

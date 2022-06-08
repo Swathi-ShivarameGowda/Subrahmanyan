@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import { useHistory, Link } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import ABOUTUS from '../../img/ABOUTUS.png';
+import homenew from '../../img/homenew.png';
 import kcreddy from '../../img/kcreddy.jpg';
 import convocation from '../../img/convocation.png'
 import cftriopening from '../../img/cftriopening.png'
@@ -23,7 +23,7 @@ export default function Cftri() {
     return (
         <>
             <div className="headerimg">
-                <img src={ABOUTUS} style={{ height: '155px', width: '100%' }} />
+                <img src={homenew} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                 <br></br>
@@ -39,8 +39,8 @@ export default function Cftri() {
                 <div>
                     <img style={{ float: 'left', margin: '15px' }} src={convocation} height={220} width={380} />
                     <div className="earlylifepara" >Nehru visited Bangalore and Mysore in December 1948. He visited the Indian Institute of Science, drove to Mysore. He was awarded a Doctor of Science degree from the University of Mysore on 28th December 1948 and “In the afternoon of the 28th December, 1948 Pandit Nehru witnessed the famous Khedda operations at Kakankote. <font size="3" style={{ fontStyle: "italic" }} >In Picture: Convocation conferring the honorary Doctor of Science by the Chancellor Jayachamarajendra Wadiyar.</font></div>
-                    <div className="earlylifepara" >A river drive was arranged and about thirteen wild elephants were captured on that day. Coming back to Mysore by dusk Pandit Nehru visited the Krishnaraja Sagar Dam and the Brindavan Garden. At Hotel Krishnaraja Sagar he attended a banquet given in his honour and came back to Mysore late in the night. On the morning of the 29th, he received on behalf of the Government of India the building known as the "Cheluvamba Mansion", meant to house the Food Technological Institute of the Government of India.<Link to="/references" style={{ textDecoration: 'none', color: '#3819e9' }} >(2)</Link>.The third international forestry and timber utilization conference Asia and the Pacific convened by the FAO was held in the Cheluvamba Mansion Mysore in March 1949 <Link to="/references" style={{ textDecoration: 'none', color: '#3819e9' }} >(3)</Link>. In April 1949 the building was transferred to the Government of India.</div>
-                    <div className="earlylifepara" ><font style={{ fontStyle: 'italic' }} >"Mysore is grateful to the Government of India for locating the All-India Food Technological Institute within her borders and it is with the greatest pleasure that she has place at the government of India's disposal the spacious buildings and part of the grounds of the Cheluvamba Mansions for the housing of the Institute and its Laboratories. She is also glad that the proposal to add the Fruit Technology Section to the Institute is under active consideration"</font> says K.C. Reddy in 1949.<Link to="/references" style={{ textDecoration: 'none', color: '#3819e9' }} >(3)</Link></div>
+                    <div className="earlylifepara" >A river drive was arranged and about thirteen wild elephants were captured on that day. Coming back to Mysore by dusk Pandit Nehru visited the Krishnaraja Sagar Dam and the Brindavan Garden. At Hotel Krishnaraja Sagar he attended a banquet given in his honour and came back to Mysore late in the night. On the morning of the 29th, he received on behalf of the Government of India the building known as the "Cheluvamba Mansion", meant to house the Food Technological Institute of the Government of India.(2).The third international forestry and timber utilization conference Asia and the Pacific convened by the FAO was held in the Cheluvamba Mansion Mysore in March 1949 (3). In April 1949 the building was transferred to the Government of India.</div>
+                    <div className="earlylifepara" >"Mysore is grateful to the Government of India for locating the All-India Food Technological Institute within her borders and it is with the greatest pleasure that she has place at the government of India's disposal the spacious buildings and part of the grounds of the Cheluvamba Mansions for the housing of the Institute and its Laboratories. She is also glad that the proposal to add the Fruit Technology Section to the Institute is under active consideration" says K.C. Reddy in 1949.(3)</div>
                 </div>
                 <br></br>
                 <div>

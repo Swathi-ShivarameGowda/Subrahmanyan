@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHistory } from "react-router-dom";
 import Button from '@mui/material/Button';
-import headerphoto2 from '../../img/headerphoto2.jpg'
+import homenew from '../../img/homenew.png'
 import gilbertFowler from '../../img/gilbertFowler.jpg'
 
 export default function GJFowler() {
@@ -14,7 +14,7 @@ export default function GJFowler() {
     return (
         <>
             <div className="headerimg">
-                <img src={headerphoto2} style={{ height: '155px', width: '100%' }} />
+                <img src={homenew} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                 <br></br>

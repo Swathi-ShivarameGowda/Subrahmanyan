@@ -1,7 +1,7 @@
 import React, { useEffect }  from 'react';
 import { useHistory, Link } from "react-router-dom";
 import Button from '@mui/material/Button';
-import headerphoto2 from '../../img/headerphoto2.jpg'
+import homenew from '../../img/homenew.png'
 import rothamstedannualreport from '../../img/rothamstedannualreport.png'
 import rothamstedlab from '../../img/rothamstedlab.png'
 import './Rotamsted.css';
@@ -22,7 +22,7 @@ export default function Rothamsted() {
     return (
         <>
             <div className="headerimg">
-                <img src={headerphoto2} style={{ height: '155px', width: '100%' }} />
+                <img src={homenew} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                 <br></br>
@@ -43,7 +43,9 @@ export default function Rothamsted() {
                     <br></br>
                 </div>
                 <br></br>
-                <div className="earlylifepara" ><Link to="/references" style={{ textDecoration: 'none' }} ><font color="#3819e9">References</font></Link></div>
+                <div className="earlylife" style={{ fontSize: 'large' }} >References</div>
+                <br></br>
+                <div className="referencepara" >(1) Subrahmanyan, V. (1927), Biochemistry of water-logged soils: Part I. The effect of water-logging on the different forms of nitrogen, on the reaction, on the gaseous relationships, and on the bacterial flora. The Journal of Agricultural Science, 17:429-448. doi:10.1017/S0021859600018748. (2) Subramanyan,V. (1927), Biochemistry of water-logged soils: Part II. The presence of a deaminase in water-logged soils and its role in the production of ammonia. The Journal of Agricultural Science, 17:449-467. (3) Subrahmanyan. V. (1927) An improved method for the determination of dissolved oxygen in water. The Journal of Agricultural Science, 17: 460-476.  (4) Subrahmanyan, V. (1929), Biochemistry of waterlogged soils. Part III: Decomposition of carbohydrates with special reference to formation of organic acids. The Journal of Agricultural Science, 19: 627-648. doi:10.1017/S0021859600013356. (5) SubrahmanyanV. (1929) Determination of soluble carbohydrates, lactic  acids and volatile fatty acids in soils and biological media. The Journal of Agricultural Science, 19: 649-655.  (6) Magid, H. and Tabatabai, M. (1991). Amide nitrogen transformation in waterlogged soil. The Journal of Agricultural Science.116: 281-285.</div>
                 <br></br>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                     <div className="backbutton" ><Button size="small" onClick={onClickBack} >Back</Button></div>

@@ -6,8 +6,7 @@ import graduationfromcollege from '../img/graduationfromcollege.jpg'
 import highschoolcertificate from '../img/highschoolcertificate.jpg'
 import subrahmanyansaraswati from '../img/subrahmanyansaraswati.jpg'
 import staffatstjosephscollege from '../img/staffatstjosephscollege.jpg'
-import stjoseph from '../img/stjoseph.jpg'
-import EARLYLIFE from '../img/EARLYLIFE.png'
+import homenew from '../img/homenew.png';
 import './Earlylife.css';
 
 export default function Earlylife() {
@@ -26,7 +25,7 @@ export default function Earlylife() {
     return (
         <>
             <div className="headerimg">
-                <img src={EARLYLIFE} style={{ height: '155px', width: '100%' }} />
+                <img src={homenew} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                     <br></br>
@@ -38,11 +37,10 @@ export default function Earlylife() {
                 <div className="earlylife" style={{fontSize: "22px"}} >Education</div>
                     <br></br>
                 <div style={{ display: 'inline' }} >
-                    <div>
-                        <img style={{float:'right', marginLeft:'15px'}} src={aryanschoolcertificate} height={200} width={280} />
-                        <div className="earlylifepara">He studied at Aryan Secondary School, Trichy and then did his Intermediate and B.A Chemistry from St. Joseph's College. He passed B.A with distinction securing highest marks in Chemistry for the Madras Presidency in 1922. The head of department of Chemistry at St.Joseph.'s College was Father Hazz, S.J.  <font style={{fontStyle:'italic'}}>In Picture: Certificate from School</font></div>
-                    </div>
-                    <br></br><br></br><br></br>
+                    
+                    <div className="earlylifepara">He studied at Aryan Secondary School, Trichy and then did his Intermediate and B.A Chemistry from St. Joseph's College. He passed B.A with distinction securing highest marks in Chemistry for the Madras Presidency in 1922. The head of department of Chemistry at St.Joseph.'s College was Father Hazz, S.J.  <font style={{fontStyle:'italic'}}>In Picture: Certificate from School</font></div>
+                    
+                    <br></br>
                     <div className="earlylifediv" >
                         <div style={{ display: 'inline', marginLeft: '20px' }} >
                             <img src={highschoolcertificate} height={200} width={300} />
@@ -50,19 +48,19 @@ export default function Earlylife() {
                             <br></br>
                         </div>
                         <div style={{ display: 'inline', marginLeft: '20px' }} >
-                            <img src={stjoseph} height={200} width={300} />
-                            <div className="earlylifedesc" >St.Joseph's College</div>
+                            <img src={graduationfromcollege} height={200} width={300} />
+                            <div className="earlylifedesc" >Graduation from St.Joseph’s. Subrahmanyan, encircled figure</div>
                             <br></br>
                         </div>
                         <div style={{ display: 'inline', marginLeft: '20px' }} >
-                            <img src={staffatstjosephscollege} height={200} width={300} />
-                            <div style={{ fontSize: '12px' }}>St. Jospeh's College (1920~), Ramamswamy Iyer (third from Left), Fr.Hazz. Thanks to Raji Heyrovska</div>
+                            <img src={aryanschoolcertificate} height={200} width={300} />
+                            <div className="earlylifedesc" >Certificate from School</div>
                             <br></br>
                         </div>
                     </div>
                     <div style={{ marginTop: '30px'}} >
-                        <img style={{ float: 'right', marginLeft: '20px', marginTop: '30px' }} src={graduationfromcollege} height={200} width={300} />
-                        <div className="earlylifepara">P.Ramaswamy Iyer, a member of the department of Chemistry, St. Josephs College, Trichy, had spent some time (12.5.1919 to 20.6.1919) in the Department of General Chemistry, Indian Institute of Science working with Prof. Sudburough who was head of the department at that time. Mr P. Ramaswamy Iyer then became faulty at the Organic Chemistry department, Indian Institute of Science. K.V.Sundaram also from the Chemistry Department, St.Joseph's College visited  in the  “Department of Applied Chemistry  (Changed to Department of Biochemistry) on 3.5.1920. It is probable that Mr. P. Ramaswamy Iyer influenced Subrahmanyan to apply for a fellowship at IISC. <font style={{fontStyle:'italic'}} >In picture: Graduation from St.Joseph’s. Subrahmanyan, encircled figure</font></div>
+                        <img style={{ float: 'right', marginLeft: '20px', marginTop: '30px' }} src={staffatstjosephscollege} height={200} width={300} />
+                        <div className="earlylifepara">P.Ramaswamy Iyer, a member of the department of Chemistry, St. Josephs College, Trichy, had spent some time (12.5.1919 to 20.6.1919) in the Department of General Chemistry, Indian Institute of Science working with Prof. Sudburough who was head of the department at that time. Mr P. Ramaswamy Iyer then became faulty at the Organic Chemistry department, Indian Institute of Science. K.V.Sundaram also from the Chemistry Department, St.Joseph's College visited  in the  “Department of Applied Chemistry  (Changed to Department of Biochemistry) on 3.5.1920. It is probable that Mr. P. Ramaswamy Iyer influenced Subrahmanyan to apply for a fellowship at IISC. <font style={{fontStyle:'italic'}} >In picture: St. Jospeh's College (1920~), Ramamswamy Iyer (third from Left), Fr.Hazz. Thanks to Raji Heyrovska</font></div>
                         
                     </div>
                 </div>

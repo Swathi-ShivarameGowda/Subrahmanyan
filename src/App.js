@@ -19,6 +19,7 @@ import DevelopmentAmulFoodContinued from './pages/cftri/infantfood/DevelopmentAm
 import Process from './pages/cftri/infantfood/Process';
 import ProcessContinued from './pages/cftri/infantfood/ProcessContinued';
 import ProcessContinued2 from './pages/cftri/infantfood/ProcessContinued2';
+import Sago from './pages/cftri/tapiocacasava/Sago';
 import Philippines from './pages/Philippines';
 import Pprc from './pages/pprc/Pprc';
 import Research from './pages/pprc/Research';
@@ -73,6 +74,7 @@ function App() {
                         <Route path="/process-continued" component={ProcessContinued} />
                         <Route path="/process-continued2" component={ProcessContinued2} />
                         <Route path="/biographies" component={Biographies} />
+                        <Route path="/sago" component={Sago} />
                         <Route path="/philippines" component={Philippines} />
                         <Route path="/pprc" component={Pprc} />
                         <Route path="/research" component={Research} />

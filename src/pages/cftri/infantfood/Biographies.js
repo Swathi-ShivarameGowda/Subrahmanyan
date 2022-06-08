@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useHistory, Link } from "react-router-dom";
 import Button from '@mui/material/Button';
-import ABOUTUS from '../../../img/ABOUTUS.png'
+import homenew from '../../../img/homenew.png'
 import biography from '../../../img/biography.jpg'
 import postretirement from '../../../img/postretirement.jpg'
 import swami from '../../../img/swami.jpg'
@@ -13,7 +13,7 @@ import './Biographies.css';
 export default function Biographies() {
     const history = useHistory();
     const onClickNext = (event) => {
-        history.push("/biographies");
+        history.push("/sago");
     }
     const onClickBack = (event) => {
         history.push("/process-continued2");
@@ -26,7 +26,7 @@ export default function Biographies() {
     return (
         <>
             <div className="headerimg">
-                <img src={ABOUTUS} style={{ height: '155px', width: '100%' }} />
+                <img src={homenew} style={{ height: '155px', width: '100%' }} />
             </div>
             <div className="container" >
                 <br></br>
@@ -93,9 +93,11 @@ export default function Biographies() {
                     <br></br>
                 </div>
                 <br></br><br></br><br></br>
-                <div className="earlylifepara" >Thanks are due to Dr.G.Ramanatham for his help in writing about the role of the C.F.T.R.I. in the development of Infant Baby foods from Buffalo Milk.</div>
+                <div className="earlylifepara" >Thanks are due to Dr.G.Ramanatham for his help in writing about the role of the C.F.T.R.I. in the development of Infant Baby foods from Buffalo Milk  and to Dr.N.Chandrashekar for editing the manuscript.</div>
                 <br></br>
-                <div className="earlylifepara" ><Link to="/references" style={{ textDecoration: 'none' }} ><font color="#3819e9">References</font></Link></div>
+                <div className="earlylife" style={{ fontSize: 'large' }} >References</div>
+                <br></br>
+                <div className='referencepara'>(1).C.F.T.R.I. Annual Report 1964-1965 Page 180. (2).Deccan Herald Retd Director of CFTRI, Parpia passes away Mysore, July 9, 2013, dhns:, JUL 09 2013, 22:18 ISTUPDATED: JUL 09 2013, 22:19 IST23 August 2013 | News | By Bureau Report (3).Shurtleff, William  and Akiko Aoyagi  (2013) History   Of soy milk and other non diary   milk.page 1526. Soy Info Center  (4).Bassett, Ross (2016) The Technological Indian. Harvard University Press. Kindle Edition.</div>
                 <br></br>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }} >
                     <div className="backbutton" ><Button size="small" onClick={onClickBack} >Back</Button></div>
