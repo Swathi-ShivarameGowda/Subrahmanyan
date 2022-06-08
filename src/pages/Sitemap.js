@@ -34,7 +34,7 @@ export default function Sitemap() {
                                         <div><Link to="/vitamins-enzymes" style={{ textDecoration: 'none', color: '#3819e9' }} >Vitamins and Enzymes</Link></div>
                                         <div><Link to="/soyabean-milk" style={{ textDecoration: 'none', color: '#3819e9' }} >Soya Milk: School Feeding Program</Link></div>
                                         <div><Link to="/pencillin-glucanate-and-soluble-casein" style={{ textDecoration: 'none', color: '#3819e9' }} >Pencilin and Caesin</Link></div>
-                                        <div><Link to="/cvraman-subrahmanyan" style={{ textDecoration: 'none', color: '#3819e9' }} >C.V.Raman and Subrahmanyan</Link></div>
+                                        
                                     </td>
                                 <td style={{ width: "25%" }} >
                                         <div><Link to="/cheluvajamanni" style={{ textDecoration: 'none', color: '#3819e9' }} >Cheluvamba Mansion</Link></div>

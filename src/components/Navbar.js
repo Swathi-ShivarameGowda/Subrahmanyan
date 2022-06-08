@@ -134,7 +134,7 @@ function Navbar() {
                                     <li><a data-cy="menu-rothamsted" onClick={callVitaminsAndEnzymes}>Vitamins and Enzymes</a></li>
                                     <li><a data-cy="menu-rothamsted" onClick={callSoyaBeanMilk}>Soya Milk: School Feeding Program</a></li>
                                     <li><a data-cy="menu-rothamsted" onClick={callPencillin}>Pencilin and Caesin</a></li>
-                                    <li><a data-cy="menu-rothamsted" onClick={callCVRamanSubrahmanyan}>C.V.Raman and Subrahmanyan</a></li>
+                                    
                                 </ul>
                             </li>
                             <li>
@@ -161,23 +161,8 @@ function Navbar() {
                                             <label htmlFor="show-items"><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
                                         <ul>
                                             <li><a data-cy="menu-infant" onClick={callSago}>Sago</a></li>
-                                            <li><a data-cy="menu-tapioca" >Tapioca Macaroni</a></li>
-                                            <li><a data-cy="menu-spices" >Mysore flour and Indian Multipurpose food</a></li>
                                         </ul>
                                     </li>
-                                    <li><a data-cy="menu-philippines" >Rice</a></li>
-                                    <li><a data-cy="menu-cftri" className="desktop-link">Spices</a>
-                                        <input type="checkbox" id="show-items" />
-                                        <div style={{ display: 'flex' }} ><a data-cy="menu-cftri1" className="mobile-link" >Spices</a>
-                                            <label htmlFor="show-items"><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
-                                        <ul>
-                                            <li><a data-cy="menu-infant" >Oleoresins</a></li>
-                                            <li><a data-cy="menu-tapioca" >Garlic powder</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a data-cy="menu-philippines" >Coffee and Tea</a></li>
-                                    <li><a data-cy="menu-pprc" >Fruits</a></li>
-                                    <li><a data-cy="menu-pprc" >Infestation</a></li>
                                 </ul>
                             </li>
                             <li><a data-cy="menu-sitemap" onClick={callPhilippines}>The Philippines</a></li>
