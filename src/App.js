@@ -25,18 +25,9 @@ import Pprc from './pages/pprc/Pprc';
 import Research from './pages/pprc/Research';
 import ResearchContinued from './pages/pprc/ResearchContinued';
 import PostHarvestTech from './pages/pprc/PostHarvestTech';
-
-import Soilscience from './pages/Soilscience';
-import Foodtech from './pages/Foodtech';
-import Contact from './pages/Contact';
 import Awards from './pages/Awards';
 import Sitemap from './pages/Sitemap';
-import Iisc from './pages/soilPages/Iisc';
-import References from './pages/soilPages/References';
 
-import CompleteList from './pages/foodPages/CompleteList';
-import Spices from './pages/foodPages/cftriPages/Spices';
-import Tapioca from './pages/foodPages/cftriPages/Tapioca';
 import Navbar from './components/Navbar';
 import Scroll from './components/Scroll';
 import {
@@ -81,15 +72,6 @@ function App() {
                         <Route path="/research-continued" component={ResearchContinued} />
                         <Route path="/post-harvest-tech" component={PostHarvestTech} />
                         <Route path="/awards" component={Awards} />
-
-                        <Route path="/soil-science" component={Soilscience} />
-                        <Route path="/iisc" component={Iisc} />
-                        <Route path="/references" component={References} />
-                        <Route path="/food-tech" component={Foodtech} />
-                        <Route path="/complete-list" component={CompleteList} />
-                        <Route path="/spices" component={Spices} />
-                        <Route path="/tapioca-cassava" component={Tapioca} />
-                        <Route path="/contact" component={Contact} />
                         <Route path="/site-map" component={Sitemap} />
                     </Switch>
             </div>

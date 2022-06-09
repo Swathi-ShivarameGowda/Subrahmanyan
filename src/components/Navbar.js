@@ -34,21 +34,12 @@ function Navbar() {
         history.push("/pencillin-glucanate-and-soluble-casein");
     }
 
-    const callCVRamanSubrahmanyan = (event) => {
-        history.push("/cvraman-subrahmanyan");
-    }
-
     const callCheluvambaMansion = (event) => {
         history.push("/cheluvajamanni");
     }
 
     const callCftri = (event) => {
         history.push("/cftri");
-    }
-
-
-    const callFoodTech = (event) => {
-        history.push("/food-tech");
     }
 
 
@@ -66,10 +57,6 @@ function Navbar() {
 
     const callSago = (event) => {
         history.push("/sago");
-    }
-
-    const callSpices = (event) => {
-        history.push("/spices");
     }
 
 
@@ -98,14 +85,6 @@ function Navbar() {
         
     }
 
-    const callContact = (event) => {
-        history.push("/contact");
-        
-    }
-
-    const callSitemap = (event) => {
-        history.push("/site-map");
-    }
 
     return (
         <>
