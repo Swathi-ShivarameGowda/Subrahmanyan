@@ -38,7 +38,7 @@ export default function Earlylife() {
                     <br></br>
                 <div style={{ display: 'inline' }} >
                     
-                    <div className="earlylifepara">He studied at Aryan Secondary School, Trichy and then did his Intermediate and B.A Chemistry from St. Joseph's College. He passed B.A with distinction securing highest marks in Chemistry for the Madras Presidency in 1922. The head of department of Chemistry at St.Joseph.'s College was Father Hazz, S.J.  <font style={{fontStyle:'italic'}}>In Picture: Certificate from School</font></div>
+                    <div className="earlylifepara">He studied at Aryan Secondary School, Trichy and then did his Intermediate and B.A Chemistry from St. Joseph's College. He passed B.A with distinction securing highest marks in Chemistry for the Madras Presidency in 1922. The head of department of Chemistry at St.Joseph.'s College was Father Hazz, S.J.</div>
                     
                     <br></br>
                     <div className="earlylifediv" >
@@ -59,9 +59,12 @@ export default function Earlylife() {
                         </div>
                     </div>
                     <div style={{ marginTop: '30px'}} >
-                        <img style={{ float: 'right', marginLeft: '20px', marginTop: '30px' }} src={staffatstjosephscollege} height={200} width={300} />
-                        <div className="earlylifepara">P.Ramaswamy Iyer, a member of the department of Chemistry, St. Josephs College, Trichy, had spent some time (12.5.1919 to 20.6.1919) in the Department of General Chemistry, Indian Institute of Science working with Prof. Sudburough who was head of the department at that time. Mr P. Ramaswamy Iyer then became faulty at the Organic Chemistry department, Indian Institute of Science. K.V.Sundaram also from the Chemistry Department, St.Joseph's College visited  in the  “Department of Applied Chemistry  (Changed to Department of Biochemistry) on 3.5.1920. It is probable that Mr. P. Ramaswamy Iyer influenced Subrahmanyan to apply for a fellowship at IISC. <font style={{fontStyle:'italic'}} >In picture: St. Jospeh's College (1920~), Ramamswamy Iyer (third from Left), Fr.Hazz. Thanks to Raji Heyrovska</font></div>
-                        
+                    <div style={{ display: 'inline', float:'right', width:'30%', marginLeft:'30px' }} >
+                            <img src={staffatstjosephscollege} height={200} width={300} />
+                            <div style={{fontSize:'12px'}}>St. Jospeh's College (1920~), Ramamswamy Iyer (third from Left), Fr.Hazz. Thanks to Raji Heyrovska</div>
+                            <br></br>
+                        </div>
+                        <div className="earlylifepara">P.Ramaswamy Iyer, a member of the department of Chemistry, St. Josephs College, Trichy, had spent some time (12.5.1919 to 20.6.1919) in the Department of General Chemistry, Indian Institute of Science working with Prof. Sudburough who was head of the department at that time. Mr P. Ramaswamy Iyer then became faulty at the Organic Chemistry department, Indian Institute of Science. K.V.Sundaram also from the Chemistry Department, St.Joseph's College visited  in the  “Department of Applied Chemistry  (Changed to Department of Biochemistry) on 3.5.1920. It is probable that Mr. P. Ramaswamy Iyer influenced Subrahmanyan to apply for a fellowship at IISC.</div>
                     </div>
                 </div>
                 <br></br>
@@ -71,8 +74,12 @@ export default function Earlylife() {
                 <br></br>
                 <br></br>
                 <div>
-                    <img style={{float:'left', marginRight:'15px'}} src={subrahmanyansaraswati} height={370} width={250} />
-                    <div className="earlylifepara" style={{whiteSpace: 'pre-line' }} >Subrahmanyan was married to Saraswathi in 1922. She was very young about eleven then. She used to talk about her father who was “Sub Collector” at Bapatla (She could speak Telegu all her life) asked her whether she would marry a dark man. Her reply was that as her father was dark so could her husband be. Seshadri Iyer who became an ICS officer, later, was also a suitor. <font style={{fontStyle:'italic'}} >In picture: Saraswathi and Subrahmanyan</font></div>
+                <div style={{ display: 'inline', float:'left', width:'30%'}} >
+                            <img src={subrahmanyansaraswati} height={370} width={250} />
+                            <div style={{fontSize:'12px'}}>Saraswathi and Subrahmanyan</div>
+                            <br></br>
+                        </div>
+                    <div className="earlylifepara" style={{whiteSpace: 'pre-line' }} >Subrahmanyan was married to Saraswathi in 1922. She was very young about eleven then. She used to talk about her father who was “Sub Collector” at Bapatla (She could speak Telegu all her life) asked her whether she would marry a dark man. Her reply was that as her father was dark so could her husband be. Seshadri Iyer who became an ICS officer, later, was also a suitor.</div>
                     <div className="earlylifepara" style={{whiteSpace: 'pre-line' }} >They had seven children. Ramarathnam 1928 (deceased early), Leela (1930), Sulochana (1932), Sundaram (1934), Santhanam (1936), Saroja (1941), Venkatesh (1946). Leela, Sulochana and Saroja were named by their car driver, Sheik Mohammed after popular actresses of the time. Sundaram was named after the bridge at Rameshwaram.</div>
                 </div>
                 <br></br>

@@ -36,10 +36,18 @@ export default function Biographies() {
                 <br></br>
                 <div className="earlylife" style={{ fontSize: 'larger' }} >M.R.Chandrasekara (1916-2010)</div>
                 <br></br>
-                <div className="earlylifepara" >MRC's maternal grandfather was H V Nanjundayya who was first councilor and then s first vice chancellor of the Mysore university and the founder of the Sahitya Parishat. He was conferred with the title of Raja Mantra Praveena by the palace. <font style={{fontStyle:'italic'}}>In Picture: (1) While in service and (2) Post retirement </font></div>
+                <div className="earlylifepara" >MRC's maternal grandfather was H V Nanjundayya who was first councilor and then s first vice chancellor of the Mysore university and the founder of the Sahitya Parishat. He was conferred with the title of Raja Mantra Praveena by the palace.</div>
                 <div className="cheluvajamanniimg" >
-                    <div style={{ marginLeft: '100px' }} ><img style={{width: '210'}} src={biography} /></div>
-                    <div className="biography" > <img src={postretirement} /></div>
+                <div style={{ display: 'inline', marginLeft:'100px' }} >
+                            <img src={biography} height={250} width={250} />
+                            <div style={{fontSize:'12px'}}>While in service</div>
+                            <br></br>
+                        </div>
+                    <div style={{ display: 'inline',marginLeft:'100px' }} >
+                            <img src={postretirement} height={250} width={250} />
+                            <div style={{fontSize:'12px'}}>Post retirement</div>
+                            <br></br>
+                        </div>
                 </div>
                 <div className="earlylifepara" >He was a man with very progressive ideas and was very keen that girls and women should get a good education and in fact gave his huge house and the land surrounding it in Malleswaram, Bangalore to the government to be converted into a girl's high school. It is now a junior college for women. The old house has been declared a heritage site and is being restored to its original glory by the govt.</div>
                 <br></br>
@@ -64,8 +72,12 @@ export default function Biographies() {
                 <div className="earlylife" style={{ fontSize: 'larger' }} >Darshan Singh Bhatia (1923-2001)(3,4)</div>
                 <br></br>
                 <div>
-                    <img style={{ float: 'left', margin: '15px' }} src={bhatia} height={250} width={300} />
-                    <div className="earlylifepara" >Bhatia, born in Lahore in 1923 and attended the Forman Christian College there. In 1945 he earned a master's degree in chemical technology from the Punjab University and then worked for two years for a military dairy. The Government of Punjab Government, India awarded him a scholarship for the first two years of his stay in the U.S.  and the Massachusetts Institute of Technology appointed him as Research Assistant  enabling him to finish his third year of education at the Institute. "He left India in July 1947, on a U.S. troopship, with roughly 150 other Indian students coming to the United States for advanced studies. He left behind a pregnant wife (his son would be three years old before he would see him), knowing that a partition was coming, which would uproot his family. He entered the program in food science at MIT, earning his doctorate in 1950 for work on the effects of radiation on proteins". <font style={{fontStyle:'italic'}}>In Picture: Subrahmanyan, Nehru, Parpia, Bhatia</font></div>
+                <div style={{ display: 'inline', float:'left', width:'30%', marginRight:'30px' }} >
+                            <img src={bhatia} height={250} width={300} />
+                            <div style={{fontSize:'12px'}}>Subrahmanyan, Nehru, Parpia, Bhatia</div>
+                            <br></br>
+                        </div>
+                    <div className="earlylifepara" >Bhatia, born in Lahore in 1923 and attended the Forman Christian College there. In 1945 he earned a master's degree in chemical technology from the Punjab University and then worked for two years for a military dairy. The Government of Punjab Government, India awarded him a scholarship for the first two years of his stay in the U.S.  and the Massachusetts Institute of Technology appointed him as Research Assistant  enabling him to finish his third year of education at the Institute. "He left India in July 1947, on a U.S. troopship, with roughly 150 other Indian students coming to the United States for advanced studies. He left behind a pregnant wife (his son would be three years old before he would see him), knowing that a partition was coming, which would uproot his family. He entered the program in food science at MIT, earning his doctorate in 1950 for work on the effects of radiation on proteins".</div>
                     <br></br>
                 </div>
                 <div className="earlylifepara" >On his return to India, He joined the Central Food Technological Research Institute in Mysore where he became head of the processing diet. He was very much involved in the development of the Amul baby food, the multipurpose food from ground nuts, tea and coffee products. He was involved in the development of "synthetic rice" which graduated into the Indian Multipurpose food. In 1965 he joined Coca-Cola where he worked at the Export Division's operation in New Delhi, working on protein beverages., He shifted eventually to the Coca-Cola center at Atlanta in 1972, again working on a soy protein-based drink. Later Bhatia became the head of corporate research and development at Coca-Cola., Beverages such as Diet Coke, New Coke, and Cherry Coke were developed then. On May 16, 1986 Darshan Singh Bhatia, Director of corporate research and development For Coca cola co, Atlanta Georgia spoke on "Soy beverages Some Unresolved problems" ("The total volume of soy beverages is perhaps 1% of the worlds soft drink volume. We should promote the product in its own right with its own flavour and the promotion material should be consistent with the product's intrinsic attributes. Bhatia recalled that in 1967-68 when he first drew up a proposal that Cocoa-cola produce soy beverages. "I predicted a time when soft drinks would be fortified with more and more nutrients").</div>

@@ -83,6 +83,7 @@ export default function DevelopmentAmulFoodContinued() {
                 <div>
                     <img style={{ float: 'left', margin: '15px' }} src={vijayaspray} height={350} width={450} />
                     <div className="earlylifepara" >Apparently when Kaira insisted that  the Andra Pradesh Dairy Development market Baby Food on the  AMUL  brand name, the  A.P.D.C. contacted the C,F.T.R.I.  which became involved in the development of a slightly altered process, lowering of curd tension by heat treatment of formulated milk prior to concentration and drying. The product was being marketed at least in 2002 (17). G.Ramanathan, P.K. Ramanathan and B.S. Ramachandra were some of the scientists associated with the project</div>
+                    <br></br>
                     <div className="earlylifepara" >Thanks are due to Dr.G.Ramanatham for his great help in this effort at understanding the role of the C.F.T.R.I. in the development of infant food from Buffalo Milk and to Dr. N.Chandrasekhar for meticulous editing of the manuscript.</div>
                     <br></br>
                 </div>

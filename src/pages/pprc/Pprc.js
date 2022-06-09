@@ -39,8 +39,12 @@ export default function Pprc() {
                 <div className="earlylifepara" >In April 1963, the Ford foundation surveyed problems that existed with rice milling. Based on their recommendations, the Government of India decided to set up six modern rice mills in the cooperative sector and one in the public sector. The first mill set up was at Thiruvarur under the Thanjavur Cooperative Marketing Federation (TCMF). V. S. Thiyagaraja Mudaliar (1916-1982) was President at that time. He was a leading landlord who had shifted from paddy cultivation to sugarcane on about 5 acres of their own land. They had established a sugar factory called The Arooran Sugars. The TCMF rice mill could process 4 tons per hour and had a parboiling unit, a paddy cleaning unit, silo storage, mechanical dryers and rubber rollers for shelling.</div>
                 <br></br>
                 <div>
-                    <img style={{ float: 'left', margin: '15px' }} src={thiyagaraja} height={200} width={180} />
-                    <div className="earlylifepara" >V.S. Thiygaraja Mudaliar invited Dr.Subramanyan who was both  emeritus  CSIR fellow   and  advisor at the ministry  of Food, Government of India to initiate  Research and Development at Thirvarur in 1967 at the Modern Rice Mill complex of  the  TCMF. The main objective of starting the R& D lab was the salvage of high moisture paddy especially for farmers, modernization of rice milling industry and improvement  in rice processing technology. The lab at TCMF was initially supported by the TCMF. <font style={{fontStyle:'italic'}}>In Picture: Vadapathimangalam S. Thiygaraja Mudaliar (1916-1982)</font></div>
+                <div style={{ display: 'inline', float:'left', width:'25%'}} >
+                            <img src={thiyagaraja} height={200} width={200} />
+                            <div style={{fontSize:'12px'}}>Vadapathimangalam S. Thiygaraja Mudaliar (1916-1982)</div>
+                            <br></br>
+                        </div>
+                    <div className="earlylifepara" >V.S. Thiygaraja Mudaliar invited Dr.Subramanyan who was both  emeritus  CSIR fellow   and  advisor at the ministry  of Food, Government of India to initiate  Research and Development at Thirvarur in 1967 at the Modern Rice Mill complex of  the  TCMF. The main objective of starting the R& D lab was the salvage of high moisture paddy especially for farmers, modernization of rice milling industry and improvement  in rice processing technology. The lab at TCMF was initially supported by the TCMF.</div>
                 </div>
                 <br></br>
                 <div>
@@ -60,8 +64,12 @@ export default function Pprc() {
                 <div className="earlylife" style={{ fontSize: 'larger' }} >The Last days of Subrahmanyan</div>
                 <br></br>
                 <div>
-                    <img style={{width:"300px", height:"250px", float:"left", marginRight:"30px"}} src={lastdayshouse} />
-                    <div className="earlylifepara" >Dr.Subrahmanyan used to live in the travelers, bungalow at Thrivarur and in the evening complained of pain. <font style={{fontStyle:'Italic'}}>In Picture: New Building at the same location of the guest house where Subrahmanyan stayed till his demise</font></div>
+                <div style={{ display: 'inline', float:'left', width:'30%', marginRight:'30px'}} >
+                            <img src={lastdayshouse} height={250} width={300} />
+                            <div style={{fontSize:'12px'}}>New Building at the same location of the guest house where Subrahmanyan stayed till his demise</div>
+                            <br></br>
+                        </div>
+                    <div className="earlylifepara" >Dr.Subrahmanyan used to live in the travelers, bungalow at Thrivarur and in the evening complained of pain.</div>
                     <div className="earlylifepara" >He was shifted to the hospital at Tanjavur. . It was a full moon light and he wondered even in his pain as to why moon light could not be used as a source of power. He was operated at the hospital because his intestines had become twisted. Dr. Ramanathan was his surgeon during an operation for the similar ailment, a year previously. Dr.L.Sivaram was the surgeon at the Thanjvur Government hospital. He passed away on the t morning of 30-1-79.</div>
                 </div>
                 <br></br>

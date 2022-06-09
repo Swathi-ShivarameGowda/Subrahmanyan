@@ -32,21 +32,33 @@ export default function Cftri() {
                 <div className="earlylifepara" >The Central Food Technological Research Institute is housed in lands enclosing the Cheluvamba Palace. The Cheluvamba Palace was a building constructed for the residence of Cheluvajamanni, who was the sister of the Maharaja H.H. Sri. Krishna Raja Wadiyar (born: 1884; Maharaja: 1894-1940). The building had been not been used for some years prior to its occupation by the C.F.T.R.I.</div>
                 <br></br>
                 <div>
-                    <img style={{ float: 'left', margin: '15px' }} src={kcreddy} height={250} width={200} />
-                    <div className="earlylifepara" > “The Government of Mysore had also generously offered a palatial building called “Cheluvamba Mansion” to the World Health Organization. As luck would have it within a few days the WHO announced their intention to locate their headquarters in Delhi” (1).  K.C. Reddy (1902 –1976) the Chief Minster of Mysore, was deeply interested that Food Technological Research Institute to be located in Mysore. Subrahmanyam, has said, that K.C. Reddy telegraphically requested Nehru to fix a date for his visit to Mysore, even before the formal decision of then Maharaja, Jayachamrajendra Wodeyar to hand over the building. The Cheluvamba Palace, when finally handed over, was at a rent of Rs. One per year. This rent was perhaps charged till the complete integration of Mysore state with the rest of India. The state was still under dyarchy at that time of take over of the building by the Government of India. <font size="3" style={{ fontStyle: "italic" }} >In Picture: K.C. Reddy (1902-1976) First Chief Minister of Erstwhile Mysore</font></div>
+                <div style={{ display: 'inline', float:'left', width:'25%'}} >
+                            <img src={kcreddy} height={250} width={200} />
+                            <div style={{fontSize:'12px'}}>K.C. Reddy (1902-1976) First Chief Minister of Erstwhile Mysore</div>
+                            <br></br>
+                        </div>
+                    <div className="earlylifepara" > “The Government of Mysore had also generously offered a palatial building called “Cheluvamba Mansion” to the World Health Organization. As luck would have it within a few days the WHO announced their intention to locate their headquarters in Delhi” (1).  K.C. Reddy (1902 –1976) the Chief Minster of Mysore, was deeply interested that Food Technological Research Institute to be located in Mysore. Subrahmanyam, has said, that K.C. Reddy telegraphically requested Nehru to fix a date for his visit to Mysore, even before the formal decision of then Maharaja, Jayachamrajendra Wodeyar to hand over the building. The Cheluvamba Palace, when finally handed over, was at a rent of Rs. One per year. This rent was perhaps charged till the complete integration of Mysore state with the rest of India. The state was still under dyarchy at that time of take over of the building by the Government of India. </div>
                 </div>
                 <br></br>
                 <div>
-                    <img style={{ float: 'left', margin: '15px' }} src={convocation} height={220} width={380} />
-                    <div className="earlylifepara" >Nehru visited Bangalore and Mysore in December 1948. He visited the Indian Institute of Science, drove to Mysore. He was awarded a Doctor of Science degree from the University of Mysore on 28th December 1948 and “In the afternoon of the 28th December, 1948 Pandit Nehru witnessed the famous Khedda operations at Kakankote. <font size="3" style={{ fontStyle: "italic" }} >In Picture: Convocation conferring the honorary Doctor of Science by the Chancellor Jayachamarajendra Wadiyar.</font></div>
+                <div style={{ display: 'inline', float:'left', width:'40%'}} >
+                            <img src={convocation} height={220} width={350} />
+                            <div style={{fontSize:'12px'}}>Convocation conferring the honorary Doctor of Science by the Chancellor Jayachamarajendra Wadiyar.</div>
+                            <br></br>
+                        </div>
+                    <div className="earlylifepara" >Nehru visited Bangalore and Mysore in December 1948. He visited the Indian Institute of Science, drove to Mysore. He was awarded a Doctor of Science degree from the University of Mysore on 28th December 1948 and “In the afternoon of the 28th December, 1948 Pandit Nehru witnessed the famous Khedda operations at Kakankote.</div>
                     <div className="earlylifepara" >A river drive was arranged and about thirteen wild elephants were captured on that day. Coming back to Mysore by dusk Pandit Nehru visited the Krishnaraja Sagar Dam and the Brindavan Garden. At Hotel Krishnaraja Sagar he attended a banquet given in his honour and came back to Mysore late in the night. On the morning of the 29th, he received on behalf of the Government of India the building known as the "Cheluvamba Mansion", meant to house the Food Technological Institute of the Government of India.(2).The third international forestry and timber utilization conference Asia and the Pacific convened by the FAO was held in the Cheluvamba Mansion Mysore in March 1949 (3). In April 1949 the building was transferred to the Government of India.</div>
                     <div className="earlylifepara" >"Mysore is grateful to the Government of India for locating the All-India Food Technological Institute within her borders and it is with the greatest pleasure that she has place at the government of India's disposal the spacious buildings and part of the grounds of the Cheluvamba Mansions for the housing of the Institute and its Laboratories. She is also glad that the proposal to add the Fruit Technology Section to the Institute is under active consideration" says K.C. Reddy in 1949.(3)</div>
                 </div>
                 <br></br>
                 <div>
-                    <img style={{ float: 'left', margin: '15px' }} src={cftriopening} height={250} width={380} />
+                <div style={{ display: 'inline', float:'left', width:'45%'}} >
+                            <img src={cftriopening} height={250} width={380} />
+                            <div style={{fontSize:'12px'}}>Mr. C. Rajagopalchari (Minister without Portfolio) and Jayachamarajendra Wadiyar in the center. S.S. Bhatnagar to the left. K.C. Reddy to the right (not clear)</div>
+                            <br></br>
+                        </div>
                     <div className="earlylifepara" >The Central Food Technological Research Institute, Mysore, was declared open by the Hon'ble Sri C. Rajagopalachari, on October 21, 1950. The Rajpramukh, the Maharaja of Mysore, presided. </div>
-                    <div><font size="3" style={{ fontStyle: 'italic' }} >In Picture : Mr. C. Rajagopalchari (Minister without Portfolio) and Jayachamarajendra Wadiyar in the center. S.S. Bhatnagar to the left. K.C. Reddy to the right (not clear).</font></div>
+                    
                 </div>
                 <br></br>
                 <div className="earlylifepara" >The Institute, the fifth in the chain of national laboratories declared open this year, is housed in the magnificent Cheluvamba Mansion, which was taken over by the Government of India in April 1949.</div>

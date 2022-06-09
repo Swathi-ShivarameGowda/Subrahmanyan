@@ -41,7 +41,7 @@ export default function ResearchContinued() {
                     <br></br><br></br><br></br>
                     <div className="earlylifepara" >Farbrication and use of a portable husk fired vessel wherein the steam generated is directly fed into the paddy holding tank. This reduced the number of unit operations and units required (30)</div>
                     <div className="earlylifepara" >1.Pressure  gauge 2 Paddy and water inlet 3 Steam outlet 4. Husk Feed Hopper 4 Pressure Chamber.6. Water over flow pipe 7, Chimney 8. Perforated bottom 9, Paddy discharge door 10. Water tank 11. Crane for furnace 12 Ash door</div>
-                    <br></br><br></br><br></br><br></br>
+                    <br></br><br></br>
                 </div>
                 <br></br>
                 <div className="earlylife" style={{ fontSize: 'larger' }} >Preservation of Wet Parboiled Paddy</div>
@@ -68,7 +68,7 @@ export default function ResearchContinued() {
                 <div className="earlylifepara" >The paddy processing research center developed a method where paddy was first passed through hullers with large blade clearance and the husk removed with a winnower. The brown rice was debranned (polished) with a huller. (22). Furthermore a low cost “Low friction huller” to replace modern shelling units for regular use in rural areas so as to allow good quality bran to be extracted after the husk has been removed was developed A method for the separation of germ during milling of rice was brought out.</div>
                 <br></br>
                 <div className="earlylifepara" >The PPRC worked on a method for enrichment of rice germ and its use in making food products. (45,48)</div>
-                <br></br><br></br><br></br>
+                <br></br>
                 <div className="earlylife" style={{ fontSize: 'larger' }} >Rice Bran Oil</div>
                 <br></br>
                 <div className="earlylifepara" >A regular breeding programme was inititated to screen varieites for oil (22). A varietal screen revealed that among 21 varieties the oil content in the whole grain (with husk) varied from 1.15 to 4.45%. </div>
