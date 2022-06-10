@@ -9,6 +9,9 @@ export default function Awards() {
     const onClickHome = (event) => {
         history.push("/");
     }
+    const onClickBack = (event) => {
+        history.push("/post-harvest-tech");
+    }
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -51,7 +54,10 @@ export default function Awards() {
                 <br></br>
                 <div className="earlylifepara" >The Association of Food Technologists (AFT) was founded in 1957 in the Campus of the C.F.T.R.I. It was renamed in 1968 as the Association of Food Scientists and Technologists (AFST). Dr. Subrahmanyan was president of the association from 1957 to1963..  The V.Subrahmanyan Industrial Achievement award was instituted by the Association of Food Science and Technologists India. Awardees of the The V.Subrahmanyan Industrial Achievement award include Dr.H.S.R. Deiskachar (1975), Dr. G.S. Siddapa (1977), Mr. C. P.Natarajan (1981), and M. R Chandrasehkar (2000) who were at one time associates of V.Subrahmanyan.</div>
                 <br></br><br></br>
+                <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                <div className="backbutton" ><Button size="small" onClick={onClickBack} >Back</Button></div>
                 <div className="backbutton" ><Button size="small" onClick={onClickHome} >Back to Home</Button></div>
+                </div>
             </div>
         </>
     )

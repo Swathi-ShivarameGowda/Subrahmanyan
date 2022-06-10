@@ -44,7 +44,7 @@ export default function Philippines() {
                 <br></br>
                 <div className="earlylife" style={{ fontSize: 'large' }} >References</div>
                 <br></br>
-                <div className='referencepara'>(1) Coconut Harvesting and Copra Production "COCONUT PROCESSING TECHNOLOGY” INFORMATIONDOCUMENTSUNIDOdocumenthttps://open.unido.org/api/documents/4788145/download/COCONUT%20HARVESTING%20AND%20COPRA%20PRODUCTION.%20COCONUT%20PROCESSING%20TECHNOLOGY%20INFORMATION%20DOCUMENTS.%20PART%201%20(09979.en) (2) Subramayan V.(1965) Control of infection and production of quality products from Coconut -without machinery or application of heat. Philippine Journal of Nutrition 218-234</div>
+                <div className='referencepara'>(1) Coconut Harvesting and Copra Production "COCONUT PROCESSING TECHNOLOGY” INFORMATIONDOCUMENTSUNIDOdocument <a href="https://open.unido.org/api/documents/4788145/download/COCONUT%20HARVESTING%20AND%20COPRA%20PRODUCTION.%20COCONUT%20PROCESSING%20TECHNOLOGY%20INFORMATION%20DOCUMENTS.%20PART%201%20(09979.en)" target="_blank" style={{ textDecoration: 'none' }} ><font color="#3819e9">https://open.unido.org/api/documents/4788145/download/COCONUT%20HARVESTING%20AND%20COPRA%20PRODUCTION.%20COCONUT%20PROCESSING%20TECHNOLOGY%20INFORMATION%20DOCUMENTS.%20PART%201%20(09979.en)</font></a> (2) Subramayan V.(1965) Control of infection and production of quality products from Coconut -without machinery or application of heat. Philippine Journal of Nutrition 218-234</div>
                 <br></br>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                     <div className="backbutton" ><Button size="small" onClick={onClickBack} >Back</Button></div>
