@@ -7,6 +7,7 @@ import amul2 from '../../../img/amul2.jpg'
 import amul3 from '../../../img/amul3.jpg'
 import larsenandturbo from '../../../img/larsenandturbo.jpg'
 import vijayaspray from '../../../img/vijayaspray.jpg'
+import socialscientist from '../../../img/socialscientist.jpg'
 
 
 export default function DevelopmentAmulFoodContinued() {
@@ -80,14 +81,23 @@ export default function DevelopmentAmulFoodContinued() {
                 <br></br>
                 <div className="earlylife" style={{ fontSize: 'larger' }} >Vijayaspray</div>
                 <br></br>
-                <div>
-                    <img style={{ float: 'left', margin: '15px' }} src={vijayaspray} height={350} width={450} />
+
+                <div className="earlylifediv" >
+                        <div style={{ display: 'inline', marginLeft: '20px' }} >
+                            <img src={vijayaspray} height={350} width={450} />
+                            <br></br>
+                        </div>
+                        <div style={{ display: 'inline', marginLeft: '20px' }} >
+                            <img src={socialscientist} height={350} width={350} />
+                            <div className="earlylifedesc" >Social Scientist, 1978</div>
+                            <br></br>
+                        </div>
+                    </div>
+
+                <br></br>
                     <div className="earlylifepara" >Apparently when Kaira insisted that  the Andra Pradesh Dairy Development market Baby Food on the  AMUL  brand name, the  A.P.D.C. contacted the C,F.T.R.I.  which became involved in the development of a slightly altered process, lowering of curd tension by heat treatment of formulated milk prior to concentration and drying. The product was being marketed at least in 2002 (17). G.Ramanathan, P.K. Ramanathan and B.S. Ramachandra were some of the scientists associated with the project</div>
                     <br></br>
                     <div className="earlylifepara" >Thanks are due to Dr.G.Ramanatham for his great help in this effort at understanding the role of the C.F.T.R.I. in the development of infant food from Buffalo Milk and to Dr. N.Chandrasekhar for meticulous editing of the manuscript.</div>
-                    <br></br>
-                </div>
-
                 <br></br>
                 <div className="earlylife" style={{ fontSize: 'large' }} >References</div>
                 <br></br>

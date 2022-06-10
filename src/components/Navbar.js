@@ -135,95 +135,96 @@ function Navbar() {
                     <label htmlFor="show-menu" className="menu-icon"><i className="fa fa-bars"></i></label>
                     <div className="content">
                         <ul className="links">
-                            <li><a data-cy="menu-home" href="/">Home</a></li>
-                            <li><a data-cy="menu-early" onClick={callEarlyLife} >Early Life</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a onClick={callEarlyLife} >Early Life</a></li>
                             <li>
-                                <a data-cy="menu-soil" className="desktop-link">IISC</a>
-                                <input type="checkbox" id="show-features" />
-                                <div style={{ display: 'flex' }} ><a data-cy="menu-soil1" className="mobile-link" >IISC</a>
-                                    <label htmlFor="show-features" ><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
+                                <a className="desktop-link">IISC</a>
+                                <input type="checkbox" id="show-iisc" />
+                                <div style={{ display: 'flex' }} ><a className="mobile-link" >IISC</a>
+                                    <label htmlFor="show-iisc" ><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
                                 <ul>
-                                    <li><a data-cy="menu-iisc" onClick={callAcetone}>Acetone Fermentation</a></li>
-                                    <li><a data-cy="menu-rothamsted" onClick={callRothamsted}>Rothamsted</a></li>
-                                    <li><a data-cy="menu-rothamsted" onClick={callSoilScienceSanitation}>Soil Science and Sanitation</a></li>
-                                    <li><a data-cy="menu-rothamsted" onClick={callVitaminsAndEnzymes}>Vitamins and Enzymes</a></li>
-                                    <li><a data-cy="menu-rothamsted" onClick={callSoyaBeanMilk}>Soya Milk: School Feeding Program</a></li>
-                                    <li><a data-cy="menu-rothamsted" onClick={callPencillin}>Pencilin and Caesin</a></li>
+                                    <li><a onClick={callAcetone}>Acetone Fermentation</a></li>
+                                    <li><a onClick={callRothamsted}>Rothamsted</a></li>
+                                    <li><a onClick={callSoilScienceSanitation}>Soil Science and Sanitation</a></li>
+                                    <li><a onClick={callVitaminsAndEnzymes}>Vitamins and Enzymes</a></li>
+                                    <li><a onClick={callSoyaBeanMilk}>Soya Milk: School Feeding Program</a></li>
+                                    <li><a onClick={callPencillin}>Pencilin and Caesin</a></li>
 
                                     {/*uncomment next line if cv raman and subrahmanya content is available */}
-                                   {/*  <li><a data-cy="menu-rothamsted" onClick={callRaman}>C.V.Raman and Subrahmanyan</a></li>*/}
+                                   {/*  <li><a onClick={callRaman}>C.V.Raman and Subrahmanyan</a></li>*/}
                                 </ul>
                             </li>
                             <li>
-                                <a data-cy="menu-food" className="desktop-link">C.F.T.R.I</a>
-                                <input type="checkbox" id="show-services" />
-                                <div style={{ display: 'flex' }} ><a data-cy="menu-food1" className="mobile-link" >C.F.T.R.I</a>
-                                    <label htmlFor="show-services"><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
+                                <a className="desktop-link">C.F.T.R.I</a>
+                                <input type="checkbox" id="show-cftri" />
+                                <div style={{ display: 'flex' }} ><a className="mobile-link" >C.F.T.R.I</a>
+                                    <label htmlFor="show-cftri"><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
                                 <ul>
-                                    <li><a data-cy="menu-philippines" onClick={callCheluvambaMansion}>Cheluvamba Mansion</a></li>
-                                    <li><a data-cy="menu-philippines" onClick={callCftri}>Inaugaration of C.F.T.R.I</a></li>
-                                    <li><a data-cy="menu-cftri" className="desktop-link">Infant food</a>
-                                        <input type="checkbox" id="show-items" />
-                                        <div style={{ display: 'flex' }} ><a data-cy="menu-cftri1" className="mobile-link" >Infant food</a>
-                                            <label htmlFor="show-items"><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
+                                    <li><a onClick={callCheluvambaMansion}>Cheluvamba Mansion</a></li>
+                                    <li><a onClick={callCftri}>Inaugaration of C.F.T.R.I</a></li>
+
+                                    <li><a className="desktop-link">Infant food</a>
+                                        <input type="checkbox" id="show-infant" />
+                                        <div style={{ display: 'flex' }} ><a className="mobile-link" >Infant food</a>
+                                            <label htmlFor="show-infant"><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
                                         <ul>
-                                            <li><a data-cy="menu-infant" onClick={callDevelopmentAmulFood}>Development of Amul Baby food</a></li>
-                                            <li><a data-cy="menu-tapioca" onClick={callProcess}>Process of making Amul Baby food</a></li>
-                                            <li><a data-cy="menu-spices" onClick={callBiography}>Biographies of those involved</a></li>
+                                            <li><a onClick={callDevelopmentAmulFood}>Development of Amul Baby food</a></li>
+                                            <li><a onClick={callProcess}>Process of making Amul Baby food</a></li>
+                                            <li><a onClick={callBiography}>Biographies of those involved</a></li>
                                         </ul>
                                     </li>
-                                    <li><a data-cy="menu-cftri" className="desktop-link">Tapioca/Cassava</a>
-                                        <input type="checkbox" id="show-items" />
-                                        <div style={{ display: 'flex' }} ><a data-cy="menu-cftri1" className="mobile-link" >Tapioca/Cassava</a>
-                                            <label htmlFor="show-items"><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
+                                    <li><a className="desktop-link">Tapioca/Cassava</a>
+                                        <input type="checkbox" id="show-tapioca" />
+                                        <div style={{ display: 'flex' }} ><a className="mobile-link" >Tapioca/Cassava</a>
+                                            <label htmlFor="show-tapioca"><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
                                         <ul>
-                                            <li><a data-cy="menu-infant" onClick={callSago}>Sago</a></li>
+                                            <li><a onClick={callSago}>Sago</a></li>
 
                                             {/*uncomment next line if tapioca macaroni content is available */}
-                                           {/* <li><a data-cy="menu-infant" onClick={callTapiocaMacaroni}>Tapioca Macaroni</a></li> */}
+                                           {/* <li><a onClick={callTapiocaMacaroni}>Tapioca Macaroni</a></li> */}
 
                                            {/*uncomment next line if mysore flour content is available */}
-                                          {/* <li><a data-cy="menu-infant" onClick={callMysoreFlour}>Mysore flour and Indian Multipurpose food</a></li>*/}
+                                          {/* <li><a onClick={callMysoreFlour}>Mysore flour and Indian Multipurpose food</a></li>*/}
 
                                         </ul>
                                     </li>
                                     {/*uncomment next line if rice content is available */}
-                                   {/* <li><a data-cy="menu-philippines" onClick={callRice}>Rice</a></li>*/}
+                                   {/* <li><a onClick={callRice}>Rice</a></li>*/}
 
                                     {/*uncomment next set of lines if spices content is available */}
-                                   {/* <li><a data-cy="menu-cftri" className="desktop-link">Spices</a>
-                                        <input type="checkbox" id="show-items" />
-                                        <div style={{ display: 'flex' }} ><a data-cy="menu-cftri1" className="mobile-link" >Spices</a>
-                                            <label htmlFor="show-items"><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
+                                   {/*<li><a className="desktop-link">Spices</a>
+                                        <input type="checkbox" id="show-spices" />
+                                        <div style={{ display: 'flex' }} ><a className="mobile-link" >Spices</a>
+                                            <label htmlFor="show-spices"><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
                                         <ul>
-                                            <li><a data-cy="menu-infant" onClick={callOleoresins}>Oleoresins</a></li>
-                                            <li><a data-cy="menu-infant" onClick={callGarlic}>Garlic powder</a></li>
+                                            <li><a onClick={callOleoresins}>Oleoresins</a></li>
+                                            <li><a onClick={callGarlic}>Garlic powder</a></li>
                                         </ul>
                                         </li>*/}
 
                                     {/*uncomment next line if coffee and tea content is available */}
-                                    {/*<li><a data-cy="menu-philippines" onClick={callCoffee}>Coffee and Tea</a></li>*/}
+                                    {/*<li><a onClick={callCoffee}>Coffee and Tea</a></li>*/}
 
                                     {/*uncomment next line if Fruits content is available */}
-                                    {/*<li><a data-cy="menu-philippines" onClick={callFruits}>Fruits</a></li>*/}
+                                    {/*<li><a onClick={callFruits}>Fruits</a></li>*/}
 
                                     {/*uncomment next line if Infestation content is available */}
-                                    {/*<li><a data-cy="menu-philippines" onClick={callInfestation}>Infestation</a></li>*/}
+                                    {/*<li><a onClick={callInfestation}>Infestation</a></li>*/}
                                 </ul>
                             </li>
-                            <li><a data-cy="menu-sitemap" onClick={callPhilippines}>The Philippines</a></li>
+                            <li><a onClick={callPhilippines}>The Philippines</a></li>
                             <li>
-                                <a data-cy="menu-soil" className="desktop-link">PPRC</a>
-                                <input type="checkbox" id="show-features" />
-                                <div style={{ display: 'flex' }} ><a data-cy="menu-soil1" className="mobile-link" >PPRC</a>
-                                    <label htmlFor="show-features" ><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
+                                <a className="desktop-link">PPRC</a>
+                                <input type="checkbox" id="show-pprc" />
+                                <div style={{ display: 'flex' }} ><a className="mobile-link" >PPRC</a>
+                                    <label htmlFor="show-pprc" ><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
                                 <ul>
-                                    <li><a data-cy="menu-iisc" onClick={callPprc}>The Establishment of PPRC</a></li>
-                                    <li><a data-cy="menu-iisc" onClick={callResearch}>Research</a></li>
-                                    <li><a data-cy="menu-rothamsted" onClick={callPostHarvestTech}>Post - Harvest Technology</a></li>
+                                    <li><a onClick={callPprc}>The Establishment of PPRC</a></li>
+                                    <li><a onClick={callResearch}>Research</a></li>
+                                    <li><a onClick={callPostHarvestTech}>Post - Harvest Technology</a></li>
                                 </ul>
                             </li>
-                            <li><a data-cy="menu-awards" onClick={callAwards}>Awards</a></li>
+                            <li><a onClick={callAwards}>Awards</a></li>
                             
                         </ul>
                     </div>

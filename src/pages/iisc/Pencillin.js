@@ -7,7 +7,9 @@ import pencillin from '../../img/pencillin.jpg'
 export default function Pencillin() {
     const history = useHistory();
     const onClickNext = (event) => {
-        history.push("/cvraman-subrahmanyan");
+        history.push("/cheluvajamanni");
+        //once cv raman content is availabe remove the above line and uncomment the below line 
+        //history.push("/cvraman-subrahmanyan");
     }
     const onClickBack = (event) => {
         history.push("/soyabean-milk");

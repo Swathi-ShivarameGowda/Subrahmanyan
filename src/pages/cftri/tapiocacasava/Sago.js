@@ -9,7 +9,9 @@ import sago3 from '../../../img/sago3.png';
 export default function Sago() {
     const history = useHistory();
     const onClickNext = (event) => {
-        history.push("/tapioca-macaroni");
+        history.push("/philippines");
+        //once tapioca macaroni content is availabe remove the above line and uncomment the below line 
+        // history.push("/tapioca-macaroni");
     }
     const onClickBack = (event) => {
         history.push("/biographies");

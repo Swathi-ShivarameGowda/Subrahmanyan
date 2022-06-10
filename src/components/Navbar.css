@@ -237,10 +237,12 @@ nav .content {
             margin-left: 0px;
         }
 
-    .content .links #show-features:checked ~ ul,
-    .content .links #show-services:checked ~ ul,
-    .content .links #show-more:checked ~ ul,
-    .content .links #show-items:checked ~ ul {
+    .content .links #show-iisc:checked ~ ul,
+    .content .links #show-cftri:checked ~ ul,
+    .content .links #show-spices:checked ~ ul,
+    .content .links #show-pprc:checked ~ ul,
+    .content .links #show-infant:checked ~ ul,
+    .content .links #show-tapioca:checked ~ ul {
         max-height: 100vh;
     }
 
