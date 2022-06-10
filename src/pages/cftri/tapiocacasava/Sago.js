@@ -9,7 +9,7 @@ import sago3 from '../../../img/sago3.png';
 export default function Sago() {
     const history = useHistory();
     const onClickNext = (event) => {
-        history.push("/sago");
+        history.push("/tapioca-macaroni");
     }
     const onClickBack = (event) => {
         history.push("/biographies");

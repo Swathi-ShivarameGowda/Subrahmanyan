@@ -20,6 +20,14 @@ import Process from './pages/cftri/infantfood/Process';
 import ProcessContinued from './pages/cftri/infantfood/ProcessContinued';
 import ProcessContinued2 from './pages/cftri/infantfood/ProcessContinued2';
 import Sago from './pages/cftri/tapiocacasava/Sago';
+import TapiocaMacaroni from './pages/cftri/tapiocacasava/TapiocaMacaroni';
+import MysoreFlour from './pages/cftri/tapiocacasava/MysoreFlour';
+import GarlicPowder from './pages/cftri/spices/GarlicPowder';
+import Oleoresins from './pages/cftri/spices/Oleoresins';
+import CoffeeTea from './pages/cftri/CoffeeTea';
+import Fruits from './pages/cftri/Fruits';
+import Rice from './pages/cftri/Rice';
+import Infestation from './pages/cftri/Infestation';
 import Philippines from './pages/Philippines';
 import Pprc from './pages/pprc/Pprc';
 import Research from './pages/pprc/Research';
@@ -27,6 +35,7 @@ import ResearchContinued from './pages/pprc/ResearchContinued';
 import PostHarvestTech from './pages/pprc/PostHarvestTech';
 import Awards from './pages/Awards';
 import Sitemap from './pages/Sitemap';
+
 
 import Navbar from './components/Navbar';
 import Scroll from './components/Scroll';
@@ -66,6 +75,14 @@ function App() {
                         <Route path="/process-continued2" component={ProcessContinued2} />
                         <Route path="/biographies" component={Biographies} />
                         <Route path="/sago" component={Sago} />
+                        <Route path="/tapioca-macaroni" component={TapiocaMacaroni} />
+                        <Route path="/mysore-flour" component={MysoreFlour} />
+                        <Route path="/garlic-powder" component={GarlicPowder} />
+                        <Route path="/oleoresins" component={Oleoresins} />
+                        <Route path="/coffee-tea" component={CoffeeTea} />
+                        <Route path="/fruits" component={Fruits} />
+                        <Route path="/rice" component={Rice} />
+                        <Route path="/infestation" component={Infestation} />
                         <Route path="/philippines" component={Philippines} />
                         <Route path="/pprc" component={Pprc} />
                         <Route path="/research" component={Research} />

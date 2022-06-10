@@ -85,6 +85,42 @@ function Navbar() {
         
     }
 
+    const callRaman = (event) => {
+        history.push("/cvraman-subrahmanyan")
+    }
+
+    const callTapiocaMacaroni = (event) => {
+        history.push("/tapioca-macaroni")
+    }
+
+    const callMysoreFlour = (event) => {
+        history.push("/mysore-flour")
+    }
+
+    const callRice = (event) => {
+        history.push("/rice")
+    }
+
+    const callOleoresins = (event) => {
+        history.push("/oleoresins")
+    }
+
+    const callGarlic = (event) => {
+        history.push("/garlic-powder")
+    }
+
+    const callCoffee = (event) => {
+        history.push("/coffee-tea")
+    }
+
+    const callFruits = (event) => {
+        history.push("/fruits")
+    }
+
+    const callInfestation = (event) => {
+        history.push("/infestation")
+    }
+
 
     return (
         <>
@@ -113,7 +149,9 @@ function Navbar() {
                                     <li><a data-cy="menu-rothamsted" onClick={callVitaminsAndEnzymes}>Vitamins and Enzymes</a></li>
                                     <li><a data-cy="menu-rothamsted" onClick={callSoyaBeanMilk}>Soya Milk: School Feeding Program</a></li>
                                     <li><a data-cy="menu-rothamsted" onClick={callPencillin}>Pencilin and Caesin</a></li>
-                                    
+
+                                    {/*uncomment next line if cv raman and subrahmanya content is available */}
+                                   {/*  <li><a data-cy="menu-rothamsted" onClick={callRaman}>C.V.Raman and Subrahmanyan</a></li>*/}
                                 </ul>
                             </li>
                             <li>
@@ -140,8 +178,37 @@ function Navbar() {
                                             <label htmlFor="show-items"><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
                                         <ul>
                                             <li><a data-cy="menu-infant" onClick={callSago}>Sago</a></li>
+
+                                            {/*uncomment next line if tapioca macaroni content is available */}
+                                           {/* <li><a data-cy="menu-infant" onClick={callTapiocaMacaroni}>Tapioca Macaroni</a></li> */}
+
+                                           {/*uncomment next line if mysore flour content is available */}
+                                          {/* <li><a data-cy="menu-infant" onClick={callMysoreFlour}>Mysore flour and Indian Multipurpose food</a></li>*/}
+
                                         </ul>
                                     </li>
+                                    {/*uncomment next line if rice content is available */}
+                                   {/* <li><a data-cy="menu-philippines" onClick={callRice}>Rice</a></li>*/}
+
+                                    {/*uncomment next set of lines if spices content is available */}
+                                   {/* <li><a data-cy="menu-cftri" className="desktop-link">Spices</a>
+                                        <input type="checkbox" id="show-items" />
+                                        <div style={{ display: 'flex' }} ><a data-cy="menu-cftri1" className="mobile-link" >Spices</a>
+                                            <label htmlFor="show-items"><i style={{ marginLeft: '20px' }} className="fa fa-caret-down"></i></label></div>
+                                        <ul>
+                                            <li><a data-cy="menu-infant" onClick={callOleoresins}>Oleoresins</a></li>
+                                            <li><a data-cy="menu-infant" onClick={callGarlic}>Garlic powder</a></li>
+                                        </ul>
+                                        </li>*/}
+
+                                    {/*uncomment next line if coffee and tea content is available */}
+                                    {/*<li><a data-cy="menu-philippines" onClick={callCoffee}>Coffee and Tea</a></li>*/}
+
+                                    {/*uncomment next line if Fruits content is available */}
+                                    {/*<li><a data-cy="menu-philippines" onClick={callFruits}>Fruits</a></li>*/}
+
+                                    {/*uncomment next line if Infestation content is available */}
+                                    {/*<li><a data-cy="menu-philippines" onClick={callInfestation}>Infestation</a></li>*/}
                                 </ul>
                             </li>
                             <li><a data-cy="menu-sitemap" onClick={callPhilippines}>The Philippines</a></li>

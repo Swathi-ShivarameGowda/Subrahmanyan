@@ -59,10 +59,9 @@ export default function Earlylife() {
                         </div>
                     </div>
                     <div style={{ marginTop: '30px'}} >
-                    <div style={{ display: 'inline', float:'right', width:'30%', marginLeft:'30px' }} >
+                    <div style={{ display: 'inline', float:'right', width:'30%', marginLeft:'30px', marginTop:'10px' }} >
                             <img src={staffatstjosephscollege} height={200} width={300} />
                             <div style={{fontSize:'12px'}}>St. Jospeh's College (1920~), Ramamswamy Iyer (third from Left), Fr.Hazz. Thanks to Raji Heyrovska</div>
-                            <br></br>
                         </div>
                         <div className="earlylifepara">P.Ramaswamy Iyer, a member of the department of Chemistry, St. Josephs College, Trichy, had spent some time (12.5.1919 to 20.6.1919) in the Department of General Chemistry, Indian Institute of Science working with Prof. Sudburough who was head of the department at that time. Mr P. Ramaswamy Iyer then became faulty at the Organic Chemistry department, Indian Institute of Science. K.V.Sundaram also from the Chemistry Department, St.Joseph's College visited  in the  “Department of Applied Chemistry  (Changed to Department of Biochemistry) on 3.5.1920. It is probable that Mr. P. Ramaswamy Iyer influenced Subrahmanyan to apply for a fellowship at IISC.</div>
                     </div>
@@ -72,7 +71,7 @@ export default function Earlylife() {
             
                 <div className="earlylife" style={{ fontSize: "22px" }} >Family</div>
                 <br></br>
-                <br></br>
+                
                 <div>
                 <div style={{ display: 'inline', float:'left', width:'30%'}} >
                             <img src={subrahmanyansaraswati} height={370} width={250} />
