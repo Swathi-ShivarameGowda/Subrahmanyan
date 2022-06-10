@@ -46,9 +46,12 @@ export default function Pprc() {
                         </div>
                     <div className="earlylifepara" >V.S. Thiygaraja Mudaliar invited Dr.Subramanyan who was both  emeritus  CSIR fellow   and  advisor at the ministry  of Food, Government of India to initiate  Research and Development at Thirvarur in 1967 at the Modern Rice Mill complex of  the  TCMF. The main objective of starting the R& D lab was the salvage of high moisture paddy especially for farmers, modernization of rice milling industry and improvement  in rice processing technology. The lab at TCMF was initially supported by the TCMF.</div>
                 </div>
-                <br></br>
+                <br></br><br></br>
                 <div>
-                    <img style={{ float: 'left', margin: '15px', width:'300px' }} src={paddyprocessing} height={200} width={180} />
+                <div style={{ display: 'inline', float:'left', width:'35%'}} >
+                            <img src={paddyprocessing} height={200} width={300} />
+                            <div style={{fontSize:'12px'}}>Paddy Processing Research Centre, Thirvarur-1972</div>
+                        </div>
                     <div className="earlylifepara" >In 1971, The Food Corporation of India stepped in with funds and deputed a deputy manager, assistant manager, assistant engineer, quality inspector and proposed an Advisory Committee for this Laboratory with Joint Secretary (Policy) of Ministry .of Agriculture Government of India   as Chairman. The Lab which hitherto had been referred to as the Research and Development Laboratory of the TCMF, was named as the Paddy Processing Research Center (PPRC) in 1972. Funding was from a consortium consisting of the Food corporation of India,   Department of Food   Government of India, National Co-operative Development Corporation (NCDC) and  Govt. of Tamil Nadu through the Tamil Nadu Civil Supply Corporation. The Food Corporation of India deputed a person to work in the PPRC , the Ministry of Food deputed an Assistant Technical Adviser, the NCDC,  a Research Associate and Tamil Nadu Government deputed  workshop engineer from the Tamil Nadu Civil Supply Corporation. Later the NCDC withdrew from this consortium. Dr. V. Subrahmanyan was the Project Head of PPRC. </div>
                 </div>
                 <br></br>

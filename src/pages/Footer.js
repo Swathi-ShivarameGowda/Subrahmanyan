@@ -23,7 +23,7 @@ export default function Footer() {
                                       <font color="#fff3f3" size="3">
                                            <span><font fontWeight="600" color="#e9cf76" >CONTACT US</font></span>
                                            <br></br>
-                                            <div className="footertext">subraroc@gmail.com</div>
+                                            <div className="footertext">dr.v.subrahmanyan@gmail.com</div>
                                        </font>
                                  </div>
                             </td>

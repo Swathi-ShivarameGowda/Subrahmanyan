@@ -29,12 +29,13 @@ export default function Sitemap() {
                                         <div><Link to="/" style={{ textDecoration: 'none', color: '#3819e9' }} >Home</Link></div>
                                         <div><Link to="/early-life" style={{ textDecoration: 'none', color: '#3819e9' }} >Early Life</Link></div>
                                         <div><Link to="/acetone-fermentation" style={{ textDecoration: 'none', color: '#3819e9' }} >Acetone Fermentation</Link></div>
+                                        <div><Link to="/gjfowler" style={{ textDecoration: 'none', color: '#3819e9' }} >Dr.G.J.Fowler</Link></div>
                                         <div><Link to="/rothamsted" style={{ textDecoration: 'none', color: '#3819e9' }} >Rothamsted</Link></div>
                                         <div><Link to="/soil-science-sanitation" style={{ textDecoration: 'none', color: '#3819e9' }} >Soil Science and Sanitation</Link></div>
                                         <div><Link to="/vitamins-enzymes" style={{ textDecoration: 'none', color: '#3819e9' }} >Vitamins and Enzymes</Link></div>
                                         <div><Link to="/soyabean-milk" style={{ textDecoration: 'none', color: '#3819e9' }} >Soya Milk: School Feeding Program</Link></div>
                                         <div><Link to="/pencillin-glucanate-and-soluble-casein" style={{ textDecoration: 'none', color: '#3819e9' }} >Pencilin and Caesin</Link></div>
-                                        
+                                       {/** <div><Link to="/cvraman-subrahmanyan" style={{ textDecoration: 'none', color: '#3819e9' }} >C.V.Raman and Subrahmanyan</Link></div>*/} 
                                     </td>
                                 <td style={{ width: "25%" }} >
                                         <div><Link to="/cheluvajamanni" style={{ textDecoration: 'none', color: '#3819e9' }} >Cheluvamba Mansion</Link></div>
@@ -43,15 +44,21 @@ export default function Sitemap() {
                                         <div><Link to="/process" style={{ textDecoration: 'none', color: '#3819e9' }} >Process of making Amul Baby food</Link></div>
                                         <div><Link to="/biographies" style={{ textDecoration: 'none', color: '#3819e9' }} >Biographies of those involved</Link></div>
                                         <div><Link to="/sago" style={{ textDecoration: 'none', color: '#3819e9' }} >Sago</Link></div>
-                                        
+                                        {/** <div><Link to="/tapioca-macaroni" style={{ textDecoration: 'none', color: '#3819e9' }} >Tapioca Macaroni</Link></div>*/} 
+                                        {/** <div><Link to="/mysore-flour" style={{ textDecoration: 'none', color: '#3819e9' }} >Mysore flour and Indian Multipurpose food</Link></div>*/} 
+                                        {/** <div><Link to="/rice" style={{ textDecoration: 'none', color: '#3819e9' }} >Rice</Link></div>*/} 
+                                        {/** <div><Link to="/oleoresins" style={{ textDecoration: 'none', color: '#3819e9' }} >Oleoresins</Link></div>*/} 
                                 </td>
                                     <td style={{ width: "20%" }} >
+                                        {/** <div><Link to="/garlic-powder" style={{ textDecoration: 'none', color: '#3819e9' }} >Garlic powder</Link></div>*/} 
+                                        {/** <div><Link to="/coffee-tea" style={{ textDecoration: 'none', color: '#3819e9' }} >Coffee and Tea</Link></div>*/} 
+                                        {/** <div><Link to="/fruits" style={{ textDecoration: 'none', color: '#3819e9' }} >Fruits</Link></div>*/} 
+                                        {/** <div><Link to="/infestation" style={{ textDecoration: 'none', color: '#3819e9' }} >Infestation</Link></div>*/} 
                                         <div><Link to="/philippines" style={{ textDecoration: 'none', color: '#3819e9' }} >The Philippines</Link></div>
                                         <div><Link to="/pprc" style={{ textDecoration: 'none', color: '#3819e9' }} >The Establishment of PPRC</Link></div>
                                         <div><Link to="/research" style={{ textDecoration: 'none', color: '#3819e9' }} >Research</Link></div>
                                         <div><Link to="/post-harvest-tech" style={{ textDecoration: 'none', color: '#3819e9' }} >Post - Harvest Technology</Link></div>
                                         <div><Link to="/awards" style={{ textDecoration: 'none', color: '#3819e9' }} >Awards</Link></div>
-                                        <div><Link to="/gjfowler" style={{ textDecoration: 'none', color: '#3819e9' }} >Dr.G.J.Fowler</Link></div>
                                     </td>
                                 </div>
                             </tr>
