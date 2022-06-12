@@ -71,8 +71,8 @@ export default function Biographies() {
                 <br></br>
                 <div className="earlylife" style={{ fontSize: 'larger' }} >Darshan Singh Bhatia (1923-2001)(3,4)</div>
                 <br></br>
-                <div>
-                <div style={{ display: 'inline', float:'left', width:'30%', marginRight:'30px' }} >
+                <div className="earlylifeiyer">
+                <div style={{ display: 'inline', float:'left', width:'30%', marginRight:'30px', marginTop:'10px', marginLeft:'10px' }} >
                             <img src={bhatia} height={250} width={300} />
                             <div style={{fontSize:'12px'}}>Subrahmanyan, Nehru, Parpia, Bhatia</div>
                             <br></br>
@@ -93,14 +93,14 @@ export default function Biographies() {
                 <div className="earlylife" style={{ fontSize: 'larger' }} >Dr. V.Sreenivasa Murthy (1924-2008)</div>
                 <br></br>
                 <div>
-                    <img style={{ float: 'left', margin: '15px' }} src={murthy} height={180} width={180} />
+                    <img style={{ float: 'left', marginTop: '10px', marginRight:'30px' }} src={murthy} height={180} width={180} />
                     <div className="earlylifepara" >V. Srinivasa Murthy after completing his doctoral degree in Microbiology form the N.D.R.I. Bangalore joined the C.F.T.R.I. He was involved in the estimation of Vitamins in infant food. On a UNICEF fellowship, he worked the Tropical Products Institute. 25-6-1964. He subsequently became Head of the Department of Microbiology, C.F.T.R.I. </div>
                 </div>
                 <br></br><br></br><br></br><br></br>
                 <div className="earlylife" style={{ fontSize: 'larger' }} >M.Narayana Rao (1929-2012)</div>
                 <br></br>
                 <div>
-                    <img style={{ float: 'left', margin: '15px' }} src={narayanarao} height={200} width={180} />
+                    <img style={{ float: 'left', marginTop: '10px', marginRight:'30px' }} src={narayanarao} height={200} width={180} />
                     <div className="earlylifepara" >Narayana Rao worked at the C.F.T.R.I. during the development of the roller drying process for making weaning food. He did postdoctoral work at the  Food and Drug Research Laboratories Ottawa Canada1  . After a tenure at the C.F.T.R.I. he was appointed as Nutrition Officer, Food Policy and Nutrition Division, FAO, Rome, Italy.</div>
                     <br></br>
                 </div>
@@ -110,7 +110,7 @@ export default function Biographies() {
                 <div className="earlylife" style={{ fontSize: 'large' }} >References</div>
                 <br></br>
                 <div className='referencepara'>(1).C.F.T.R.I. Annual Report 1964-1965 Page 180. (2).Deccan Herald Retd Director of CFTRI, Parpia passes away Mysore, July 9, 2013, dhns:, JUL 09 2013, 22:18 ISTUPDATED: JUL 09 2013, 22:19 IST23 August 2013 | News | By Bureau Report (3).Shurtleff, William  and Akiko Aoyagi  (2013) History   Of soy milk and other non diary   milk.page 1526. Soy Info Center  (4).Bassett, Ross (2016) The Technological Indian. Harvard University Press. Kindle Edition.</div>
-                <br></br>
+                <br></br><br></br>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }} >
                     <div className="backbutton" ><Button size="small" onClick={onClickBack} >Back</Button></div>
                     <div className="backbutton" ><Button size="small" onClick={onClickNext} >Next</Button></div>

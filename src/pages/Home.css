@@ -87,8 +87,8 @@
         .video-responsive iframe {
             width: 400px;
         }
-
+/* make display: inline once the video is available*/
     .videocontent {
-        display: inline;
+        display: none;
     }
 }

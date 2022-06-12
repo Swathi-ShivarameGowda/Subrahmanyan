@@ -58,8 +58,13 @@
     }
 
     .tablecolumn {
-        width: 67.105263157895%;
+        width: 50%;
         padding: 0 20px;
+        padding-bottom: 35px;
+    }
+    .anothertablecolumn{
+        width: 50%;
+        padding-top: 70px;
     }
     .footerdiv {
         margin-left: 0px;

@@ -17,4 +17,8 @@
     .earlylifediv {
         display: inline;
     }
+
+    .earlylifeiyer{
+        display: grid;
+    }
 }

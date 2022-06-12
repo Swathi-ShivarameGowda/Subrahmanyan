@@ -50,7 +50,7 @@ export default function CftriContinued() {
                 <div className="earlylife" style={{ fontSize: 'large' }} >References</div>
                 <br></br>
                 <div className='referencepara'> (1) Bhima Rao, C.N. (1980) Prof. V.Subrahmanyan-Some personal reminiscences. Journal of Food Science and Technology.17:121-123. (2) Mysore Information Bulletin (1948) Prime Minister of India visits Mysore: Vol 11 ,457-459. (3)3. Mysore Information Bulletin (1949) International Forestry conference. 12, 75-76.8. (4). K.C. Reddy in Chief Ministers Speak: Being resumes of the activities of the Governments central and state during the three years 1947-1950. All India Congress Committee, New Delhi. (5) The Central Food Technological Research Institute, Mysore. Opening Ceremony , Oct 21, 1950. (1950) Journal of Scientific and Industrial Research  9.439-441.(6) Mysore Information Bulletin (1950), Fervent Efforts to fight food crisis 13, 396-402. </div>
-                <br></br>
+                <br></br><br></br>
                 <div style={{ display: 'flex', justifyContent:'space-between' }} >
                     <div className="backbutton" ><Button size="small" onClick={onClickBack} >Back</Button></div>
                     <div className="backbutton" ><Button size="small" onClick={onClickNext} >Next</Button></div>

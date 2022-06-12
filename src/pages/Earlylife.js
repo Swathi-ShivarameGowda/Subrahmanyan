@@ -58,7 +58,7 @@ export default function Earlylife() {
                             <br></br>
                         </div>
                     </div>
-                    <div style={{ marginTop: '30px'}} >
+                    <div className="earlylifeiyer" style={{ marginTop: '30px'}} >
                     <div style={{ display: 'inline', float:'right', width:'30%', marginLeft:'30px', marginTop:'10px' }} >
                             <img src={staffatstjosephscollege} height={200} width={300} />
                             <div style={{fontSize:'12px'}}>St. Jospeh's College (1920~), Ramamswamy Iyer (third from Left), Fr.Hazz. Thanks to Raji Heyrovska</div>
@@ -72,8 +72,8 @@ export default function Earlylife() {
                 <div className="earlylife" style={{ fontSize: "22px" }} >Family</div>
                 <br></br>
                 
-                <div>
-                <div style={{ display: 'inline', float:'left', width:'30%'}} >
+                <div className="earlylifeiyer" >
+                <div style={{ display: 'inline', float:'left', width:'30%', marginTop:'10px', marginLeft:'10px'}} >
                             <img src={subrahmanyansaraswati} height={370} width={250} />
                             <div style={{fontSize:'12px'}}>Saraswathi and Subrahmanyan</div>
                             <br></br>
@@ -81,7 +81,7 @@ export default function Earlylife() {
                     <div className="earlylifepara" style={{whiteSpace: 'pre-line' }} >Subrahmanyan was married to Saraswathi in 1922. She was very young about eleven then. She used to talk about her father who was “Sub Collector” at Bapatla (She could speak Telegu all her life) asked her whether she would marry a dark man. Her reply was that as her father was dark so could her husband be. Seshadri Iyer who became an ICS officer, later, was also a suitor.</div>
                     <div className="earlylifepara" style={{whiteSpace: 'pre-line' }} >They had seven children. Ramarathnam 1928 (deceased early), Leela (1930), Sulochana (1932), Sundaram (1934), Santhanam (1936), Saroja (1941), Venkatesh (1946). Leela, Sulochana and Saroja were named by their car driver, Sheik Mohammed after popular actresses of the time. Sundaram was named after the bridge at Rameshwaram.</div>
                 </div>
-                <br></br>
+                <br></br><br></br>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                     <div className="backbutton" ><Button size="small" onClick={onClickBack} >Back</Button></div>
                     <div className="backbutton" ><Button size="small" onClick={onClickNext} >Next</Button></div>

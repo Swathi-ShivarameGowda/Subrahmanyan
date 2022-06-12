@@ -48,7 +48,7 @@ export default function Sago() {
                         <img src={sago2} height={200} width='100%' />
                 </div>
                 <br></br>
-                <div style={{ marginTop: '30px', marginLeft:'130px', marginRight:'130px'}} >
+                <div className='sago' >
                         <img src={sago3} height={800} width='100%' />
                 </div>
                 <br></br>
@@ -59,7 +59,7 @@ export default function Sago() {
                 <div className="earlylife" style={{ fontSize: 'large' }} >References</div>
                 <br></br>
                 <div className='referencepara'>(1) Subrahmanyan,V. (1952) Industrial crops as food during times of emergency. The Bull.C.F.T.R.I. 11:7-9.  (2) . Desikachar, H. S. R., Bhatia, D. S., and Raghunatha Rao. Y. K. (1953) "Preparation of glucose and sweet syrups from tapioca starch." Bulletin of Central Food Technological Research Institute 2 :180-181. (3) Narayana Rao, M. Rama Rao,G., Swaminathan,M. and Subrahmanyan, V.(1956) Quantitative determination of fibre present in tapioca starch and sago globules. Journal of Scientific and Industrial Research.15: 202-204.  (4). Pingale,S.V., Muthu,M., Sharangapani, M.V. (1956) Insect pests of stored tapioca chips and their control. The Bull. C.F.T.R.I.  5:134-135. (5) Subrahmanyan,V. G. Rama Rao,,G., Narayana Rao,M,. and Swaminathan, M.(1956)  Variations in the chemical composition of sago prepared commercially out of tapioca and proposed specifications for the product The Bull. C.F.T.R.I. 4, :77-81. (6) Damle, K.R.,  Ramasubban, S.C.  Muranjan, S.K. Dutta,J.N. .(1957 ) Report of the continuance of protection to the sago industry (1957) published by The Tariff Commission, Government of India, Bombay. <a href="https://archive.org/details/unset0000unse_p0b9/page/n3/mode/2up?q=Indian+Sago+Industry" target="_blank" style={{ textDecoration: 'none' }} ><font color="#3819e9">https://archive.org/details/unset0000unse_p0b9/page/n3/mode/2up?q=Indian+Sago+Industry</font></a> (7) Science & Culture  1960- Volume 25 - Page 343-343. (8) The Indian Sago Industry , (1960) C.F.T.R.I. , Mysore.</div>
-                <br></br>
+                <br></br><br></br>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                     <div className="backbutton" ><Button size="small" onClick={onClickBack} >Back</Button></div>
                     <div className="backbutton" ><Button size="small" onClick={onClickNext} >Next</Button></div>

@@ -26,8 +26,8 @@ export default function Awards() {
                 <br></br>
                 <div className="earlylife" >Awards</div>
                 <br></br>
-                <div>
-                <div style={{ display: 'inline', float:'right', width:'30%', marginLeft:'20px' }} >
+                <div className="earlylifeiyer">
+                <div style={{ display: 'inline', float:'right', width:'30%', marginLeft:'20px', marginTop:'10px' }} >
                             <img src={award} height={400} width={300} />
                             <div style={{fontSize:'12px'}}>Subrahmanyan receiving the Padma Shri medal from Dr.Rajendra Prasad, the then president of India</div>
                             <br></br>

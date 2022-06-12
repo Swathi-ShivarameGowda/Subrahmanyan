@@ -31,8 +31,8 @@ export default function Cftri() {
                 <br></br>
                 <div className="earlylifepara" >The Central Food Technological Research Institute is housed in lands enclosing the Cheluvamba Palace. The Cheluvamba Palace was a building constructed for the residence of Cheluvajamanni, who was the sister of the Maharaja H.H. Sri. Krishna Raja Wadiyar (born: 1884; Maharaja: 1894-1940). The building had been not been used for some years prior to its occupation by the C.F.T.R.I.</div>
                 <br></br>
-                <div>
-                <div style={{ display: 'inline', float:'left', width:'25%'}} >
+                <div className="earlylifeiyer">
+                <div style={{ display: 'inline', float:'left', width:'25%', marginTop:'10px', marginLeft:'10px'}} >
                             <img src={kcreddy} height={250} width={200} />
                             <div style={{fontSize:'12px'}}>K.C. Reddy (1902-1976) First Chief Minister of Erstwhile Mysore</div>
                             <br></br>
@@ -40,8 +40,8 @@ export default function Cftri() {
                     <div className="earlylifepara" > “The Government of Mysore had also generously offered a palatial building called “Cheluvamba Mansion” to the World Health Organization. As luck would have it within a few days the WHO announced their intention to locate their headquarters in Delhi” (1).  K.C. Reddy (1902 –1976) the Chief Minster of Mysore, was deeply interested that Food Technological Research Institute to be located in Mysore. Subrahmanyam, has said, that K.C. Reddy telegraphically requested Nehru to fix a date for his visit to Mysore, even before the formal decision of then Maharaja, Jayachamrajendra Wodeyar to hand over the building. The Cheluvamba Palace, when finally handed over, was at a rent of Rs. One per year. This rent was perhaps charged till the complete integration of Mysore state with the rest of India. The state was still under dyarchy at that time of take over of the building by the Government of India. </div>
                 </div>
                 <br></br>
-                <div>
-                <div style={{ display: 'inline', float:'left', width:'40%'}} >
+                <div className="earlylifeiyer">
+                <div style={{ display: 'inline', float:'left', width:'40%', marginTop:'10px', marginLeft:'10px'}} >
                             <img src={convocation} height={220} width={350} />
                             <div style={{fontSize:'12px'}}>Convocation conferring the honorary Doctor of Science by the Chancellor Jayachamarajendra Wadiyar.</div>
                             <br></br>
@@ -51,8 +51,8 @@ export default function Cftri() {
                     <div className="earlylifepara" >"Mysore is grateful to the Government of India for locating the All-India Food Technological Institute within her borders and it is with the greatest pleasure that she has place at the government of India's disposal the spacious buildings and part of the grounds of the Cheluvamba Mansions for the housing of the Institute and its Laboratories. She is also glad that the proposal to add the Fruit Technology Section to the Institute is under active consideration" says K.C. Reddy in 1949.(3)</div>
                 </div>
                 <br></br>
-                <div>
-                <div style={{ display: 'inline', float:'left', width:'45%'}} >
+                <div className="earlylifeiyer">
+                <div style={{ display: 'inline', float:'left', width:'45%', marginTop:'10px', marginLeft:'10px'}} >
                             <img src={cftriopening} height={250} width={380} />
                             <div style={{fontSize:'12px'}}>Mr. C. Rajagopalchari (Minister without Portfolio) and Jayachamarajendra Wadiyar in the center. S.S. Bhatnagar to the left. K.C. Reddy to the right (not clear)</div>
                             <br></br>
@@ -66,7 +66,7 @@ export default function Cftri() {
                 <div className="earlylifepara" >The establishment of the Institute was recommended by the Industrial Research Planning Committee of the Council of Scientific & Industrial Research in 1945. The Governing Body of the Council sanctioned the necessary expenditure for formulating detailed plans for the Institute in February1948. Location of the Institute at the Cheluvamba Mansions, Mysore, was decided in December 1948, and Dr. V. Subrahmanyan was appointed as planning officer initially and as Director of the Institute, subsequently. The arrangements for converting the palace into a laboratory commenced in April 1949 and before the end of the year, the Biochemistry and Nutrition Divisions and of the Processing Division were active before end of the year. In 1950 the Indian Institute of Fruit Technology was merged with the C.F.T.R.I and by July 1950 was actively carrying out researches on the preservation and processing of fruits and vegetables and conducting the All-India Postgraduate Diploma Course in Fruit Technology.</div>
                 <br></br>
                 <div className="earlylifepara" >C. Rajagopalachari in his opening remarks, acknowledged the work of Dr. Shanti Swarup Bhatnagar in speedily establishing national laboratories in the country. He drew attention to the vast scope for research in solving the food problems facing the country, and suggested that scientific research and technological processes should be employed to minimize all forms of food wastage and to preserve all surplus food material.  Another field for investigation, he said, “is the elimination of the harmful constituents of non-edible materials, and the conversion of the latter in to healthy and attractive food. This also is a vast and very important field of investigation in the plan of supplementing our food resources. Closely linked up with this is the maintenance of nutritional standards by the   use   of staple subsidiary foods. There is again the problem of the manufacture of concentrated foods and accessories like vitamins on a large scale which would assist the maintenance of proper nutritional standards in India."</div>
-                <br></br>
+                <br></br><br></br>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                     <div className="backbutton" ><Button size="small" onClick={onClickBack} >Back</Button></div>
                     <div className="backbutton" ><Button size="small" onClick={onClickNext} >Next</Button></div>

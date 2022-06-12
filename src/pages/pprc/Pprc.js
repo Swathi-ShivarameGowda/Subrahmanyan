@@ -38,8 +38,8 @@ export default function Pprc() {
                 <br></br>
                 <div className="earlylifepara" >In April 1963, the Ford foundation surveyed problems that existed with rice milling. Based on their recommendations, the Government of India decided to set up six modern rice mills in the cooperative sector and one in the public sector. The first mill set up was at Thiruvarur under the Thanjavur Cooperative Marketing Federation (TCMF). V. S. Thiyagaraja Mudaliar (1916-1982) was President at that time. He was a leading landlord who had shifted from paddy cultivation to sugarcane on about 5 acres of their own land. They had established a sugar factory called The Arooran Sugars. The TCMF rice mill could process 4 tons per hour and had a parboiling unit, a paddy cleaning unit, silo storage, mechanical dryers and rubber rollers for shelling.</div>
                 <br></br>
-                <div>
-                <div style={{ display: 'inline', float:'left', width:'25%'}} >
+                <div className="earlylifeiyer">
+                <div style={{ display: 'inline', float:'left', width:'25%', marginTop:'10px', marginLeft:'10px'}} >
                             <img src={thiyagaraja} height={200} width={200} />
                             <div style={{fontSize:'12px'}}>Vadapathimangalam S. Thiygaraja Mudaliar (1916-1982)</div>
                             <br></br>
@@ -47,8 +47,8 @@ export default function Pprc() {
                     <div className="earlylifepara" >V.S. Thiygaraja Mudaliar invited Dr.Subramanyan who was both  emeritus  CSIR fellow   and  advisor at the ministry  of Food, Government of India to initiate  Research and Development at Thirvarur in 1967 at the Modern Rice Mill complex of  the  TCMF. The main objective of starting the R& D lab was the salvage of high moisture paddy especially for farmers, modernization of rice milling industry and improvement  in rice processing technology. The lab at TCMF was initially supported by the TCMF.</div>
                 </div>
                 <br></br><br></br>
-                <div>
-                <div style={{ display: 'inline', float:'left', width:'35%'}} >
+                <div className="earlylifeiyer">
+                <div style={{ display: 'inline', float:'left', width:'35%', marginTop:'10px', marginLeft:'10px'}} >
                             <img src={paddyprocessing} height={200} width={300} />
                             <div style={{fontSize:'12px'}}>Paddy Processing Research Centre, Thirvarur-1972</div>
                         </div>
@@ -56,7 +56,7 @@ export default function Pprc() {
                 </div>
                 <br></br>
                 <div>
-                    <img className="pprcteam" src={pprcTeam} />
+                    <img className="pprcteam" style={{marginTop:'10px'}} src={pprcTeam} />
                     <div className="earlylifepara" >R. Chandrashekarn and B.S. Vasan joined the TCMF Lab was it was then called. B.S. Iengar was recruited as engineer. Yousuf was an engineer with the TCMF who worked with the Subrahmanyan group. C.V.Subramanian , C.S. Shivanna and N.S. Gangadhar where deputed from the ministry of Food. Mr. Baskar came from the NCDC. P.Pillaiyar was from the Food Corporation of India</div>
                     <div className="earlylifepara" >After his demise of Subrahmanyan on January 30th 1979, initially Dr. S.M.Ilyas , Research Engineer acted as Project Head then Mr B.S.Vasan was the Project Head in charge . The center was managed by the Tamil Nadu Civil Supplies Corporation and then from1981 by the Tamil Nadu Agricultural University.  On1.12.1984 the PPRC was registered as PPRC society under Tamil Nadu Societies registration act of 1975. The entire budget PPRC was provided by the Ministry of Food, the Food corporation of India and the Tamil Nadu Civil services corporation and later solely by Ministry of Food Processing Industries, Government of India. </div>
                     <div className="earlylifepara" >The Institute was moved to its current location at Thanjavur in 1984. The Project Head designation was changed to that of Director who heads and manages the institute along with Executive Committee members and Board of Directors. The Ministry of Food Processing Industries (MFPI) took over the funding and management of the PPRC and renamed it as the Indian Institute of Crop Processing Technology in 2008. The Directors who managed the PPRC and the  IICPT are Dr.V.Subramanian from  Tamil Nadu Agriculture University, Dr. A. Dahshinamoorthy from ICAR, Dr. A Alagusundaram from TNAU, Dr K.Singaravadivel, from PPRC and presently,  Dr. Anandharamakrishnan from CFTRI.</div>
@@ -66,8 +66,8 @@ export default function Pprc() {
                 <br></br>
                 <div className="earlylife" style={{ fontSize: 'larger' }} >The Last days of Subrahmanyan</div>
                 <br></br>
-                <div>
-                <div style={{ display: 'inline', float:'left', width:'30%', marginRight:'30px'}} >
+                <div className="earlylifeiyer">
+                <div style={{ display: 'inline', float:'left', width:'30%', marginRight:'30px',marginTop:'10px', marginLeft:'10px'}} >
                             <img src={lastdayshouse} height={250} width={300} />
                             <div style={{fontSize:'12px'}}>New Building at the same location of the guest house where Subrahmanyan stayed till his demise</div>
                             <br></br>
@@ -77,11 +77,11 @@ export default function Pprc() {
                 </div>
                 <br></br>
                 <div>
-                    <img style={{width:"300px", height:"250px", float:"left", marginRight:"30px"}} src={newspaper} />
+                    <img style={{width:"300px", height:"250px", float:"left", marginRight:"30px", marginTop:'10px'}} src={newspaper} />
                     <div className="earlylifepara" >Thanks are due to many who worked with Dr.V.Subrahmanyan and provided various inputs  : Dr.Singaravadivel (for reprints, photographs and editing) , Dr.Pillaiyar, Mr. B.S. Vasan (who provided the photograph of Thygaraja Mudaliar, the guest house where Subrahmnayn once stayed  and a recount of Subrahmanyan’s last days) and  Dr. Ananthakrishnan, Director IIFPT, Thanjavur.</div>
                     <br></br>
                 </div>
-                <br></br><br></br>
+                <br></br><br></br><br></br>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }} >
                     <div className="backbutton" ><Button size="small" onClick={onClickBack} >Back</Button></div>
                     <div className="backbutton" ><Button size="small" onClick={onClickNext} >Next</Button></div>

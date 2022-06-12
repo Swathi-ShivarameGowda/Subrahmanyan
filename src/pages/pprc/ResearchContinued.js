@@ -32,22 +32,21 @@ export default function ResearchContinued() {
                 <div className="earlylife" style={{fontSize: 'larger'}} >Bulgar Wheat</div>
                 <br></br>
                 <div>
-                    <img style={{ float: 'left', margin: '15px' }} src={babyextractor} height={400} width={300} />
+                    <img style={{ float: 'left', marginTop: '10px', marginRight:'30px', marginLeft:'10px' }} src={babyextractor} height={400} width={300} />
                     <div className="earlylifepara" >A baby extractor used for solvent extraction of rice bran oil was the vessel used. The vessel was half filled with water and the wheat fed into it. The chaff etc was skimmed off, water circulated for about five minutes and the water drained off along with mud and sand. The wheat was open steamed for about ten minutes and then at higher pressure of 12.5 kg/cm2for 5 minutes. This led to partial cooking of the wheat. Since the wheat was hot, drying was rapid in a mechanical drier. The wheat bran and germ was removed using rice milling machinery (Schule, Kyowa Polisher or huller) and ground and sieved.  The material was tested for use in the Bal Ahar (Children’s Food) and found satisfactory. This work was to develop substitute for imported Bulgar, (30).</div>
                 </div>
                 <br></br>
                 <div>
-                    <img style={{ float: 'right', margin: '15px' }} src={pressureguage} height={350} width={300} />
-                    <br></br><br></br><br></br>
+                    <img style={{ float: 'right', marginTop: '10px', marginLeft:'30px' }} src={pressureguage} height={350} width={300} />
                     <div className="earlylifepara" >Farbrication and use of a portable husk fired vessel wherein the steam generated is directly fed into the paddy holding tank. This reduced the number of unit operations and units required (30)</div>
                     <div className="earlylifepara" >1.Pressure  gauge 2 Paddy and water inlet 3 Steam outlet 4. Husk Feed Hopper 4 Pressure Chamber.6. Water over flow pipe 7, Chimney 8. Perforated bottom 9, Paddy discharge door 10. Water tank 11. Crane for furnace 12 Ash door</div>
                     <br></br><br></br>
                 </div>
                 <br></br>
-                <div className="earlylife" style={{ fontSize: 'larger' }} >Preservation of Wet Parboiled Paddy</div>
+                <div className="earlylife" style={{ fontSize: 'larger', marginTop: '50px' }} >Preservation of Wet Parboiled Paddy</div>
                 <br></br>
                 <div>
-                    <img style={{ float: 'left', margin: '15px' }} src={paraboiledpaddy} height={400} width={300} />
+                    <img style={{ float: 'left', marginTop: '5px', marginRight:'30px' }} src={paraboiledpaddy} height={400} width={300} />
                     <div className="earlylifepara" >In conventional rice mills, parboiled paddy  is dried in the yard. During  rainy days  drying is difficult and the wet, cooked paddy can spoil. Addition of  0.8 % salt prevents husk opening during parboiling and helps extend the period when it may be kept wet (53). The  drop in moisture of salt treated high moisture paddy is shown below (27).</div>
                     <div className="earlylifepara" >Mixing Acetic acid 0.5% with high moisture parboiled paddy  and covering  with tarpaulin to avoid escape of acetic acid vapour prevents spoilage  helped in preservation for up to  10 days (42).  Mixing 5% common salt with 10 % husk powder or huller bran preserve high moisture parboiled paddy for about one week (51). Addition of 0.05  % Sodium chromate in soak water prior to parboiling also protects paddy from discoloration and spoilage after parboiling and can help extend the soaking period by  4- 5 days without deterioration of  quality.</div>
                     <div className="earlylifepara" >Pillayiar et al (38) write of the use of a cup and cone dryer for drying parboiled paddy: “The trials during high humid weather (December,RH, 85%) indicated that 950kg. of parboiled paddy with about 30% moisture could period be dried to about 14% in 2hr 5 min by maintained a hot temperature of 120 to 130oC, airflow rate of 127.5m3/min and a circulation rate of 4Tph.”. Pingle, 1972 (13) describes  a wet paddy dryer that had been fabricated that uses a blower and a furnace to produce the heated air. The furnace could be heated with burning rice (22) </div>
@@ -64,7 +63,7 @@ export default function ResearchContinued() {
                 <div className="earlylifepara" >Earlier, when the Engelburg huller was used to remove husk and bran together, the oil content of that fraction was much lower than 5%. This material could be used neither for cattle feed nor for extraction of oil. This new technique was   popularized all over India (20). </div>
                 <br></br>
                 <img style={{ marginRight: '35px', marginLeft:'15px' }} src={ricemill} height={350} width="80%" />
-                <br></br>
+                <br></br><br></br>
                 <div className="earlylifepara" >The paddy processing research center developed a method where paddy was first passed through hullers with large blade clearance and the husk removed with a winnower. The brown rice was debranned (polished) with a huller. (22). Furthermore a low cost “Low friction huller” to replace modern shelling units for regular use in rural areas so as to allow good quality bran to be extracted after the husk has been removed was developed A method for the separation of germ during milling of rice was brought out.</div>
                 <br></br>
                 <div className="earlylifepara" >The PPRC worked on a method for enrichment of rice germ and its use in making food products. (45,48)</div>
@@ -84,7 +83,7 @@ export default function ResearchContinued() {
                 <div className="earlylifepara" >Black ash from burnt husk was used  as a carrier for nitrogen fixing organisms (biofertilizers) and has the advantage that it is ubiquitous and is alkaline (51) and for preparation of Sodium silicate.</div>
                 <br></br>
                 <div className="earlylifepara" >Thanks are due to many who worked with Dr.V.Subrahmanyan and provided various inputs  : Dr.Singaravadivel (for reprints, photographs and editing) , Dr.Pillaiyar, Mr. B.S. Vasan (who provided the photograph of Thygaraja Mudaliar, the guest house where Subrahmnayn once stayed  and a recount of Subrahmanyan’s last days) and  Dr. Ananthakrishnan, Director IIFPT, Thanjavur.</div>
-                <br></br>
+                <br></br><br></br>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                     <div className="backbutton" ><Button size="small" onClick={onClickBack} >Back</Button></div>
                     <div className="backbutton" ><Button size="small" onClick={onClickNext} >Next</Button></div>

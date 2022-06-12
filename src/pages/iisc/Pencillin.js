@@ -36,8 +36,8 @@ export default function Pencillin() {
                 <br></br>
                 <div className="earlylife" style={{ fontSize: 'larger' }} >Soluble Calcium Caseinate</div>
                 <br></br>
-                <div>
-                <div style={{ display: 'inline', float:'left', width:'30%' }} >
+                <div className="earlylifeiyer">
+                <div style={{ display: 'inline', float:'left', width:'30%', marginTop:'10px', marginLeft:'10px' }} >
                             <img src={pencillin} height={200} width={250} />
                             <div style={{fontSize:'12px'}}>Soluble Casein marketed in India by Glaxo</div>
                             <br></br>
@@ -48,7 +48,7 @@ export default function Pencillin() {
                 <div className="earlylife" style={{ fontSize: 'large' }} >References</div>
                 <br></br>
                 <div className='referencepara'>(1)Council of Scientific and Industrial Research : A review by Director, Scientific and Industrial Research, (1948). (2) Balasundaram ,S. R. K. Hirani , R.K. and  Subrahmanyan,V  (1950) Studies on Calcium Gluconate : Part I -Production from Dextrose Journal of Scientific & Industrial Research, 9B : 295-298. (3) Balasundaram ,S. R. K. Hirani , R.K. and  Subrahmanyan,V  1951 Studies on Calcium Gluconate : Part II - Preparation from Cane Sugar Journal of Scientific & Industrial Research ,.10B :22 -24. (4) Srinvasan,M., Achutamurthy, P. and Subrahmanyan,V. (1962) Calcium Hydroxide in Sucrose Solution as a Reagent for the Preparation of Water-dispersible Calcium Proteinates. Nature, 196:1313–1314 .https://doi.org/10.1038/1961313a0. (5) Doraiswamy,T.R., Kripanidhi, I., Kantha, J., Srinivasan,M., Swaminahtan,M., Sreenivsan,A. and Subrahmanyan,V. (1962) Use of  Calcium Caseinate in the treatment of protein malnutrition in children. Indian.J.of Pediatrics, 29:226-231. (6) Srinvasan,M., Achutamurthy, P. Sreenivasan,A. and Subrahmanyan,V (1963) Preparation of calcium caseinate with calcium hydroxide in sucrose solution. Food Technology, 17:112-113. (7) Srinivasan, M. (1961) Indian Patent Application No. 79596 of 1-12-1961.</div>
-                <br></br>
+                <br></br><br></br>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                     <div className="backbutton" ><Button size="small" onClick={onClickBack} >Back</Button></div>
                     <div className="backbutton" ><Button size="small" onClick={onClickNext} >Next</Button></div>

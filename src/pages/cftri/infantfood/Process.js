@@ -45,6 +45,7 @@ export default function Process() {
                 </div>
                 <br></br><br></br><br></br><br></br><br></br>
                 <div className="earlylifepara" >It may be seen from the attached table that the largest reduction in curd tension was when partially skimmed and heated to 85{'\u00b0'}C or so heated along with addition of either phosphate buffer or sodium citrate was added</div>
+                <br></br>
                 <img className="infantFood1" src={infantfood} />
                 <div style={{ fontSize: '12px' }} >* Expressed as weight in grams required for the knife to cut through the curd.t Phosphate buffer prepared by dissolving 9 gm of Na2HPO4and 7 gm NaH2PO4 in 100 cc. distilled water added to 50 lbs of milk.# Whole buffalo milk was partially skimmed to a fat content of 4%  before spray drying.</div>
                 <br></br>
@@ -60,7 +61,7 @@ export default function Process() {
                 </div>
                 <br></br>
                 <div className="earlylifepara" >The paper acknowledges the help of Shri B.H. Krishna and S.K. Lakshminarayan (Engineers) for help in the pilot plant.(11)</div>
-                <br></br>
+                <br></br><br></br>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                     <div className="backbutton" ><Button size="small" onClick={onClickBack} >Back</Button></div>
                     <div className="backbutton" ><Button size="small" onClick={onClickNext} >Next</Button></div>
